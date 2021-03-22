@@ -1,0 +1,16 @@
+---
+title: "GI Cancer Education"
+---
+<br/>
+
+### Patient education resources for GI cancer patients
+
+
+### Esophageal Cancer
+
+#### Diagnosis and Staging
+
+#### Surgery for Esophageal Cancer
+
+[Slides](slides/12_Eso_Surgery.html) [Handout](slides/12_Eso_Surgery.pdf) [Video](http://youTUbe.com)
+
