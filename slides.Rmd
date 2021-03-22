@@ -1,0 +1,46 @@
+---
+title: "GI Canced Education Slides"
+output: html_document
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+Videos are available on YouTube: https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c
+
+[Introduction to Levine Cancer Institute](slides/01-slides.html)
+
+
+
+## Esophageal Cancer {.tabset}
+
+### Diagnosis/Staging
+
+```{r}
+knitr::include_url("slides/01-slides.html")
+```
+
+### Treatment Overview
+
+```{r}
+knitr::include_url("slides/02-slides.html")
+```
+
+- R for Data Science, Data Visualization Chapter: http://r4ds.had.co.nz/data-visualisation.html
+
+- Modern Dive, Data Visualization Chapter: http://moderndive.com/3-viz.html
+
+- RStudio `ggplot2` Cheatsheet: https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf
+
+### 03: Working with Data
+
+```{r}
+knitr::include_url("slides/03-slides.html")
+```
+
+## Gastric (Stomach) Cancer {.tabset}
+
+### 04-MOre
+
+### 05- More again

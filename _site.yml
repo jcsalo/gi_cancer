@@ -1,0 +1,20 @@
+name: GI Cancer Education
+output_dir: '.'
+navbar:
+  title: GI Cancer Education
+  left:
+  - text: Slides & Reading
+    href: slides.html
+  - text: YouTube
+    href: https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-cHA7Q
+  right:
+  - text: About
+    href: about.html
+output:
+  html_document:
+    theme: flatly
+    includes:
+      after_body: footer.html
+    lib_dir: site_libs
+    self_contained: no
+
