@@ -1,0 +1,189 @@
+
+---
+title: "Esophageal Cancer"
+subtitle: "Surgery"
+author: "Jonathan Salo MD"
+institute: "Levine Cancer Institute, Charlotte NC"
+date: "Click Down Arrow to Begin"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  pdf_document: default
+  html_document: default
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 34px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+<!--- P10000266--->
+<!--- Premiere: Intro_02--->
+# Introduction
+
+I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
+
+In this video, you will learn about
+
+- Different kinds of surgery for esophageal cancer
+- Choosing a surgical team
+
+---
+
+Surgery for esophageal cancer is generally performed for three different situations:
+
+- Superficial Tumors (T1) that can't be completely removed by endoscopy
+- Localized Tumors (T2N0)
+- Locally Advanced Tumors (T3 or N+) after the completion of chemotherapy and radiation
+
+---
+
+# Goals of Esophagectomy
+
+- Remove tumor from esophagus
+- Remove surrounding lymph nodes
+- Reconstruct gastrointestinal tract
+
+---
+
+# Types of Esophagectomy
+
+Many different types of esophagectomy and several different techniques.
+
+Esophagus connects the throat to the stomach
+
+Total esophagectomy removes all of the esophagus and makes a new connection in the neck. This new connection is called an anastomosis.
+
+Subtotal esophagectomy removed 75% of the esophagus and makes a new connection in the chest.
+
+---
+
+# Total Esophagectomy
+
+There are two types of total esophagectomy:
+
+**McKeown** esophagectomy makes incisions in the abdomen, the right chest, and the neck
+
+**Transhiatal** esophagectomy uses an incision in the abdomen and the neck, and creates a tunnel in the chest cavity.
+
+---
+
+# Subtotal Esophagectomy
+
+The subtotal esophagectomy makes incisions in the abdomen and the right chest. This is also known as the *Ivor Lewis* esophagectomy.
+
+---
+
+# Esophagectomy Techniques
+
+For each of the different approaches, there are different surgical techniques:
+
+- Open technique uses a laparotomy and thoracotomy incisions.
+
+- Minimally-invasive technique uses small incisions and specialized instruments
+
+The minimally-invasive approach offers less discomfort and faster healing. An open approach is occasionally required for larger tumors.
+
+# Esophageal Reconstruction
+
+After the esophagus has been removed, it is necessary to construct a new esophagus.  In the vast majority of cases, a new esophagus is fashioned from the stomach. The stomach is then brought up into the chest to replace the esophagus.  A new connection is made between the esophagus and the stomach called the **anastomosis**.
+
+---
+
+The decisions regarding the right operation for a particular patient is made by the surgeon and the patient together. The factors involved in making the decision are:
+
+- Location and size of the tumor
+- Patient's overall health
+- Surgeon's experience and preferences
+
+---
+
+
+
+# Risks of Surgery
+
+An esophagectomy is a substantial operation, and it is associated with multiple risks. These can be categorized as follows:
+
+- Irregular heart rhythm (atrial fibrillation)
+- Pneumonia
+- Anastomotic leak
+- Death
+---
+
+# Arrhythmia
+
+The esophagus normally lives right next to the heart, and as a result, it is common for the heart to be irritated during the course of esophagectomy.  In some cases, the heart rhythm can become irregular and the heart beats faster than normal.  If this happens, medicines can be required to slow the heart and restore a normal rhythm. 
+
+---
+
+# Pneumonia
+
+Pneumonia is another common complication after esophagectomy, due in part to fact that esophagus is close to the right lung. 
+
+---
+
+# Anastomotic Leak
+
+In most cases, the new connection between the esophagus and stomach, called the anastomosis, heals well.  If connection does not heal properly, this can cause a leakage of fluid from inside the esophagus.  This is called an anastomotic leak.  In some cases, the leak will heal on its own, but other cases may require additional procedures or even surgery.
+
+---
+
+# Death
+
+An esophagectomy is a substantial operation.  It is unusual, but in some cases complications after surgery can result in death.  The risk of death depends upon the overall health of the patient, the tumor, and other factors.
+
+---
+
+# Risks of Complications
+
+The risk of complications depends in large part on the overall health of the patient, but some 
+
+---
+
+# Choosing a Surgical Team
+
+As you might imagine, a surgeon works a part of a team. Choosing the surgical team that's right for you can involve asking some uncomfortable questions about the track record of your surgical team. 
+
+A second opinion can be helpful to be certain that you are making the best choice.  Your esophageal cancer care team should be able to provide you with a referral for a second opinion.
+
+---
+
+# How to Evaluate a Surgical Team
+
+As in many things in life, 'practice makes perfect.'  The same generally holds true for a complex operation such as an esophagectomy.  There is fairly convincing data that in general, complications are fewer for hospitals and surgeons that perform an esophagectomy frequently.
+
+The leapfrog group is an organization funded by employers which sets standard for surgical safety and outcomes.  The leapfrog group recommend the following minimum standards for esophagectomy operations:
+
+- Hospital volume of greater than 20 cases per year
+- Surgeon volume of greater than 7 cases per year
+
+---
+
+# Questions for Your Surgeon
+
+Several principles apply:
+
+1) How many esophagectomy operations are performed each year in your hospital?
+2) How many esophagectomy operations do you perform personally each year?
+3) What are your overall rates of complications?
+  - Pneumonia
+  - Anastomotic Leak
+  - Death in the first 90 days after surgery
+  
+---
+
+
+
+
+
+
+
+
+
+
+

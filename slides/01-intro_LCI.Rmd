@@ -1,0 +1,199 @@
+---
+title: "Welcome to GI Oncology Clinic"
+author: "Jonathan Salo MD"
+institute: "Levine Cancer Institute"
+date: "<small>Click Right Arrow to Begin</small>"
+#date: "`r Sys.Date()`"
+params:
+  hide: FALSE
+  show: FALSE
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+  prettydoc::html_pretty:
+    theme: tactile
+    highlight: github
+  pdf_document: default
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 32px;
+    padding: 1em 4em 1em 4em;
+    line-height: 1.6;
+}
+</style>
+
+<!--- P10000266--->
+<!--- Intro_02--->
+I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
+
+If you’re seeing this video, it’s likely because you have an upcoming consultation scheduled.
+
+You may have a recent diagnosis of cancer. Whatever your situation, we have a great team of people who can help you every step of the way.
+
+???
+
+notes here
+
+---
+
+name: start
+
+## GI Oncology Clinic
+
+We’re in Building 2 of Levine Cancer Institute. If you’re using GPS, the traffic circle for patient dropoff is located at 1320 East Morehead Street.
+
+The entrance to the building is on East Morehead Street between South Kings and Kenilworth.
+
+---
+
+## Parking
+
+A parking garage is right next door to the traffic circle.
+
+If you need help with directions, please call us at (980) 442-6410
+
+Our mailing address is 1021 Morehead Medical Drive, which is why you will find “1021” on the building.
+
+---
+
+## Covid-19 Safety
+
+Due to the Covid-19 pandemic, and our desire to
+protect both our patients and staff, we no longer
+allow visitors to accompany patients during their
+visit.
+
+However, we recognize how important it is to have
+the support and assistance of family members
+and friends, particularly if there is cancer
+involved.
+
+---
+
+We do have several ways that we can make sure
+that family members and friends can participate
+in the initial consultation.
+
+The first is that we can call a family member on
+speakerphone during the consultation. You and I
+and your family member will all be able to have a
+conversation together.
+
+---
+
+## Hybrid Virtual Visits
+
+Another option is a virtual visit through our virtual care portal,
+which can be accessed at lci.doxy.me/salo. A link is available in the comments section.
+We have a webcam in the consultation room that we can use for a video call with your family member.
+
+---
+
+## What to Expect 
+
+During your consultation, we will review your case
+and the information that has been collected so
+far.
+
+We may need to do a physical exam of your heart
+and lungs, so please wear comfortable clothing.
+I will provide you with my evaluation and make a
+plan for the next steps
+
+---
+
+## Next Steps
+
+- Additional x-rays, such as a CT scan or PET scan
+- An endoscopic procedure
+- Placement of a feeding tube for nutrition 
+- Placement of a port for chemotherapy
+- Scheduling for surgery
+- Referral for chemotherapy or radiation
+
+---
+
+## Resources for You and your Family
+
+Cancer affects not
+only the patient but the whole community of
+family and friends. We have a lot of resources:
+- Support groups 
+- Counseling to help with stress reduction
+- Financial counselors and social workers to help
+with insurance and other financial issues
+- Supportive Oncology department to help with
+managing symptoms
+
+---
+
+## More Resources
+
+We have a full-time staff of **dietitians**
+
+We have an **Integrative Oncology** program which
+and can assist you in choosing supplements and complementary therapies to help manage symptoms and promote wellness.
+
+We have a **senior oncology clinic** which can help
+with the special needs of our patients over age
+75
+
+---
+
+## My Atrium Portal
+
+This is a secure way for you to communicate with your care team at Atrium Health and Levine Cancer Institute. With the portal, you can:
+
+- View your upcoming appointments
+- Review the information in your medical records
+- Send your care team a message
+
+---
+
+The MyAtrium Health Portal can be accessed via:
+
+- Web browser on a desktop or laptop computer
+- iPhone app
+- Android app
+
+To sign up, go to myatriumhealth.org.  
+
+To sign up, click New User. You will receive an activation text or email within 3 days
+
+---
+
+## MyAtriumHealth Assistance
+
+If you need help setting up your account, we have support staff available Monday through Friday 8am to 5 pm at
+
+• (704) 667-9145 or toll-free at
+
+• (855) 799-0044
+
+---
+
+## Please Bring With You to your Visit:
+
+• A list of your current medications
+
+• A copy of your insurance cards
+
+• List of your physicians
+
+• Names and phone numbers of family members that you want to participate in discussions about your health care
+
+• A list of any questions you may have
+
+---
+
+If you have a new diagnosis of cancer, please check out one of the following videos
+
+Feel free to subscribe so you can be notified about new videos
+
+If there are video topics you would like us to cover, please leave a comment below.
+
