@@ -1,0 +1,248 @@
+
+---
+title: "New Diagnosis of Esophageal Cancer?"
+subtitle: "⚔<br/>What's Next?"
+author: "Jonathan"
+institute: "Levine Cancer Institute"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 28px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+# Introduction
+If you or someone close to you has recently been
+
+diagnosed with esophageal cancer, this video is
+
+intended for you.
+
+I’m Dr Jonathan Salo. I’m a GI Cancer Surgeon.
+
+---
+In this video you’ll learn about:
+- Definitions of cancer Terms
+- Staging of esophageal cancer
+- Diagnostic Tests
+- Other videos in this series will go into more
+detail
+---
+
+The esophagus is a hollow muscular tube which
+connects the throat to the stomach.
+For many patients, the first symptom they have is
+difficulty swallowing or pain in swallowing.
+The difficulty swallowing can be due to a lump,
+also known as a tumor
+---
+
+# Cancer Terms
+Let‘s start with some definitions
+A **tumor** is an abnormal growth
+Tumors can be either benign or malignant
+A **benign** tumor of the esophagus may grow
+over time and cause obstruction and make it
+difficult to swallow, but it won’t ever spread
+anywhere else
+---
+
+ A **malignant** tumor of the esophagus can cause
+obstruction but also has the potential to spread
+elsewhere in the body.
+
+**Cancer** is another term for a malignant tumor
+Unfortunately, the majority of tumors found in
+the esophagus are cancer
+We will use the term cancer and tumor
+interchangeably in this video
+---
+
+## Malignant Tumors of the Esophagus = Cancer
+
+In most cases, the diagnosis of esophageal cancer
+is made by endoscopy, also called and EGD for
+esophagogastroduodenoscopy
+
+--
+Under sedation, a flexible scope is passed through
+the mouth into the esophagus, which allows
+viewing the inside of the esophagus.
+If a mass is found in the esophagus, a small
+portion can be removed, which is called a biopsy
+--
+
+
+
+
+The biopsy is examined by a pathologist, who will
+determine whether the tumor is benign or
+whether it is a cancer
+---
+If the biopsy shows cancer, the next step is
+staging.
+Staging is the process of finding out the size of the
+tumor and whether or not there has been spread
+to the lymph nodes or other places in the body.
+Once the stage has been determined, it will be
+possible to determine the best therapy
+---
+In order to determine the stage, we will focus on
+three different areas:
+The first is the tumor. How large is the tumor? And
+more importantly, how deeply has it grown into
+the wall of the esophagus?
+The second is whether there is spread to the
+lymphy nodes.
+The third is whether there is metastasis or spread
+to other parts of the body
+---
+
+Some drawings will help.
+The wall of the esophagus has multiple layers,
+shown here.
+
+Surrounding the esophagus are lymph nodes. The
+purpose of lymph nodes is to filter the blood and
+help fight infections, but in some cases cancers
+in the esophagus can spread to the lymph nodes
+---
+
+
+In its earliest stages, cancer of the esophagus
+starts on the inner, or most superficial layer,
+called with mucosa.
+With time, however, the cancer can continue to
+grow and invade deeper into the wall of the
+esophagus
+The deeper the cancer invades into the wall of the
+esophagus, the more likely it is that cancer cells
+can spread to the lymph nodes
+---
+
+
+If cancer cells spread to the lymph nodes, there is
+
+a chance that some cells will break off and
+
+spread to the liver or lungs.
+
+Metastasis is spread to other parts of the body
+
+such as liver, lungs, or bone.
+---
+
+The stage consists of 3 parts:
+
+T for Tumor
+
+N for Nodes
+
+M for Metastasis
+
+---
+A T1 tumor involves the top layers of the esophagus
+A T1a tumor involves the mucosa
+A T1b tumor involves the submucosa
+A T2 tumor invades into the muscular layer
+A T3 tumor invades all the way through the
+muscular layer
+A T4 tumor invades into nearby structures such as
+the aorta or the airway
+
+---
+This may sound confusing, but as a general rule, if
+someone with esophageal cancer has difficulty
+swallowing, the tumor is usually a T3
+There are of course exceptions, but this is a
+general guideline
+---
+
+The N classification refers to the lymph nodes
+N0 – No lymph nodes
+N1 – 1 or 2 lymph nodes involved
+N2 – 3-6 nodes involved
+N3 – 7 or more nodes involved
+---
+
+The M classification refers to metastasis
+Metastasis = spread of cancer to other organs
+such as the lungs, liver, or bone
+
+M0 – No signs of spread to other organs
+
+M1 – Spread to other organs
+
+---
+
+#Diagnostic Tests
+
+Next we will talk about some of the diagnostic
+tests that are used for staging.
+When you meet with your doctors, one the first
+things they will do is to come up with a plan for
+testing that is tailored to you and your particular
+tumor.
+
+So we will talk about these tests in general terms,
+but not all tests are needed for all patients
+---
+# Scans
+The first is scans.
+
+A CT scan is usually the first test for staging. This
+will show whether there is any signs of
+metastasis or spread to other organs such as
+the lung, liver, or bone
+
+---
+#PET
+A PET scan is a specialized scan which combines
+a CT scan with an injection of a small amount of
+tracer which lights up areas of cancer.
+---
+#EUS
+In cases where it is important to know about the
+exact size of the tumor, an endoscopic
+ultrasound exam can be done.
+
+This procedure is similar to an EGD, but the
+endoscope has an ultrasound sensor on the end
+of the scope which produces an image of the
+tumor
+
+---
+
+In some cases, particularly for cancers in the
+stomach, it is important to look for signs of
+spread in the abdominal cavity. In some
+situations, cancers can spread in the abdominal
+cavity but the areas are so small they don’t show
+up on a CT scan.
+In these cases, a laparoscopy is helpful.
+---
+Laparoscopy is a surgical procedure done under a
+general anesthetic.
+Several incisions ¼” long are made, and a
+telescope is inserted into the abdominal cavity.
+This allows an examination of the abdominal cavity
+to look for signs of spread.
+
+The procedure is usually done as an outpatient, so
+you can go home the same day.
+---
+The next video discusses treatment options for
+esophageal cancer.
+Feel free to subscribe to be notified of new videos
+If you found this video helpful or have questions or
+suggestions, please comment below
+
+

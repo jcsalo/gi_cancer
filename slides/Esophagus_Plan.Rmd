@@ -1,0 +1,72 @@
+---
+title: "Esophagus Plan"
+date: "`r Sys.Date()`"
+output:
+  html_document: default
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+  pdf_document: default
+---
+
+[LCI Introduction](01-intro_LCI.html)
+
+- Directions/Parking
+- Links to virtual platform
+- Link to virtual platform videos
+
+---
+
+02 - Esophgaeal Dx and Staging [link](02-Eso_Dx_Staging.html)
+
+- Dx tests (EGD, EUS, PET,Laparoscopy)
+- TNM Staging
+
+---
+
+04 - Esophageal Treatment Options (full)
+
+Covers all 4 Rx stages
+
+Links
+
+- 06-Eso_Stage_I_II
+
+- 08-Eso_Stage_III_IV
+
+---
+
+06-Eso_Stage_I_II
+
+Links
+
+- 10_Endoscopic Therapy
+
+- 12_Primary Surgery
+
+
+---
+
+08-Eso_Stage_III_IV
+
+Links 
+
+- 14_Trimodality Therapy
+
+- 16_Systemic Therapy
+
+---
+
+10 - Endoscopic Therapy
+
+Incoming Links
+
+- [06 - Esophageal Stage I/II Rx Options]()
+
+---
+
+
+
