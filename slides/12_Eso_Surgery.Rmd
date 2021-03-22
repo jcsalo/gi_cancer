@@ -7,14 +7,14 @@ institute: "Levine Cancer Institute, Charlotte NC"
 date: "Click Down Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  pdf_document: default
-  html_document: default
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+  html_document: default
+  pdf_document: default
 ---
 <style type="text/css">
 .remark-slide-content {
@@ -141,9 +141,61 @@ An esophagectomy is a substantial operation.  It is unusual, but in some cases c
 
 # Risks of Complications
 
-The risk of complications depends in large part on the overall health of the patient, but some 
+The risk of complications depends on three things:
+
+- Hospital Volume
+- Surgeon Experience
+- Patient's overall health
 
 ---
+
+# Hospital Volume
+
+<small>Practice makes perfect in many things in life, and esophageal surgery is no exception.</small>
+
+
+```{r, echo=F, fig.height=6, fig.width=8}
+H <- c(10.2,6.7,3.9)
+M <- c("Low (<5)","Intermediate (5-20)","High (>20)")
+
+# Plot the bar chart 
+barplot(H,names.arg=M,xlab="Hospital Volume in Esophahgectomy cases per year",ylab="Risk of Death (Percent)",col="blue",
+main="Risk of Mortality after Esophagectomy",border="red")
+```
+---
+
+<small>The risk of death after esophagectomy is about twice as high in hospitals which perform less than 5 esophagectomy operations per year.</small>
+
+
+```{r, echo=F, fig.height=6, fig.width=7}
+H <- c(10.2,6.7,3.9)
+M <- c("Low (<5)","Middle (5-20)","High (>20)")
+
+# Plot the bar chart 
+barplot(H,names.arg=M,xlab="Hospital Esophagectomy cases per year",ylab="Risk of Death (Percent)",col="blue",
+main="Risk of Mortality after Esophagectomy",border="red", cex.lab=2, cex.names = 2)
+```
+---
+
+# Finding a Hospital
+
+The Leapfrog Group is a non-profit organization that collects and published safety in healthcare. Their website ranks hospitals for safety and can help you find a high-volume hospital.  A link to their website is available here: [HospitalSafetyGrade.org](https://www.hospitalsafetygrade.org)
+
+---
+
+# Leapfrog Group Website
+
+You can search on a hospital. Once there, click "View this hospital's leapfrog Hospital Survey Results"
+
+Of course there are low-volume hospital that have good outcomes, but starting with a high-volume hospital is a place to start.
+
+--
+
+The Leapfrog Group 
+
+# Choosing a Surgeon
+
+--
 
 # Choosing a Surgical Team
 
