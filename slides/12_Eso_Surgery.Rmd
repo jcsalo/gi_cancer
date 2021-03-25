@@ -4,7 +4,7 @@ title: "Esophageal Cancer"
 subtitle: "Surgery"
 author: "Jonathan Salo MD"
 institute: "Levine Cancer Institute, Charlotte NC"
-date: "Click Down Arrow to Begin"
+#date: "Click Down Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
@@ -113,6 +113,7 @@ An esophagectomy is a substantial operation, and it is associated with multiple 
 - Pneumonia
 - Anastomotic leak
 - Death
+
 ---
 
 # Arrhythmia
@@ -149,37 +150,64 @@ The risk of complications depends on three things:
 
 ---
 
+# Understanding Outcomes
+
+Let's talk Baseball for a minute.  Micky Mantle is regarded as one of baseball's greats, and this baseball card from 1952 is one of the most valuable in history.
+
+If you look at the back of his card, you'll find lost of statistics, including his batting average. The numbers are there for anyone to see, including his batting average. If you're a baseball fan, one of the ways you evaluate players is based upon their statistics.
+
+Unfortunately, there aren't baseball cards for hospitals and surgeons, and finding the statistics for a hospital or surgeon can be a challenge, but it's still important if you want the best chance for a good outcome after surgery.
+
+---
+
 # Hospital Volume
 
 <small>Practice makes perfect in many things in life, and esophageal surgery is no exception.</small>
 
+Hospitals where an esophagectomy is performed more frequently in general have better outcomes than hospitals where the operation is only occasionally done. 
 
-```{r, echo=F, fig.height=6, fig.width=8}
-H <- c(10.2,6.7,3.9)
-M <- c("Low (<5)","Intermediate (5-20)","High (>20)")
+---
 
-# Plot the bar chart 
-barplot(H,names.arg=M,xlab="Hospital Volume in Esophahgectomy cases per year",ylab="Risk of Death (Percent)",col="blue",
-main="Risk of Mortality after Esophagectomy",border="red")
+This chart shows the relationship between hospital volume and the risk of death after esophagectomy.
+
+
+```{r, echo=F,  fig.height=6,fig.width=8}
+library(ggplot2)
+df<-data.frame(mortality=c(.102,.067,.039),strength=c("Low (<5)","Middle (5-20)","High (>20)"),mortality_labels =c("10.2%\nLow\nVolume","6.7%\nMiddle","3.9%\nHigh"))
+strengths=c("Low (<5)","Middle (5-20)","High (>20)")
+p<-ggplot(data=df, aes(x=strength,y=mortality))+
+  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +
+        geom_text(aes(label=mortality_labels),vjust=1.4, color="white",size=13.5)+
+  theme_minimal()+
+  theme( axis.text=element_text(size=12,face="bold"),axis.title=element_text(size=14, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=16)) +
+  ggtitle("Hospital Mortality after Esophagectomy") +
+  labs(y="Percent Mortality",x="Hospital Operations per year")
+p
+
 ```
 ---
 
 <small>The risk of death after esophagectomy is about twice as high in hospitals which perform less than 5 esophagectomy operations per year.</small>
 
 
-```{r, echo=F, fig.height=6, fig.width=7}
-H <- c(10.2,6.7,3.9)
-M <- c("Low (<5)","Middle (5-20)","High (>20)")
-
-# Plot the bar chart 
-barplot(H,names.arg=M,xlab="Hospital Esophagectomy cases per year",ylab="Risk of Death (Percent)",col="blue",
-main="Risk of Mortality after Esophagectomy",border="red", cex.lab=2, cex.names = 2)
+```{r, echo=F, fig.height=6, fig.width=8, include=T}
+library(ggplot2)
+df<-data.frame(mortality=c(.102,.067,.039),strength=c("Low (<5)","Middle (5-20)","High (>20)"))
+strengths=c("Low (<5)","Middle (5-20)","High (>20)")
+p<-ggplot(data=df, aes(x=strength,y=mortality))+
+  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +theme_minimal() + theme( axis.text=element_text(size=12,face="bold"),axis.title=element_text(size=14, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=16)) +
+  ggtitle("Hospital Mortality after Esophagectomy") +
+  labs(y="Percent Mortality",x="Hospital Operations per year")
+p
+ggsave("hosp_mort.png",device="png",path="images/")
 ```
 ---
 
 # Finding a Hospital
 
-The Leapfrog Group is a non-profit organization that collects and published safety in healthcare. Their website ranks hospitals for safety and can help you find a high-volume hospital.  A link to their website is available here: [HospitalSafetyGrade.org](https://www.hospitalsafetygrade.org)
+The easiest way to find out whether a particular hospital is high volume or low volume is to ask your surgeon. 
+
+Another method is to do some research on the internet. The Leapfrog Group is a non-profit organization that collects and published safety in healthcare. Their website ranks hospitals for safety and can help you find a high-volume hospital.  A link to their website is available here: [HospitalSafetyGrade.org](https://www.hospitalsafetygrade.org)
 
 ---
 
@@ -189,36 +217,27 @@ You can search on a hospital. Once there, click "View this hospital's leapfrog H
 
 Of course there are low-volume hospital that have good outcomes, but starting with a high-volume hospital is a place to start.
 
---
+---
 
 The Leapfrog Group 
 
 # Choosing a Surgeon
 
---
+The surgeon is another key factor in the outcome of an operation.  The Leapfrog recommends a minimum of seven operations per year for surgeons undertaking esophagectomy.
 
-# Choosing a Surgical Team
-
-As you might imagine, a surgeon works a part of a team. Choosing the surgical team that's right for you can involve asking some uncomfortable questions about the track record of your surgical team. 
-
-A second opinion can be helpful to be certain that you are making the best choice.  Your esophageal cancer care team should be able to provide you with a referral for a second opinion.
+The surgeon's track record of outcomes is also an extremely helpful way to predict outcomes.  Finding out this information may require some uncomfortable questions, but this is important information.  It is critical to know both what the track record of the hospital is, but also the track record of a particular surgeon.
 
 ---
 
-# How to Evaluate a Surgical Team
+# Your Surgeon's Outcomes
 
-As in many things in life, 'practice makes perfect.'  The same generally holds true for a complex operation such as an esophagectomy.  There is fairly convincing data that in general, complications are fewer for hospitals and surgeons that perform an esophagectomy frequently.
+Knowing your surgeon's outcomes is important, but knowing your surgeon's outcomes is probably more important.  Your surgeon should be able to tell you what their statistics are for outcomes like anastomotic leak, pneumonia, and death after surgery.
 
-The leapfrog group is an organization funded by employers which sets standard for surgical safety and outcomes.  The leapfrog group recommend the following minimum standards for esophagectomy operations:
-
-- Hospital volume of greater than 20 cases per year
-- Surgeon volume of greater than 7 cases per year
+If you surgeon doesn't know their personal statistics, you may want to look for a second opinion.  After all, if you met a professional baseball player, you would expect that they would be familiar with their batting average. 
 
 ---
 
 # Questions for Your Surgeon
-
-Several principles apply:
 
 1) How many esophagectomy operations are performed each year in your hospital?
 2) How many esophagectomy operations do you perform personally each year?
