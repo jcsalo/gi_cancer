@@ -14,6 +14,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+        
   prettydoc::html_pretty:
     theme: tactile
     highlight: github
@@ -27,11 +28,17 @@ output:
 }
 </style>
 
+```{r, setup, echo=F, warning=FALSE}
+#remotes::install_github("gadenbuie/xaringanExtra")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_scribble()
+```
+
 <!--- P10000266--->
 <!--- Intro_02--->
 I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
 
-If you’re seeing this video, it’s likely because you have an upcoming consultation scheduled.
+.font60[If you’re seeing this video, it’s likely because you have an upcoming consultation scheduled.]
 
 You may have a recent diagnosis of cancer. Whatever your situation, we have a great team of people who can help you every step of the way.
 
