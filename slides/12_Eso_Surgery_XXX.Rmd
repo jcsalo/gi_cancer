@@ -7,14 +7,14 @@ institute: "Levine Cancer Institute, Charlotte NC"
 #date: "Click Down Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
+  html_document: default
+  pdf_document: default
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-  pdf_document: default
-  html_document: default
 ---
 <style type="text/css">
 .remark-slide-content {
@@ -57,7 +57,7 @@ If you haven't seen it already, this may be a good time to view the Esophageal C
 ]
 
 .pull-right[
-<img src="images/Eso_Resection1Artboard 2@4x.png" width="100%" height = "100%">
+<img src="images/Eso_TumorArtboard 2@4x.png" width="100%" height = "100%">
 ]
 
 ---
@@ -66,14 +66,12 @@ If you haven't seen it already, this may be a good time to view the Esophageal C
 # Resection
 
 .pull-left[
-
-
-The *Ivor Lewis* esophagectomy, shown here, removes the lower 2/3 of the esophagus, the tumor, and the surrounding lymph nodes from the chest.
+After the tumor and the nodes are removed, it's necessary to perform a *reconstruction* to allow normal eating.
 ]
 
 
 .pull-right[
-<img src="images/Eso_Resection2Artboard 2@4x.png" width="100%" height = "100%">
+<img src="images/Eso_ResectionArtboard 2@4x.png" width="100%" height = "100%">
 ]
 
 ---
@@ -81,21 +79,37 @@ The *Ivor Lewis* esophagectomy, shown here, removes the lower 2/3 of the esophag
 # Reconstruction
 
 .pull-left[
-
-A new esophagus is created from the stomach in the abdomen by fashioning it into a tube.
+In most cases, the stomach is used for reconstruction.  The stomach is reshaped into a tube and brought into the chest cavity.
 ]
 
 
 .pull-right[
-<img src="images/Eso_Resection3Artboard 2@4x.png" width="100%" height = "100%">
+<img src="images/Eso_IvorLewis_NolabelsArtboard 2@4x.png" width="100%" height = "100%">
 ]
 
 ---
 
+# Types of Esophagectomy
+
+Many different types of esophagectomy and several different techniques.
+
+---
+
+# Total Esophagectomy
+
+.pull-left[Total esophagectomy removes all of the esophagus and makes a new connection in the neck. This new connection is called an anastomosis.]
+
+
+
+.pull-right[
+<img src="images/Eso_Total_AnastArtboard 2@4x.png" width="100%" height = "100%">
+]
+
+---
 
 # Ivor Lewis esophagectomy
 
-.pull-left[The new esophagus is now brought up into the chest. A new connection is made between the esophagus and the stomach, called an *anastomosis*.]
+.pull-left[Ivor Lewis esophagectomy removes 75% of the esophagus and makes a new connection in the chest.]
 
 .pull-right[
 <img src="images/Eso_IL_AnastArtboard 2@4x.png" width="100%" height = "100%">
@@ -103,81 +117,182 @@ A new esophagus is created from the stomach in the abdomen by fashioning it into
 
 ---
 
-# Open Esophagectomy
 
-.pull-left[Open esophagectomy makes incisions in the abdomen and the right chest.]
+# Total Esophagectomy
+
+There are two types of total esophagectomy:
+
+
+
+.pull-left[**McKeown** esophagectomy makes incisions in the abdomen, the right chest, and the neck]
+
+.pull-right[
+<img src="images/McKeownArtboard 2@4x.png" width="100%" height = "100%">
+]
+
+---
+
+.pull-left[**Transhiatal** esophagectomy uses an incision in the abdomen and the neck to performa total esophagectomy.  Instead of an incision in the right chest, a tunnel is created behind the heart, which allows removal of the esophagus]
+
+.pull-right[
+<img src="images/THEArtboard 2@4x.png" width="100%" height = "100%">
+]
+
+---
+
+# Ivor Lewis Esophagectomy
+
+.pull-left[The Ivor Lewis esophagectomy makes incisions in the abdomen and the right chest. This is also known as a *Transthoracic* esophagectomy.]
 
 .pull-right[<img src="images/IvorLewisArtboard 2@4x.png" width="100%" height = "100%">]
 
 ---
 
+McKeown esophagectomy uses incisions in the abdomen, right chest, and neck.  This allows access to the tumor and the nearby lymph nodes. This enables a greater harvest of lymph nodes. 
+
+Because the whole esophagus is removed, this operation is suitable for tumors anywhere along the esophagus. 
+
+<img src="images/Slide7.PNG" width="50%" height = "50%">
+
+---
+
+Because this approach removed the esophagus in the neck, there is a hoarseness after surgery due to bruising of the nerves to the voicebox.
+
+
+<img src="images/Slide7.PNG" width="50%" height = "50%">
+
+---
+
+
+# Transhiatal Detail
+
+Transhiatal esophagectomy uses incisions in the abdomen and neck.  A tunnel is created behind the heart to remove the esophagus and tumor.
+
+Because the whole esophagus is removed, this operation is suitable for tumors anywhere along the esophagus. 
+
+
+<img src="images/Slide8.PNG" width="50%" height = "50%">
+
+---
+
+Because this operation does not require collapsing the right lung during surgery, it is ideal for patients with poor lung function.  
+
+However removal of lymph nodes is not as complete with this technique.
+
+<img src="images/Slide8.PNG" width="50%" height = "50%">
+
+---
+
+An Ivor Lewis esophagectomy uses incisions in the abdomen and right chest. This operation is commonly used for tumors in the middle or lower part of the esophagus.
+
+Like the McKeown esophagectomy, this allows a more complete lymph node harvest.  Unlike the McKeown esophagectomy, however, there is no risk of injury to the nerves in the neck.
+
+<img src="images/Slide9.PNG" width="50%" height = "50%">
+
+---
+
+
+
+# Esophagectomy Techniques
+
+For each of the different approaches, there are different surgical approaches:
+
+- Open technique uses conventional laparotomy and thoracotomy incisions. 
+
+---
+
+# Open - McKeown
+
+McKeown esophagectomy makes incisions in the abdomen, right chest, and neck
+
+<img src="images/Slide1.PNG" width="100%" height = "100%">
+
+---
+
+# Open - Transhiatal
+
+McKeown esophagectomy makes incisions in the abdomen, right chest, and neck
+
+<img src="images/Slide2.PNG" width="100%" height = "100%">
+
+---
+
+# Open - Ivor Lewis
+
+Ivor Lewis esophagectomy makes incisions in the abdomen and right chest
+
+<img src="images/Slide3.PNG" width="100%" height = "100%">
+
+---
+
+# Minimally Invasive (general)
+
+Minimally-invasive approaches have been developed for each of the types of esophagectomy
+
+<img src="images/Slide4.PNG" width="50%" height = "50%">
+
+---
 
 # Minimally-invasive Ivor Lewis
 
-.pull-left[Mininally-invasive esophagectomy uses small incisions in the abdomen and chest and avoids a neck incision.
+Mininally-invasive esophagectomy uses small incisions in the abdomen and chest and avoids a neck incision.
 
 We have found at our hospital to be best choice for most patients.
 
-The smaller incisions mean faster recovery and less discomfort]
-
-.pull-right[<img src="images/MIE_IvorLewisArtboard 2@4x.png" width="100%" height = "100%">]
+<img src="images/MIE_IvorLewisArtboard 2@4x.png" width="50%" height = "50%">
 
 ---
 
+# Minimally-invasive Ivor Lewis
 
+Small incisions mean less discomfort and faster recovery. This approach also avoids the risk of hoarseness which can be associated an incision in the neck.
 
-# Total Esophagectomy
-
-.pull-left[For patients with tumors in the upper esophagus, we need to remove more of the esophagus]
-
-.pull-right[<img src="images/Eso_ProxTumorArtboard 2@4x.png" width="100%" height = "100%">]
+<img src="images/Slide10.PNG" width="50%" height = "50%">
 
 ---
-# Total Esophagectomy
-
-.pull-left[For patients with tumors in the upper esophagus, we need to remove more of the esophagus]
-
-.pull-right[<img src="images/Eso_ResectionTotalArtboard 2@4x.png" width="100%" height = "100%">]
-
----
-
 
 # Minimally-invasive McKeown
 
-.pull-left[This allows us the best opportunity to remove the tumor and nearby lymph nodes, while still allowing the benefits of minimally-invasive techniques to speed recovery.]
+We use a minimally-invasive McKeown esophagectomy for patients with tumors in the proximal, or upper esohpagus.
 
-.pull-right[<img src="images/Eso_MIE_McKeownArtboard 2@4x.png" width="100%" height = "100%">]
-
----
-
-# Transhiatal Esophagectomy
-
-.pull-left[For patients with small tumors or those with poor lung, an alternative is a transhiatal esohagectomy, which avoids the need to enter the right chest.]
-
-.pull-right[<img src="images/Eso_MIE_THEArtboard 2@4x.png" width="100%" height = "100%">]
-
-
-
+<img src="images/Eso_ProxTumorArtboard 2@4x.png" width="50%" height = "50%">
 
 ---
 
-When you meet with your surgeon, you will have an opportunity to meet with your surgeon to discuss your particular situation and their recommendation for surgery.
+# Minimally-invasive McKeown
+
+This allows us the best opportunity to remove the tumor and nearby lymph nodes, while still allowing the benefits of minimally-invasive techniques to speed recovery.
+
+<img src="images/MIE_McKeownArtboard 2@4x.png" width="50%" height = "50%">
+
+---
+
+In the decision for the best type of esophagectomy for a particular patient, there is no substitute for an experienced surgeon.  The goals of these videos it to help you understand some of the terminology when you have a discussion with your surgeon.
 
 ---
 
 # Risks of Surgery
 
-An esophagectomy is a substantial operation, and there can be postoperative complications. There are three major complications:
+An esophagectomy is a substantial operation, and it is associated with multiple risks. These can be categorized as follows:
 
+- Irregular heart rhythm (atrial fibrillation)
 - Pneumonia
 - Anastomotic leak
 - Death
 
 ---
 
+# Arrhythmia
+
+The esophagus normally lives right next to the heart, and as a result, it is common for the heart to be irritated during the course of esophagectomy. *Atrial Fibrillation* is a condition in which the heart rhythm can become irregular and the heart beats faster than normal. This frequently requires use of medicines to help slow the heart rate.
+
+
+<img src="images/Eso_HeartArtboard 2@4x.png" width="50%" height = "50%">
+---
+
 # Pneumonia
 
-Pneumonia occurs in about 10-15% of patients after esophagectomy. Pneumonia requires treatment with antibiotics and frequently requires a longer hospitalization.
+Pneumonia is another common complication after esophagectomy, due in part to fact that esophagus is close to the right lung. Pneumonia requires treatment with antibiotics and frequently requires a longer hospitalization.
 
 <img src="images/Eso_LungsArtboard 2@4x.png" width="50%" height = "50%">
 
@@ -185,23 +300,23 @@ Pneumonia occurs in about 10-15% of patients after esophagectomy. Pneumonia requ
 
 # Anastomotic Leak
 
-.pull-left[The anastomosis is surigcal connection between the esophagus and the stomach. ]
+In most cases, the new connection between the esophagus and stomach, called the anastomosis, heals well. 
 
-.pull-right[<img src="images/Eso_AnastArtboard 2@4x.png" width="100%" height = "100%">]
+<img src="images/Eso_AnastArtboard 2@4x.png" width="50%" height = "50%">
 
 ---
 
 # Anastomotic Leak
 
-.pull-left[If anastomosis does not heal properly, this can cause a leakage of fluid from the esophagus, called an anastomotic leak.  In some cases, the leak will heal on its own, but other cases may require additional procedures or even surgery. The rate of leak depends upon the surgeon and the type of operation, but can range from 2-15%]
+If connection does not heal properly, this can cause a leakage of fluid from inside the esophagus.  This is called an anastomotic leak.  In some cases, the leak will heal on its own, but other cases may require additional procedures or even surgery.
 
-.pull-right[<img src="images/Eso_LeakArtboard 2@4x.png" width="50%" height = "50%">]
+<img src="images/Eso_LeakArtboard 2@4x.png" width="50%" height = "50%">
 
 ---
 
 # Death
 
-In come unusual cases, complications after surgery can result in death.  The risk of death depends upon the overall health of the patient. In addition, risk of death after surgery is related to the hospital and the surgeon's experience.
+An esophagectomy is a substantial operation.  It is unusual, but in some cases complications after surgery can result in death.  The risk of death depends upon the overall health of the patient, the tumor, and other factors.
 
 ---
 
@@ -209,86 +324,20 @@ In come unusual cases, complications after surgery can result in death.  The ris
 
 The following are figures reported from a group of 24 high-volume hospitals for complications after esophagectomy:
 
-
+- Atrial fibrillation 15%
 - Pneumonia 15%
 - Anastomotic leak 11%
-- Death within 90 days of surgery 4.5%
-
----
-
-# High risk vs low risk
-
-
-Auto safety has improved over the years, and fatal auto accidents are quite rate.  
-Average driver has a risk of fatal auto accident of 2.1 per 100 million miles driven
-
-```{r, fatalauto_fig2, echo=F,  fig.height=3,fig.width=5}
-library(ggplot2)
-df1<-data.frame(autofatal=c(0,2.1,0),agegroup=c("","Overall",""),autofatal_labels =c("","2.1",""))
-agegroups=c("","Overall","")
-p<-ggplot(data=df1, aes(x=agegroups,y=autofatal))+
-  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=agegroups) +
-        geom_text(aes(label=autofatal_labels),vjust=1.4, color="white",size=13.5)+
-  theme_minimal()+
-  ylim(0,6.5) +
-  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=22, face="bold"),axis.title.y=element_text(size=18, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=18)) +
-  ggtitle("Risk of Fatal Auto Accidents") +
-  labs(y="Deaths per 100,000,000 miles",x="") 
-p
-```
----
-
-But we know from our own experience that some drivers are at at higher risk than others.
-
-For instance, what about these two drivers?
-
-.pull-left[<img src="images/driving-407181_1920.jpg" width="100%" height = "100%">]
-.pull-right[<img src="images/woman-289315_1920.jpg" width="100%" height = "100%">]
-
----
-
-Even if you didn't know these two individuals, you would guess that a man in his 20s has a higher risk of a fatal auto acccident than a women in her 30s.
-
-Statistically, this is true.
-
-
-
----
-
-
-While the overall rate is 2.1 deaths, the rate for men in their 20s is six times higher than women in their 30s
-
-```{r, fatalauto2_fig, echo=F,  fig.height=6,fig.width=8}
-library(ggplot2)
-df1<-data.frame(autofatal=c(6.4,2.1,1.1),agegroup=c("Men 20-30","Overall","Women 30-40"),autofatal_labels =c("6.4","2.1","1.1"))
-agegroups=c("Men age 20-30","Overall","Women age 30-40")
-p<-ggplot(data=df1, aes(x=agegroups,y=autofatal))+
-  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=agegroups) +
-        geom_text(aes(label=autofatal_labels),vjust=1.4, color="white",size=13.5)+
-  theme_minimal()+
-    ylim(0,6.5) +
-  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=22, face="bold"),axis.title.y=element_text(size=18, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=18)) +
-  ggtitle("Risk of Fatal Auto Accidents") +
-  labs(y="Deaths per 100,000,000 miles",x="") 
-p
-```
-
----
-
-Now the auto insurance companies have noticed that young men are in a high risk group, and women are in a good risk group.  Anyone who has had to pay for auto insurance for a young man understands this.
-
+- Death within 90 days 4.5%
 
 ---
 
 # Risks of Complications
 
-The risk of complications in part on the patient's overall health.
+The risk of complications depends on three things:
 
-When I see patients in the office, we do an evaluation of their fitness, and we can estimate their risk.
-
-
-
-
+- Patient's overall health
+- Hospital Volume
+- Surgeon Experience
 
 ---
 
