@@ -152,14 +152,14 @@ McKeown esophagectomy uses incisions in the abdomen, right chest, and neck.  Thi
 
 Because the whole esophagus is removed, this operation is suitable for tumors anywhere along the esophagus. 
 
-<img src="images/Slide7.png" width="50%" height = "50%">
+<img src="images/Slide7.PNG" width="50%" height = "50%">
 
 ---
 
 Because this approach removed the esophagus in the neck, there is a hoarseness after surgery due to bruising of the nerves to the voicebox.
 
 
-<img src="images/Slide7.png" width="50%" height = "50%">
+<img src="images/Slide7.PNG" width="50%" height = "50%">
 
 ---
 
@@ -171,7 +171,7 @@ Transhiatal esophagectomy uses incisions in the abdomen and neck.  A tunnel is c
 Because the whole esophagus is removed, this operation is suitable for tumors anywhere along the esophagus. 
 
 
-<img src="images/Slide8.png" width="50%" height = "50%">
+<img src="images/Slide8.PNG" width="50%" height = "50%">
 
 ---
 
@@ -179,7 +179,7 @@ Because this operation does not require collapsing the right lung during surgery
 
 However removal of lymph nodes is not as complete with this technique.
 
-<img src="images/Slide8.png" width="50%" height = "50%">
+<img src="images/Slide8.PNG" width="50%" height = "50%">
 
 ---
 
@@ -187,7 +187,7 @@ An Ivor Lewis esophagectomy uses incisions in the abdomen and right chest. This 
 
 Like the McKeown esophagectomy, this allows a more complete lymph node harvest.  Unlike the McKeown esophagectomy, however, there is no risk of injury to the nerves in the neck.
 
-<img src="images/Slide9.png" width="50%" height = "50%">
+<img src="images/Slide9.PNG" width="50%" height = "50%">
 
 ---
 
@@ -205,7 +205,7 @@ For each of the different approaches, there are different surgical approaches:
 
 McKeown esophagectomy makes incisions in the abdomen, right chest, and neck
 
-<img src="images/Slide1.png" width="100%" height = "100%">
+<img src="images/Slide1.PNG" width="100%" height = "100%">
 
 ---
 
@@ -213,7 +213,7 @@ McKeown esophagectomy makes incisions in the abdomen, right chest, and neck
 
 McKeown esophagectomy makes incisions in the abdomen, right chest, and neck
 
-<img src="images/Slide2.png" width="100%" height = "100%">
+<img src="images/Slide2.PNG" width="100%" height = "100%">
 
 ---
 
@@ -221,7 +221,7 @@ McKeown esophagectomy makes incisions in the abdomen, right chest, and neck
 
 Ivor Lewis esophagectomy makes incisions in the abdomen and right chest
 
-<img src="images/Slide3.png" width="100%" height = "100%">
+<img src="images/Slide3.PNG" width="100%" height = "100%">
 
 ---
 
@@ -229,7 +229,7 @@ Ivor Lewis esophagectomy makes incisions in the abdomen and right chest
 
 Minimally-invasive approaches have been developed for each of the types of esophagectomy
 
-<img src="images/Slide4.png" width="50%" height = "50%">
+<img src="images/Slide4.PNG" width="50%" height = "50%">
 
 ---
 
@@ -247,7 +247,7 @@ We have found at our hospital to be best choice for most patients.
 
 Small incisions mean less discomfort and faster recovery. This approach also avoids the risk of hoarseness which can be associated an incision in the neck.
 
-<img src="images/Slide10.png" width="50%" height = "50%">
+<img src="images/Slide10.PNG" width="50%" height = "50%">
 
 ---
 
