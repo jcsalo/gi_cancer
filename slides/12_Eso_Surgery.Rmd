@@ -220,7 +220,7 @@ In general, outcomes after surgery are better at hospitals that perform esophage
 ---
 
 These are overall numbers, and represent the risk for an average patient. As you might expect, the risks of surgery are greater for patients are in poor overall health, and better for patients in good overall health.
-
+---
 
 # Risks of Complications
 
@@ -236,6 +236,27 @@ Good risk group is about half the patients
 Another quarter of patients is medium risk
 Another quarter are high risk patients
 
+```{r pie}
+library(ggplot2)
+
+#create data frame
+data <- data.frame("category" = c('Good', 'Average', 'Poor'),
+                   "amount" = c(50, 25, 25),
+                   "risk" = c(.1,.05,.005))
+data<-data[order(-data$risk),]
+data$category<-factor(data$category, levels = c("Poor","Average","Good"))
+
+#create pie chart
+ggplot(data, aes(x="", y=amount, fill=category)) +
+  geom_bar(stat="identity", width=1) +
+  coord_polar("y", start=0) +
+  theme_void()+
+  scale_fill_brewer(palette="Set1")
+
+data
+
+```
+
 ---
 
 
@@ -243,11 +264,12 @@ Another quarter are high risk patients
 library(ggplot2)
 df1<-data.frame(pneumonia=c(0,0.10,0),strength=c("","Average",""),pneumonia_labels =c("","10%",""))
 strengths=c("","Average","Average")
+group_widths=c(25,25,50)
 p<-ggplot(data=df1, aes(x=strength,y=pneumonia))+
   geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,.2)) +
         geom_text(aes(label=pneumonia_labels),vjust=1.4, color="white",size=13.5)+
   theme_minimal()+
-  theme( axis.text=element_text(size=14,face="bold"),axis.title=element_text(size=14, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=18)) +
+  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
   ggtitle("Risk of Pneumonia after Esophagectomy") +
   labs(y="Percent With Pneumonia",x="Risk Group") 
 p
@@ -256,15 +278,16 @@ p
 
 
 
-```{r, pneumonia_fig, echo=F,  fig.height=6,fig.width=8}
+```{r fig.height=6, fig.width=8, message=FALSE, warning=FALSE, pneumonia_fig, echo=F}
 library(ggplot2)
-df1<-data.frame(pneumonia=c(0.20,0.10,0.05),strength=c("High","Average","Good"),pneumonia_labels =c("20%","10%","5%"))
+df1<-data.frame(pneumonia=c(0.20,0.10,0.05),strength=c("High","Average","Good"),pneumonia_labels =c("20%\nHigh\nRisk","10%\nAverage","5%\nGood"))
 strengths=c("High","Average","Good")
+group_widths=c(25,25,50)
 p<-ggplot(data=df1, aes(x=strength,y=pneumonia))+
   geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +
-        geom_text(aes(label=pneumonia_labels),vjust=1.4, color="white",size=13.5)+
+        geom_text(aes(label=pneumonia_labels),vjust=1.4, color="white",size=12)+
   theme_minimal()+
-  theme( axis.text=element_text(size=14,face="bold"),axis.title=element_text(size=14, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=18)) +
+  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
   ggtitle("Risk of Pneumonia after Esophagectomy") +
   labs(y="Percent With Pneumonia",x="Risk Group") 
 p
@@ -274,18 +297,34 @@ p
 
 An esophagectomy is a substantial operation, and the outcomes depend in part on the health 
 
+```{r, strength_fig3, echo=F,  fig.height=6,fig.width=8}
+library(ggplot2)
+df1<-data.frame(mortality=c(0.0,0.033,0.000),strength=c("High","Average","Good"),mortality_labels =c("10%\nHigh\nRisk","3.3%\nAverage","0.0%\nGood"))
+strengths=c( "","Average","Average")
+p<-ggplot(data=df1, aes(x=strength,y=mortality))+
+  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,.1)) +
+        geom_text(aes(label=mortality_labels),vjust=1.1, color="white",size=12)+
+  theme_minimal()+
+  theme( axis.text=element_text(size=20,face="bold"),axis.title=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.05,face="bold",size=20)) +
+  ggtitle("Mortality after Esophagectomy (90 Days)") +
+  labs(y="Percent Mortality",x="Risk Group") 
+p
+
+```
+
+
 ```{r, strength_fig2, echo=F,  fig.height=6,fig.width=8}
 library(ggplot2)
-df1<-data.frame(mortality=c(0.10,0.05,0.001),strength=c("Low","Middle","Good"),mortality_labels =c("10%\nLow\nStrength","5%\nMiddle","0.0%\nGood"))
-strengths=c("Low","Middle","Good")
+df1<-data.frame(mortality=c(0.10,0.05,0.001),strength=c("High","Average","Good"),mortality_labels =c("10%\nHigh\nRisk","5%\nAverage","0.0%\nGood"))
+strengths=c("High","Average","Good")
 p<-ggplot(data=df1, aes(x=strength,y=mortality))+
-  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +
-        geom_text(aes(label=mortality_labels),vjust=1.4, color="white",size=13.5)+
+  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,.1)) +
+        geom_text(aes(label=mortality_labels),vjust=1.4, color="white",size=12)+
   theme_minimal()+
-  theme( axis.text=element_text(size=14,face="bold"),axis.title=element_text(size=14, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=16)) +
+  theme( axis.text=element_text(size=20,face="bold"),axis.title=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=20)) +
   ggtitle("Mortality after Esophagectomy (90 Days)") +
-  labs(y="Percent Mortality",x="Strength Group") +
-  geom_text(x=3,y=0.03,label="<1% \nGood \nStrength", size=10)
+  labs(y="Percent Mortality",x="Risk Group") +
+  geom_text(x=3,y=0.03,label="<1% \nGood \nRisk", size=10)
 p
 
 ```
@@ -298,31 +337,9 @@ p
 # Risk of Death
 
 
----
-
-
-# Understanding Outcomes
-
-Let's talk Baseball for a minute.  Micky Mantle is regarded as one of baseball's greats, and this baseball card from 1952 is one of the most valuable in history.
-
-If you look at the back of his card, you'll find lost of statistics, including his batting average. The numbers are there for anyone to see, including his batting average. If you're a baseball fan, one of the ways you evaluate players is based upon their statistics.
-
-Unfortunately, there aren't baseball cards for hospitals and surgeons, and finding the statistics for a hospital or surgeon can be a challenge, but it's still important if you want the best chance for a good outcome after surgery.
-
----
-
-# Hospital Volume
-
-<small>Practice makes perfect in many things in life, and esophageal surgery is no exception.</small>
-
-Hospitals where an esophagectomy is performed more frequently in general have better outcomes than hospitals where the operation is only occasionally done. 
-
----
-
-This chart shows the relationship between hospital volume and the risk of death after esophagectomy.
-
 
 ```{r, mort_fig, echo=F,  fig.height=6,fig.width=8}
+#  Hospital Mortality
 library(ggplot2)
 df<-data.frame(mortality=c(.102,.067,.039),strength=c("Low (<5)","Middle (5-20)","High (>20)"),mortality_labels =c("10.2%\nLow\nVolume","6.7%\nMiddle","3.9%\nHigh"))
 strengths=c("Low (<5)","Middle (5-20)","High (>20)")
@@ -346,7 +363,7 @@ library(ggplot2)
 df<-data.frame(mortality=c(.102,.067,.039),strength=c("Low (<5)","Middle (5-20)","High (>20)"))
 strengths=c("Low (<5)","Middle (5-20)","High (>20)")
 p<-ggplot(data=df, aes(x=strength,y=mortality))+
-  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +theme_minimal() + theme( axis.text=element_text(size=12,face="bold"),axis.title=element_text(size=14, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=16)) +
+  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +theme_minimal() + theme( axis.text=element_text(size=20,face="bold"),axis.title=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=20)) +
   ggtitle("Hospital Mortality after Esophagectomy") +
   labs(y="Percent Mortality",x="Hospital Operations per year")
 p
@@ -354,6 +371,29 @@ p
 #ggsave("hosp_mort.png",device="png",path="images/")
 
 ```
+---
+
+
+# Understanding Outcomes
+
+Let's talk Baseball for a minute.  Micky Mantle is regarded as one of baseball's greats, and this baseball card from 1952 is one of the most valuable in history.
+
+If you look at the back of his card, you'll find lost of statistics, including his batting average. The numbers are there for anyone to see, including his batting average. If you're a baseball fan, one of the ways you evaluate players is based upon their statistics.
+
+Unfortunately, there aren't baseball cards for hospitals and surgeons, and finding the statistics for a hospital or surgeon can be a challenge, but it's still important if you want the best chance for a good outcome after surgery.
+
+---
+
+# Hospital Volume
+
+<small>Practice makes perfect in many things in life, and esophageal surgery is no exception.</small>
+
+Hospitals where an esophagectomy is performed more frequently in general have better outcomes than hospitals where the operation is only occasionally done. 
+
+---
+
+This chart shows the relationship between hospital volume and the risk of death after esophagectomy.
+
 
 ---
 
@@ -424,7 +464,7 @@ p<-ggplot(data=df1, aes(x=agegroups,y=autofatal))+
   ylim(0,6.5) +
   theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=22, face="bold"),axis.title.y=element_text(size=18, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=18)) +
   ggtitle("Risk of Fatal Auto Accidents") +
-  labs(y="Deaths per 100,000,000 miles",x="") 
+  labs(y="Deaths per 100,000,000 miles",x=" ") 
 p
 ```
 ---
