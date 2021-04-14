@@ -1,0 +1,406 @@
+
+---
+title: "Esophageal Cancer"
+subtitle: "Surgery"
+author: "Jonathan Salo MD"
+institute: "Levine Cancer Institute, Charlotte NC"
+#date: "Click Down Arrow to Begin"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  pdf_document: default
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+    math: katex
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 32px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+<!--- P10000266--->
+<!--- Premiere: Intro_02--->
+# Introduction
+
+I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
+
+If you're watching this video, you or someone you know may be contemplating cancer surgery.
+
+In this video, you will learn about muscle strength and cancer how exercise can help reduce your complications after surgery.
+
+If you haven't already seen our video about nutrition and cancer surgery, there is a link in the description below.
+
+---
+
+# Nutrition
+
+The foods we eat contain four basic parts:
+
+-   Carbohydrates fuel for energy
+-   Protein provides the building blocks for muscle
+-   Fat provides fuel for storing energy
+
+# Muscle Loss in Cancer
+
+Patients with cancers of their GI tract often start to eat less and can lose weight
+
+- Cancer in the esophagus or stomach can make it harder to eat. 
+
+- Patients with cancer can lose their appetite, which decreased how much they eat
+
+# Nutrition
+
+When your intake of carbohydrates decreases, your body looks for a source of energy. There are two placed your body can find additional fuel for energy:
+
+- Fat in your body
+- Muscle in you body
+
+Many of us are happy with the loss of fat in our body when we lose weight, but what many people don't realize is that when we lose weight, we often lose muscle as well.
+
+The loss of muscle in your body can be hard to notice, because it happens gradually, but this can cause fatigue and a decrease in energy.
+
+
+# Risks of Surgery
+
+An esophagectomy is a substantial operation, and there can be postoperative complications, sch as pneumonia.
+
+
+---
+
+# Pneumonia
+
+.pull-left[Pneumonia occurs in about 10-15% of patients after esophagectomy. Pneumonia requires treatment with antibiotics and frequently requires a longer hospitalization.]
+
+.pull_right[<img src="images/Eso_LungsArtboard 2@4x.png" width="50%" height = "50%">]
+
+---
+
+
+# What are my chances?
+
+In general, outcomes after surgery are better at hospitals that perform esophagectomy frequently, compared with hospitals where an esophagectomy is only done occasionally.  
+
+
+
+# Risks of Complications
+
+These are overall numbers, and represent the risk for an average patient. As you might expect, the risks of surgery are greater for patients are in poor overall health, and better for patients in good overall health.  
+
+---
+
+# Patient Health and Esophagectomy Outcomes
+
+When I see patients in the office at our cancer center, we evaluate their overall fitness, and our experience allows us to calculate how this affects the risk of complications after esophagectomy. 
+
+Good risk group is about half the patients
+Another quarter of patients is average risk
+Another quarter are poor risk risk patients
+
+---
+
+```{r pie, echo=F}
+library(ggplot2)
+
+#create data frame
+data <- data.frame("Group" = c('Good', 'Average', 'Poor'),
+                   "amount" = c(50, 25, 25),
+                   "risk" = c(.1,.05,.005),
+                   "pos" = c(50,92,12))
+data<-data[order(-data$risk),]
+data$category<-factor(data$Group, levels = c("Poor","Average","Good"))
+legend_ord<-c("Good","Average","Poor")
+
+#create pie chart
+ggplot(data, aes(x="", y=amount, fill=Group)) +
+  geom_bar(stat="identity", width=1) +
+  coord_polar("y", start=-pi/2) +
+  theme_void()+
+  #scale_fill_discrete(breaks=legend_ord)
+  scale_fill_manual(values=c("#008450","#EFB700","#B81D13"), breaks=legend_ord)+
+  theme(legend.position="none")+
+  geom_text(aes(x=1, y = pos, label = Group),size=8)+
+  labs(title="Risk Groups for Esophagectomy", face="bold", size=14)+
+  theme(plot.title=element_text(size=20, face="bold", hjust=0.5))
+
+#data
+
+```
+
+---
+
+# Pneumonia
+
+Overall, the risk of pneumonia is about 10% in our patients who undergo esophagectomy. 90% of patients never experience pneumonia, but 10% will have pneumonia after surgery.
+
+---
+
+```{r, echo=F, warning =F, message=F}
+df2<-data.frame(pneumonia=c(0,0,0.10,0.9,0,0),strength=c("  ","  ","Average","Average","    ","    "), Outcome=c("Pneumonia", "No Pneumonia","Pneumonia", "No Pneumonia" ,"Pneumonia","No Pneumonia"),pneumonia_labels=c("","","10%","", "",""),ordering=c(5,5,2,2,1,1))
+#group_widths=c(25,25,50)
+p<-ggplot(data=df2, aes(x=reorder(strength,ordering),y=pneumonia, fill=Outcome))+
+  geom_bar(stat="identity", color=c("white","white","black","black","white","white"))+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,1)) +
+  geom_text(aes(label=pneumonia_labels),vjust=1,color="white" ,size=8)+
+  theme_minimal()+
+  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.75,face="bold",size=22)) +
+  ggtitle("Risk of Pneumonia after Esophagectomy") +
+  labs(y="",x="Risk Group") +
+  scale_fill_manual(values=c("white","#EFB700"))+
+  scale_color_manual(values=c("black","black","black"))+
+  theme(legend.position="none")+
+  annotate("text", x =2,y=0.6, label= "90%\nNo\nPneumonia", size=8)
+  #theme(legend.key = element_rect(color="black"), legend.title = element_text(size=16), legend.text =element_text(size=14)  )
+p
+```
+
+
+---
+
+```{r, pneumonia_figoverall, echo=F,  fig.height=6,fig.width=8, warning=F, message=F}
+
+df1<-data.frame(pneumonia=c(0,0.10,0),strength=c("","Average",""),pneumonia_labels =c("","10%\nAverage",""))
+strengths=c("","Average","Average")
+group_widths=c(25,25,50)
+p<-ggplot(data=df1, aes(x=strength,y=pneumonia))+
+  geom_bar(stat="identity", fill="#EFB700")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,.2)) +
+        geom_text(aes(label=pneumonia_labels),vjust=1.4, color="white",size=12)+
+  theme_minimal()+
+  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
+  ggtitle("Risk of Pneumonia after Esophagectomy") +
+  labs(y="Percent With Pneumonia",x="Risk Group") 
+p
+```
+
+---
+
+However the risk of pneumonia is not the same for everyone.  Even though the average risk is 10%, the risk is much higher for our poor risk patients and much lower for our good risk patients.
+
+For the half of our patients who are in good overall health, the risk of pneumonia is about 5%. On the other hand, the risk of pneumonia is 20% in the quarter of our patients who are in poor health.
+
+---
+
+
+```{r , message=FALSE, warning=FALSE, pneumonia_fig2b, echo=F}
+library(ggplot2)
+df1<-data.frame(pneumonia=c(0.20,0.10,0.05),strength=c("Poor","Average","Good"),pneumonia_labels =c("20%\nPoor\nRisk","10%\nAverage","5%\nGood"))
+strengths=c("Poor","Average","Good")
+group_widths=c(25,25,50)
+p<-ggplot(data=df1, aes(x=strength,y=pneumonia))+
+  geom_bar(stat="identity", fill=c("#B81D13","#EFB700","#008450"))+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +
+        geom_text(aes(label=pneumonia_labels),vjust=1.2, color="white",size=11)+
+  theme_minimal()+
+  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
+  ggtitle("Risk of Pneumonia after Esophagectomy") +
+  labs(y="Percent With Pneumonia",x="Risk Group") 
+p
+```
+
+---
+
+An esophagectomy is a substantial operation, and rarely this can result in death. Overall, for patients at our hospital, the overall risk of death within the first 90 days of surgery for the average patient after esophagectomy is about 3%.
+
+It's important to note that 97% of patients get through the first 3 months after surgery without problems, 
+
+
+---
+
+```{r , message=FALSE, warning=FALSE, mortality2, echo=F}
+df2<-data.frame(mortality=c(0,0,.966,0.033,0,0),strength=c("  ","  ","Average","Average","    ","    "), Outcome=c("No Mortality", "Mortality","No Mortality", "Mortality","No Mortality", "Mortality"),mortality_labels=c("","","3.3%","", "",""),ordering=c(5,5,2,2,1,1), yordering = c(0,1,0,1,0,1))
+#group_widths=c(25,25,50)
+p<-ggplot(data=df2, aes(x=reorder(strength,ordering),y=mortality, fill=reorder(Outcome,yordering) ))+
+  geom_bar(stat="identity", color=c("white","white","black","black","white","white"))+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,1)) +
+  #geom_text(aes(label=mortality_labels),vjust=-1,color="black" ,size=12)+
+  theme_minimal()+
+  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
+  ggtitle("Risk of Mortality after Esophagectomy") +
+  labs(y="",x="Risk Group",fill="Outcome") +
+  scale_fill_manual(values=c("white","#EFB700"))+
+  scale_color_manual(values=c("black","black","black"))+
+  theme(legend.key = element_rect(color="black"), legend.title = element_text(size=16), legend.text =element_text(size=14)  )+
+  annotate("text", x =2,y=0.6, label= "97%\nNo\nMortality", size=8)+
+    theme(legend.position="none")+
+  annotate("text", x =1.2,y=0.1, label= "3%\nMortality", size=8)+
+    theme(legend.position="none")
+p
+```
+
+---
+
+As with the risk of pneumonia, the risk of mortality after esophagectomy is not the same for everyone.  Recall that half of the patients that we see are good risk with good overall health.  For those patients, the risk of death after surgery is very small, and is less than 1%.
+
+On the other hand, for the quarter of patients who are in poor overall health, the risk of mortality after esophagectomy is approximately 10% in the first 90 days after surgery.
+
+---
+
+
+```{r, strength_fig2, echo=F,  fig.height=6,fig.width=8, message=F, warning=FALSE}
+library(ggplot2)
+df1<-data.frame(mortality=c(0.10,0.05,0.001),strength=c("High","Average","Good"),mortality_labels =c("10%\nHigh\nRisk","5%\nAverage","0.0%\nGood"))
+strengths=c("High","Average","Good")
+p<-ggplot(data=df1, aes(x=strength,y=mortality))+
+  geom_bar(stat="identity", fill=c("#B81D13","#EFB700","#008450"))+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,.1)) +
+        geom_text(aes(label=mortality_labels),vjust=1.4, color="white",size=12)+
+  theme_minimal()+
+    scale_color_manual(values=c("black","black","black"))+
+  theme( axis.text=element_text(size=20,face="bold"),axis.title=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=20)) +
+  ggtitle("Mortality after Esophagectomy (90 Days)") +
+  labs(y="Percent Mortality",x="Risk Group") +
+  geom_text(x=3,y=0.03,label="<1% \nGood \nRisk", size=10)
+p
+
+```
+
+---
+
+# Risk factors
+
+Now these statistics are certainly sobering, particularly for patients who are in poor overall health.  In our hospital, we have conducted extensive research to determine which patients are good candidate for esophagectomy, with a low risk of complications, and which patients are poor risk, with a high risk of complications.
+
+
+
+---
+
+# Muscle Strength and Risk after Esophagectomy
+
+.pull-left[The results of our research suggest a simple answer: The risk of surgery is related to a patient's muscle strength.]
+
+.pull-right[<img src="images/emancipation-156066_1280.png" width="100%" height = "100%">]
+
+---
+
+.pull-left[Now this doesn't mean that you need to look like this to be able to get through your esophagectomy]
+
+.pull-right[<img src="images/man-461195_1920.jpg" width="100%" height = "100%">]
+
+
+---
+
+The good news is that you can increase your muscle mass before surgery in two very simple ways:
+
+- Good nutrition with adequate intake of protein
+
+- Exercise
+
+---
+
+In short, we want to make certain that our men are getting at least 75 grams of protein per day, and women at least 60 grams. 
+
+If you haven't watched our video on Nutrition for Esophageal Cancer Treatment, there will be a link at the end of the video.
+
+---
+
+#  Exercise
+
+When it comes to exercise, we ask our patients to engage in 30 minutes of vigorous exercise 6 days per week in preparation for surgery.  
+
+We define *vigorous* exercise as working hard enough that it's hard to carry on a conversation while exercising.  You should still be able to breath easily, but working just hard enough that talking is difficult.
+
+ It's important to start slow, especially if you haven't been used to exercising.
+
+---
+
+# Heart Rate
+
+Another way to judge your heart rate is to use a heart rate monitor.  The following is an approximate range of heart rate during exerise:
+
+Age | Minimum | Maximum
+--------|---------|---------
+40 | 125 | 150
+50 | 120 | 145
+60 | 112 | 135
+70 | 105 | 127
+
+
+---
+
+# Exercise Options
+
+.pull-left[If you have access to a gym, that would be an excellent option.  You'll be surrounded by other people who are exercising, and that can help you get started. ]
+
+.pull-right[<img src="images/sports-1962574_1920.jpg" width="100%" height = "100%">]
+
+
+---
+
+#  Exercise Bike
+
+.pull-left[A stationary exercise bike is a great option.  If allows you to exercise consistently despite the weather, and it's more convenient than going to the gym. ]
+
+.pull-right[<img src="images/00o0o_fZ5KwSJXSH2z_0v20t2_1200x900.jpg" width="100%" height = "100%">]
+
+---
+
+
+#  Exercise Bike
+
+
+ An exercise bike doesn't need to be expensive. Here are some examples of bikes offered on Craigslist. 
+ 
+ 
+---
+ 
+
+.pull-left[<img src="images/00t0t_bUUWOrlZtvZz_0t20CI_1200x900.jpg" width="80%" height = "80%"><img src="images/00U0U_7zZcZF7qli9z_0CI0t2_1200x900.jpg" width="80%" height = "80%">]
+
+.pull-right[<img src="images/00O0O_iy4b4gud4DMz_0CI0t2_1200x900.jpg" width="80%" height = "80%"><img src="images/00101_hx38gIzONSPz_0lM0t2_1200x900.jpg" width="80%" height = "80%">]
+
+
+
+
+
+---
+
+ Keep in mind that a lot of people buy exercise equipment as part of a New Year's resolution, but then by February 1st they are collecting dust. Don't be afraid to ask friends, family, and neighbors if anyone has a bike you can borrow as part of your cancer treatment.
+ 
+ 
+---
+
+# Walking
+
+.pull-left[Another option if you can't get access to a gym or exercise equipment is walking. Bear in mind that if you want to get the most benefit from walking, it will need to be a brisk. ]
+
+.pull-right[<img src="images/nature-2587309_1920.jpg" width="100%" height = "100%">]
+
+---
+
+.pull-left[ If you choose to walk for exercise, it will be important to use a heart rate monitor to make sure you can push yourself to walk at a brisk pace. ]
+
+.pull-right[<img src="images/heart-rate-monitoring-device-1903997_1280.jpg" width="100%" height = "100%">]
+
+---
+
+# Heart Disease
+
+.pull-left[If you have heart disease, or high blood pressure, I have one simple message before starting to exercise. Please ask your doctor before starting to exercise. They can help you design an exercise program that will be safe for you.]
+
+.pull-right[<img src="images/stop-1374937_1920.jpg" width="100%" height = "100%">]
+
+
+
+---
+
+# Good News
+
+The good news is that with proper nutrition and exercise, you can increase your muscle strength, and we have good reason to believe this will reduce your risk of complications after esophagectomy.
+
+---
+
+I would love to hear you comments about this video, so please leave a comment below.  If you are contemplating an esophagectomy, please let us know how you are 
+
+We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
+
+---
+
+At the end of the video we have links to videos on nutrition and exericse to help you get ready for surgery.
+
+
+
+
+
+
