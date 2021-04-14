@@ -7,13 +7,13 @@ institute: "Levine Cancer Institute, Charlotte NC"
 #date: "Click Down Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  pdf_document: default
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+  pdf_document: default
   prettydoc::html_pretty:
     theme: architect
     highlight: github
