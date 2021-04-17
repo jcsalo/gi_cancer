@@ -134,7 +134,7 @@ An esophagectomy is a substantial operation.  It is unusual, but in some cases c
 This chart shows the relationship between hospital volume and the risk of death after esophagectomy.
 
 
-```{r, echo=F,  fig.height=6,fig.width=8}
+```{r, echo=F,  fig.height=5,fig.width=7}
 library(ggplot2)
 df<-data.frame(mortality=c(.102,.067,.039),strength=c("Low (<5)","Middle (5-20)","High (>20)"),mortality_labels =c("10.2%\nLow\nVolume","6.7%\nMiddle","3.9%\nHigh"))
 strengths=c("Low (<5)","Middle (5-20)","High (>20)")
@@ -150,22 +150,9 @@ p
 ```
 ---
 
-<small>The risk of death after esophagectomy is about twice as high in hospitals which perform less than 5 esophagectomy operations per year compared with those that perform more than 20 per year.</small>
+The risk of death after esophagectomy is over twice as high in hospitals which perform less than 5 esophagectomy operations per year compared with those that perform more than 20 per year.
 
 
-```{r, echo=F, fig.height=6, fig.width=8, include=T}
-library(ggplot2)
-df<-data.frame(mortality=c(.102,.067,.039),strength=c("Low (<5)","Middle (5-20)","High (>20)"))
-strengths=c("Low (<5)","Middle (5-20)","High (>20)")
-p<-ggplot(data=df, aes(x=strength,y=mortality))+
-  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +theme_minimal() + theme( axis.text=element_text(size=12,face="bold"),axis.title=element_text(size=14, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=16)) +
-  ggtitle("Hospital Mortality after Esophagectomy") +
-  labs(y="Percent Mortality",x="Hospital Operations per year")
-p
-
-#ggsave("hosp_mort.png",device="png",path="images/")
-
-```
 
 ---
 
@@ -188,7 +175,9 @@ Of course there are low-volume hospital that have good outcomes, but starting wi
 
 # Choosing a Surgeon
 
-The surgeon is another key factor in the outcome of an operation.  The Leapfrog recommends a minimum of seven operations per year for surgeons undertaking esophagectomy.
+The surgeon is another key factor in the outcome of an operation.  The Leapfrog group recommends a minimum of seven operations per year for surgeons undertaking esophagectomy.
+
+---
 
 The surgeon's track record of outcomes is also an extremely helpful way to predict outcomes.  Finding out this information may require some uncomfortable questions, but this is important information.  It is critical to know both what the track record of the hospital is, but also the track record of a particular surgeon.
 
@@ -199,6 +188,7 @@ The surgeon's track record of outcomes is also an extremely helpful way to predi
 Knowing your surgeon's outcomes is important, but knowing your surgeon's outcomes is probably more important.  Your surgeon should be able to tell you what their statistics are for outcomes like anastomotic leak, pneumonia, and death after surgery.
 
 ---
+#Statistics
 
 If your surgeon doesn't know their personal statistics, you may want to look for a second opinion.  After all, if you met a professional baseball player, you would expect that they would be familiar with their batting average. 
 
