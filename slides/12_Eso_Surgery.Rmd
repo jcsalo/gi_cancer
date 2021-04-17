@@ -1,7 +1,7 @@
 
 ---
 title: "Esophageal Cancer"
-subtitle: "Surgery"
+subtitle: "Esophagectomy"
 author: "Jonathan Salo MD"
 institute: "Levine Cancer Institute, Charlotte NC"
 #date: "Click Down Arrow to Begin"
@@ -25,8 +25,11 @@ output:
     padding: 1em 4em 1em 4em;
 }
 </style>
-<!--- P10000266--->
-<!--- Premiere: Intro_02--->
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+```
 # Introduction
 
 I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
@@ -108,7 +111,7 @@ A new esophagus is created from the stomach in the abdomen by fashioning it into
 
 # Open Esophagectomy
 
-.pull-left[Open esophagectomy makes incisions in the abdomen and the right chest.]
+.pull-left[Open esophagectomy requires incisions in the abdomen and the right chest. ]
 
 .pull-right[<img src="images/IvorLewisArtboard 2@4x.png" width="100%" height = "100%">]
 
@@ -117,9 +120,7 @@ A new esophagus is created from the stomach in the abdomen by fashioning it into
 
 # Minimally-invasive Ivor Lewis
 
-.pull-left[Mininally-invasive esophagectomy uses small incisions in the abdomen and chest and avoids a neck incision.
-
-We have found at our hospital to be best choice for most patients.
+.pull-left[Mininally-invasive esophagectomy uses small incisions in the abdomen and chest.
 
 The smaller incisions mean faster recovery and less discomfort]
 
@@ -127,6 +128,15 @@ The smaller incisions mean faster recovery and less discomfort]
 
 ---
 
+
+
+# Minimally-invasive Ivor Lewis
+
+.pull-left[We have found this is the best option for most of our patients]
+
+.pull-right[<img src="images/MIE_IvorLewisArtboard 2@4x.png" width="100%" height = "100%">]
+
+---
 
 
 # Total Esophagectomy
@@ -146,9 +156,9 @@ The smaller incisions mean faster recovery and less discomfort]
 ---
 
 
-# Minimally-invasive McKeown
+# Minimally-invasive McKeown Esophagectomy
 
-.pull-left[This allows us the best opportunity to remove the tumor and nearby lymph nodes, while still allowing the benefits of minimally-invasive techniques to speed recovery.]
+.pull-left[In this case, a connection between the esophagus and the stomach is made in the neck.]
 
 .pull-right[<img src="images/Eso_MIE_McKeownArtboard 2@4x.png" width="100%" height = "100%">]
 
@@ -156,7 +166,7 @@ The smaller incisions mean faster recovery and less discomfort]
 
 # Transhiatal Esophagectomy
 
-.pull-left[For patients with small tumors or those with poor lung, an alternative is a transhiatal esohagectomy, which avoids the need to enter the right chest.]
+.pull-left[Another option is a transhiatal esohagectomy, which avoids the need to make incisions in the right chest.]
 
 .pull-right[<img src="images/Eso_MIE_THEArtboard 2@4x.png" width="100%" height = "100%">]
 
@@ -171,21 +181,13 @@ When you meet with your surgeon, you will have an opportunity to meet with your 
 
 # Risks of Surgery
 
-An esophagectomy is a substantial operation, and there can be postoperative complications. There are three major complications:
+An esophagectomy is a substantial operation, and there can be postoperative complications. We're going to talk about two of these complications and how you can reduce your risk of complications:
 
-- Pneumonia
 - Anastomotic leak
-- Death
+- Pneumonia
 
 ---
 
-# Pneumonia
-
-.pull-left[Pneumonia occurs in about 10-15% of patients after esophagectomy. Pneumonia requires treatment with antibiotics and frequently requires a longer hospitalization.]
-
-.pull_right[<img src="images/Eso_LungsArtboard 2@4x.png" width="50%" height = "50%">]
-
----
 
 # Anastomotic Leak
 
@@ -205,46 +207,52 @@ An esophagectomy is a substantial operation, and there can be postoperative comp
 
 # Anastomotic Leak
 
- In some cases, the leak will heal on its own, but other cases may require additional procedures or even surgery. The rate of leak depends upon the surgeon and the type of operation, but can range from 2-15%
+ In some cases, the leak will heal on its own, but other cases may require additional procedures or even surgery. The risk of leak depends upon the operation performed but also depends upon the experience of the surgeon.  At the end of this video we have a link to a video about how to choose a hospital and a surgeon, which talks further about the risks of a leak.
  
 ---
 
-# Death
+# Pneumonia
 
-In come unusual cases, complications after surgery can result in death.  This is a very unusual event after surgery, but the risk of death after surgery needs to figure in to decision-making.  
+.pull-left[Pneumonia is another complication which can occurs in about 10-15% of patients after esophagectomy. Pneumonia requires treatment with antibiotics and frequently requires a longer hospitalization.]
 
----
-
-# What are my chances?
-
-In general, outcomes after surgery are better at hospitals that perform esophagectomy frequently, compared with hospitals where an esophagectomy is only done occasionally.  
-
+.pull_right[<img src="images/Eso_LungsArtboard 2@4x.png" width="50%" height = "50%">]
 
 ---
 
-To get a ball-park idea of what the risks of complications are, the following are figures reported from a group of 24 high-volume hospitals for complications after esophagectomy:
+# Preventing Pneumonia
 
+There are two important ways to help prevent pneumonia after surgery:
 
-- Pneumonia 15%
-- Anastomotic leak 11%
-- Death within 90 days of surgery 4.5%
+- Deep breathing
+- Walking
+
+---
+
+# Deep breathing
+
+After surgery, it's important to breathe deeply to help your lungs recover after surgery. An incentive spirometer is a device that helps you take deep breaths after surgery.  Your nurse will show you how to use it. There's a link in the description below to a video that shows how to use an incentive spirometer.
+
 
 ---
 
+#  Walking
 
-# Risks of Complications
+Walking after surgery is also an important way to help your lungs recover as well.  When we walk, it's easier for our lungs to function.
 
-These are overall numbers, and represent the risk for an average patient. As you might expect, the risks of surgery are greater for patients are in poor overall health, and better for patients in good overall health.  
+# Preventing Pneumonia
 
----
+How can we prevent pneumonia? Believe it or not, I can tell who is more likely to develop pneumonia after surgery when I first meet them and shake their hand. Someone with a firm handshake has a lower risk of pneumonia.
+
+# Strength
+
+In our clinic, we actually measure your strength with a hand-held strength gauge called a dynamometer. Based upon these measurements, we can identify patients who may be at risk of pneumonia.
+
 
 # Patient Health and Esophagectomy Outcomes
 
-When I see patients in the office at our cancer center, we evaluate their overall fitness, and our experience allows us to calculate how this affects the risk of complications after esophagectomy. 
-
-Good risk group is about half the patients
-Another quarter of patients is average risk
-Another quarter are poor risk risk patients
+About half of our patients have good strength, shown in green.
+A quarter are have low strength, shown in red
+Another quarter are in the middle, shown in yellow
 
 ---
 
@@ -252,24 +260,24 @@ Another quarter are poor risk risk patients
 library(ggplot2)
 
 #create data frame
-data <- data.frame("Group" = c('Good', 'Average', 'Poor'),
+data <- data.frame("Group" = c('Good', 'Middle', 'Low'),
                    "amount" = c(50, 25, 25),
                    "risk" = c(.1,.05,.005),
-                   "pos" = c(50,92,12))
+                   "pos" = c(75,13,36))
 data<-data[order(-data$risk),]
-data$category<-factor(data$Group, levels = c("Poor","Average","Good"))
-legend_ord<-c("Good","Average","Poor")
+data$category<-factor(data$Group, levels = c("Low","Middle","Good"))
+legend_ord<-c("Good","Middle","Low")
 
 #create pie chart
 ggplot(data, aes(x="", y=amount, fill=Group)) +
   geom_bar(stat="identity", width=1) +
-  coord_polar("y", start=-pi/2) +
+  coord_polar("y", start=pi) +
   theme_void()+
   #scale_fill_discrete(breaks=legend_ord)
   scale_fill_manual(values=c("#008450","#EFB700","#B81D13"), breaks=legend_ord)+
   theme(legend.position="none")+
   geom_text(aes(x=1, y = pos, label = Group),size=8)+
-  labs(title="Risk Groups for Esophagectomy", face="bold", size=14)+
+  labs(title="Muscle Strength", face="bold", size=14)+
   theme(plot.title=element_text(size=20, face="bold", hjust=0.5))
 
 #data
@@ -293,7 +301,7 @@ p<-ggplot(data=df2, aes(x=reorder(strength,ordering),y=pneumonia, fill=Outcome))
   theme_minimal()+
   theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.75,face="bold",size=22)) +
   ggtitle("Risk of Pneumonia after Esophagectomy") +
-  labs(y="",x="Risk Group") +
+  labs(y="",x="") +
   scale_fill_manual(values=c("white","#EFB700"))+
   scale_color_manual(values=c("black","black","black"))+
   theme(legend.position="none")+
@@ -316,7 +324,7 @@ p<-ggplot(data=df1, aes(x=strength,y=pneumonia))+
   theme_minimal()+
   theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
   ggtitle("Risk of Pneumonia after Esophagectomy") +
-  labs(y="Percent With Pneumonia",x="Risk Group") 
+  labs(y="Percent With Pneumonia",x="") 
 p
 ```
 
@@ -331,8 +339,8 @@ For the half of our patients who are in good overall health, the risk of pneumon
 
 ```{r , message=FALSE, warning=FALSE, pneumonia_fig2b, echo=F}
 library(ggplot2)
-df1<-data.frame(pneumonia=c(0.20,0.10,0.05),strength=c("Poor","Average","Good"),pneumonia_labels =c("20%\nPoor\nRisk","10%\nAverage","5%\nGood"))
-strengths=c("Poor","Average","Good")
+df1<-data.frame(pneumonia=c(0.20,0.10,0.05),strength=c("Low","Middle","Good"),pneumonia_labels =c("20%\nLow\nStrength","10%\nMiddle","5%\nGood"))
+strengths=c("Low","Middle","Good")
 group_widths=c(25,25,50)
 p<-ggplot(data=df1, aes(x=strength,y=pneumonia))+
   geom_bar(stat="identity", fill=c("#B81D13","#EFB700","#008450"))+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +
@@ -340,91 +348,29 @@ p<-ggplot(data=df1, aes(x=strength,y=pneumonia))+
   theme_minimal()+
   theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
   ggtitle("Risk of Pneumonia after Esophagectomy") +
-  labs(y="Percent With Pneumonia",x="Risk Group") 
+  labs(y="Percent With Pneumonia",x="Muscle Strength") 
 p
 ```
-
----
-
-An esophagectomy is a substantial operation, and rarely this can result in death. Overall, for patients at our hospital, the overall risk of death within the first 90 days of surgery for the average patient after esophagectomy is about 3%.
-
-It's important to note that 97% of patients get through the first 3 months after surgery without problems, 
-
-
----
-
-```{r , message=FALSE, warning=FALSE, mortality2, echo=F}
-df2<-data.frame(mortality=c(0,0,.966,0.033,0,0),strength=c("  ","  ","Average","Average","    ","    "), Outcome=c("No Mortality", "Mortality","No Mortality", "Mortality","No Mortality", "Mortality"),mortality_labels=c("","","3.3%","", "",""),ordering=c(5,5,2,2,1,1), yordering = c(0,1,0,1,0,1))
-#group_widths=c(25,25,50)
-p<-ggplot(data=df2, aes(x=reorder(strength,ordering),y=mortality, fill=reorder(Outcome,yordering) ))+
-  geom_bar(stat="identity", color=c("white","white","black","black","white","white"))+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,1)) +
-  #geom_text(aes(label=mortality_labels),vjust=-1,color="black" ,size=12)+
-  theme_minimal()+
-  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
-  ggtitle("Risk of Mortality after Esophagectomy") +
-  labs(y="",x="Risk Group",fill="Outcome") +
-  scale_fill_manual(values=c("white","#EFB700"))+
-  scale_color_manual(values=c("black","black","black"))+
-  theme(legend.key = element_rect(color="black"), legend.title = element_text(size=16), legend.text =element_text(size=14)  )+
-  annotate("text", x =2,y=0.6, label= "97%\nNo\nMortality", size=8)+
-    theme(legend.position="none")+
-  annotate("text", x =1.2,y=0.1, label= "3%\nMortality", size=8)+
-    theme(legend.position="none")
-p
-```
-
----
-
-As with the risk of pneumonia, the risk of mortality after esophagectomy is not the same for everyone.  Recall that half of the patients that we see are good risk with good overall health.  For those patients, the risk of death after surgery is very small, and is less than 1%.
-
-On the other hand, for the quarter of patients who are in poor overall health, the risk of mortality after esophagectomy is approximately 10% in the first 90 days after surgery.
-
----
-
-
-```{r, strength_fig2, echo=F,  fig.height=6,fig.width=8, message=F, warning=FALSE}
-library(ggplot2)
-df1<-data.frame(mortality=c(0.10,0.05,0.001),strength=c("High","Average","Good"),mortality_labels =c("10%\nHigh\nRisk","5%\nAverage","0.0%\nGood"))
-strengths=c("High","Average","Good")
-p<-ggplot(data=df1, aes(x=strength,y=mortality))+
-  geom_bar(stat="identity", fill=c("#B81D13","#EFB700","#008450"))+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,.1)) +
-        geom_text(aes(label=mortality_labels),vjust=1.4, color="white",size=12)+
-  theme_minimal()+
-    scale_color_manual(values=c("black","black","black"))+
-  theme( axis.text=element_text(size=20,face="bold"),axis.title=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=20)) +
-  ggtitle("Mortality after Esophagectomy (90 Days)") +
-  labs(y="Percent Mortality",x="Risk Group") +
-  geom_text(x=3,y=0.03,label="<1% \nGood \nRisk", size=10)
-p
-
-```
-
----
-
-# Risk factors
-
-Now these statistics are certainly sobering, particularly for patients who are in poor overall health.  In our hospital, we have conducted extensive research to determine which patients are good candidate for esophagectomy, with a low risk of complications, and which patients are poor risk, with a high risk of complications.
-
 
 
 ---
 
 # Muscle Strength and Risk after Esophagectomy
 
-.pull-left[The results of our research suggest a simple answer: The risk of surgery is related to a patient's muscle strength.]
+.pull-left[The results of our research suggest a simple answer: The risk of pneumonia is related to a patient's muscle strength.]
 
 .pull-right[<img src="images/emancipation-156066_1280.png" width="100%" height = "100%">]
 
 ---
 
-.pull-left[Now this doesn't mean that you need to look like this to be able to get through your esophagectomy]
+.pull-left[Now this doesn't mean that you need to look like this to prevent pneumonia after your esophagectomy]
 
 .pull-right[<img src="images/man-461195_1920.jpg" width="100%" height = "100%">]
 
 
 ---
 
-The good news is that you can increase your muscle mass before surgery in two very simple ways:
+The good news is that you can increase your muscle strength before surgery in two very simple ways:
 
 - Good nutrition with adequate intake of protein
 
@@ -540,7 +486,6 @@ We're constantly creating new videos, so please subscribe to be notified of new 
 
 ---
 
-At the end of the video we have links to videos on nutrition and exericse to help you get ready for surgery.
 
 
 
