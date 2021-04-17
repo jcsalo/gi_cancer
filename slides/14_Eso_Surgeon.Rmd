@@ -36,127 +36,19 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
 
-If you're viewing this video, chances are that you or someone close to you 
+If you're viewing this video, chances are that you or someone close to you is contemplating an esophagectomy.
 
-In this video, you will learn about
-
-- Different kinds of surgery for esophageal cancer
-- Risks of esophagectomy
-- How to reduce your risk of complications
-
-In a subsequent video, you will learn about how to choose an hospital and a surgeon for your esophageal surgery.
+In this video, you will learn about how to choose a hospital and a surgeon for your esophageal surgery.
 
 ---
 
-Surgery for esophageal cancer is generally performed for three different situations:
-
-- Superficial Tumors (T1) that can't be completely removed by endoscopy
-- Localized Tumors (T2N0)
-- Locally Advanced Tumors (T3 or N+) after the completion of chemotherapy and radiation
-
-(reference to Esophageal Cancer Treatment Options)
+We have a collection of videos that talk about esophageal cancer and how it is treated, so be sure to look in the description below for other videos.
 
 ---
 
-# Goals of Esophagectomy
+# Safety
 
-- Remove tumor from esophagus
-- Remove surrounding lymph nodes
-- Create a new esophagus
-
----
-
-# Reconstruction
-
-After the esophagus and tumor have been removed, along with any nearby lymph nodes, a reconstruction is performed.  In most the cases, the stomach is used to make a new esophagus.
-
----
-
-# Reconstruction 
-
-.pull-left[
-- One Bullet
-]
-
-
-.pull-right[
-<img src="images/IvorLewisArtboard 2@4x.png" width="100%" height = "100%">
-]
-
----
-
-
-# Reconstruction 
-
-.pull-left[
-
-- One Bullet
-
-]
-
-
-.pull-right[
-
-- Secon dbullet
-
-]
-
----
-
-# Types of Esophagectomy
-
-```
-knitr::include_graphics("libs/images/tumor_full.png")
-```
-
-Many different types of esophagectomy and several different techniques.
-
-Esophagus connects the throat to the stomach
-
-Total esophagectomy removes all of the esophagus and makes a new connection in the neck. This new connection is called an anastomosis.
-
-Ivor Lewis esophagectomy removes 75% of the esophagus and makes a new connection in the chest.
-
----
-
-# Total Esophagectomy
-
-There are two types of total esophagectomy:
-
-**McKeown** esophagectomy makes incisions in the abdomen, the right chest, and the neck
-
-**Transhiatal** esophagectomy uses an incision in the abdomen and the neck, and creates a tunnel in the chest cavity.
-
----
-
-# Ivor Lewis Esophagectomy
-
-The Ivor Lewis esophagectomy makes incisions in the abdomen and the right chest. This is also known as a *Transthoracic* esophagectomy.
-
----
-
-# McKeown Esophagectomy
-
-# Transhiatal Esophagectomy
-
-# Ivor Lewis Esophagectomy
-
-# Esophagectomy Techniques
-
-For each of the different approaches, there are different surgical techniques:
-
-- Open technique uses a laparotomy and thoracotomy incisions.
-
-- Minimally-invasive technique uses small incisions and specialized instruments
-
-The minimally-invasive approach offers less discomfort and faster healing. An open approach is occasionally required for larger tumors.
-
-
-The decisions regarding the right operation for a particular patient is made by the surgeon and the patient together. The factors involved in making the decision are:
-
-- Location and size of the tumor
-- Patient's overall health
-- Surgeon's experience and preferences
+The good news is that an esophagectomy is much safer now than 20 years ago, due to improvements in technology and medical care. In general, the vast majority of patients go through surgery without major complications. At the same time, we want to do everything we can to reduce the chances of complications. 
 
 ---
 
@@ -164,24 +56,18 @@ The decisions regarding the right operation for a particular patient is made by 
 
 # Risks of Surgery
 
-An esophagectomy is a substantial operation, and it is associated with multiple risks. These can be categorized as follows:
+An esophagectomy is a substantial operation, and it is associated with multiple risks. These are three major possible complications:
 
-- Irregular heart rhythm (atrial fibrillation)
 - Pneumonia
 - Anastomotic leak
 - Death
 
 ---
 
-# Arrhythmia
-
-The esophagus normally lives right next to the heart, and as a result, it is common for the heart to be irritated during the course of esophagectomy.  In some cases, the heart rhythm can become irregular and the heart beats faster than normal.  If this happens, medicines can be required to slow the heart and restore a normal rhythm. 
-
----
 
 # Pneumonia
 
-Pneumonia is another common complication after esophagectomy, due in part to fact that esophagus is close to the right lung. 
+Pneumonia can occur after esophagectomy, due in part to fact that esophagus is close to the right lung. We have evidence that the risk of pneumonia is related to the muscle strength.  We have a video that talks about how you can increase your muscle strength before surgery in order to reduce the risk of pneumonia.
 
 ---
 
@@ -191,77 +77,57 @@ In most cases, the new connection between the esophagus and stomach, called the 
 
 ---
 
-# Death
+The rate of leak depends upon a number of factors, but one of them is the surgeon. Practice makes perfect, and surgeons who perform an esophagectomy frequently seem to have a lower risk of a leak than surgeons who don't perform the operation as frequently.
 
-An esophagectomy is a substantial operation.  It is unusual, but in some cases complications after surgery can result in death.  The risk of death depends upon the overall health of the patient, the tumor, and other factors.
+One of the things you will want to ask your surgeon is about how frequently their patients experience a leak.
+
 
 ---
-
-# Risks of Complications
-
-The risk of complications depends on three things:
-
-- Patient's overall health
-- Hospital Volume
-- Surgeon Experience
-
----
-
-# Patient Health and Esophagectomy Outcomes
-
-
-```{r, echo=F,  fig.height=6,fig.width=8}
-library(ggplot2)
-df1<-data.frame(pneumonia=c(0.20,0.10,0.05),strength=c("Low","Middle","Good"),pneumonia_labels =c("20%\nLow\nStrength","10%\nMiddle","5%\nGood"))
-strengths=c("Low","Middle","Good")
-p<-ggplot(data=df1, aes(x=strength,y=pneumonia))+
-  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +
-        geom_text(aes(label=pneumonia_labels),vjust=1.4, color="white",size=13.5)+
-  theme_minimal()+
-  theme( axis.text=element_text(size=14,face="bold"),axis.title=element_text(size=14, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=18)) +
-  ggtitle("Risk of Pneumonia after Esophagectomy") +
-  labs(y="Percent With Pneumonia",x="Strength Group") 
-p
-```
-
-
-
-An esophagectomy is a substantial operation, and the outcomes depend in part on the health 
-
-```{r, echo=F,  fig.height=6,fig.width=8}
-library(ggplot2)
-df1<-data.frame(mortality=c(0.10,0.05,0.001),strength=c("Low","Middle","Good"),mortality_labels =c("10%\nLow\nStrength","5%\nMiddle","0.0%\nGood"))
-strengths=c("Low","Middle","Good")
-p<-ggplot(data=df1, aes(x=strength,y=mortality))+
-  geom_bar(stat="identity", fill="steelblue")+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +
-        geom_text(aes(label=mortality_labels),vjust=1.4, color="white",size=13.5)+
-  theme_minimal()+
-  theme( axis.text=element_text(size=14,face="bold"),axis.title=element_text(size=14, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=16)) +
-  ggtitle("Mortality after Esophagectomy (90 Days)") +
-  labs(y="Percent Mortality",x="Strength Group") +
-  geom_text(x=3,y=0.03,label="<1% \nGood \nStrength", size=10)
-p
-
-```
-
-
-
 
 # Understanding Outcomes
 
-Let's talk Baseball for a minute.  Micky Mantle is regarded as one of baseball's greats, and this baseball card from 1952 is one of the most valuable in history.
+.pull-left[Let's talk Baseball for a minute. If you want to evaluate how a team is doing, you look at the scoreboard ]
 
-If you look at the back of his card, you'll find lost of statistics, including his batting average. The numbers are there for anyone to see, including his batting average. If you're a baseball fan, one of the ways you evaluate players is based upon their statistics.
+.pull-right[<img src="images/action-1850887_1920.jpg" width="100%" height = "100%"><img src="images/sports-4341729_1920.jpg" width="100%" height = "100%">]
+
+---
+
+
+.pull-left[If you want to evaluate a baseball player, you look at their batting average ]
+
+.pull-right[<img src="images/hit-1407826_1920.jpg" width="100%" height = "100%">]
+
+---
+
+.pull-left[Micky Mantle is regarded as one of baseball's greats, and this baseball card from 1952 is one of the most valuable in history.]
+
+.pull-right[<img src="images/mickey.jpg" width="100%" height = "100%">]
+
+
+---
+
+.pull-left[If you look at the back of his card, you'll find lost of statistics, including his batting average]
+
+.pull-right[<img src="images/mickey.jpg" width="100%" height = "100%">]
+
+---
 
 Unfortunately, there aren't baseball cards for hospitals and surgeons, and finding the statistics for a hospital or surgeon can be a challenge, but it's still important if you want the best chance for a good outcome after surgery.
 
 ---
+
 
 # Hospital Volume
 
 <small>Practice makes perfect in many things in life, and esophageal surgery is no exception.</small>
 
 Hospitals where an esophagectomy is performed more frequently in general have better outcomes than hospitals where the operation is only occasionally done. 
+
+---
+
+# Death
+
+An esophagectomy is a substantial operation.  It is unusual, but in some cases complications after surgery can result in death. 
 
 ---
 
@@ -284,7 +150,7 @@ p
 ```
 ---
 
-<small>The risk of death after esophagectomy is about twice as high in hospitals which perform less than 5 esophagectomy operations per year.</small>
+<small>The risk of death after esophagectomy is about twice as high in hospitals which perform less than 5 esophagectomy operations per year compared with those that perform more than 20 per year.</small>
 
 
 ```{r, echo=F, fig.height=6, fig.width=8, include=T}
@@ -305,9 +171,10 @@ p
 
 # Finding a Hospital
 
-The easiest way to find out whether a particular hospital is high volume or low volume is to ask your surgeon. 
+The easiest way to find out whether a particular hospital is high volume or low volume is to ask your surgeon or one of your doctors. 
 
-Another method is to do some research on the internet. The Leapfrog Group is a non-profit organization that collects and published safety in healthcare. Their website ranks hospitals for safety and can help you find a high-volume hospital.  A link to their website is available here: [HospitalSafetyGrade.org](https://www.hospitalsafetygrade.org)
+Another method is to do some research on the internet. The Leapfrog Group is a non-profit organization that collects and published safety in healthcare. Their website ranks hospitals for safety and can help you find a high-volume hospital.  A link to their website found in the comments below.
+[HospitalSafetyGrade.org](https://www.hospitalsafetygrade.org)
 
 ---
 
@@ -318,8 +185,6 @@ You can search on a hospital. Once there, click "View this hospital's leapfrog H
 Of course there are low-volume hospital that have good outcomes, but starting with a high-volume hospital is a place to start.
 
 ---
-
-The Leapfrog Group 
 
 # Choosing a Surgeon
 
@@ -333,15 +198,17 @@ The surgeon's track record of outcomes is also an extremely helpful way to predi
 
 Knowing your surgeon's outcomes is important, but knowing your surgeon's outcomes is probably more important.  Your surgeon should be able to tell you what their statistics are for outcomes like anastomotic leak, pneumonia, and death after surgery.
 
-If you surgeon doesn't know their personal statistics, you may want to look for a second opinion.  After all, if you met a professional baseball player, you would expect that they would be familiar with their batting average. 
+---
+
+If your surgeon doesn't know their personal statistics, you may want to look for a second opinion.  After all, if you met a professional baseball player, you would expect that they would be familiar with their batting average. 
 
 ---
 
 # Questions for Your Surgeon
 
-1) How many esophagectomy operations are performed each year in your hospital?
-2) How many esophagectomy operations do you perform personally each year?
-3) What are your overall rates of complications?
+1. How many esophagectomy operations are performed each year in your hospital?
+2. How many esophagectomy operations do you perform personally each year?
+3. What are your overall rates of complications?
   - Pneumonia
   - Anastomotic Leak
   - Death in the first 90 days after surgery
@@ -349,7 +216,72 @@ If you surgeon doesn't know their personal statistics, you may want to look for 
 ---
 
 
+I would love to hear you comments about this video, so please leave a comment below.  If you are contemplating an esophagectomy, please let us know how you chose a surgeon and a hospital. 
 
+We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
+
+--
+
+
+
+
+
+
+
+---
+
+An esophagectomy is a substantial operation, and rarely this can result in death. Overall, for patients at our hospital, the overall risk of death within the first 90 days of surgery for the average patient after esophagectomy is about 3%.
+
+It's important to note that 97% of patients get through the first 3 months after surgery without problems, 
+
+
+---
+
+```{r , message=FALSE, warning=FALSE, mortality2a, echo=F}
+df2<-data.frame(mortality=c(0,0,.966,0.033,0,0),strength=c("  ","  ","Average","Average","    ","    "), Outcome=c("No Mortality", "Mortality","No Mortality", "Mortality","No Mortality", "Mortality"),mortality_labels=c("","","3.3%","", "",""),ordering=c(5,5,2,2,1,1), yordering = c(0,1,0,1,0,1))
+#group_widths=c(25,25,50)
+p<-ggplot(data=df2, aes(x=reorder(strength,ordering),y=mortality, fill=reorder(Outcome,yordering) ))+
+  geom_bar(stat="identity", color=c("white","white","black","black","white","white"))+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,1)) +
+  #geom_text(aes(label=mortality_labels),vjust=-1,color="black" ,size=12)+
+  theme_minimal()+
+  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
+  ggtitle("Risk of Mortality after Esophagectomy") +
+  labs(y="",x="Risk Group",fill="Outcome") +
+  scale_fill_manual(values=c("white","#EFB700"))+
+  scale_color_manual(values=c("black","black","black"))+
+  theme(legend.key = element_rect(color="black"), legend.title = element_text(size=16), legend.text =element_text(size=14)  )+
+  annotate("text", x =2,y=0.6, label= "97%\nNo\nMortality", size=8)+
+    theme(legend.position="none")+
+  annotate("text", x =1.2,y=0.1, label= "3%\nMortality", size=8)+
+    theme(legend.position="none")
+p
+```
+
+---
+
+As with the risk of pneumonia, the risk of mortality after esophagectomy is not the same for everyone.  Recall that half of the patients that we see are good risk with good overall health.  For those patients, the risk of death after surgery is very small, and is less than 1%.
+
+On the other hand, for the quarter of patients who are in poor overall health, the risk of mortality after esophagectomy is approximately 10% in the first 90 days after surgery.
+
+---
+
+
+```{r, strength_fig21, echo=F,  fig.height=6,fig.width=8, message=F, warning=FALSE}
+library(ggplot2)
+df1<-data.frame(mortality=c(0.10,0.05,0.001),strength=c("High","Average","Good"),mortality_labels =c("10%\nHigh\nRisk","5%\nAverage","0.0%\nGood"))
+strengths=c("High","Average","Good")
+p<-ggplot(data=df1, aes(x=strength,y=mortality))+
+  geom_bar(stat="identity", fill=c("#B81D13","#EFB700","#008450"))+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1),limits=c(0,.1)) +
+        geom_text(aes(label=mortality_labels),vjust=1.4, color="white",size=12)+
+  theme_minimal()+
+    scale_color_manual(values=c("black","black","black"))+
+  theme( axis.text=element_text(size=20,face="bold"),axis.title=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=20)) +
+  ggtitle("Mortality after Esophagectomy (90 Days)") +
+  labs(y="Percent Mortality",x="Risk Group") +
+  geom_text(x=3,y=0.03,label="<1% \nGood \nRisk", size=10)
+p
+
+```
 
 
 ---
@@ -407,7 +339,7 @@ p
 
 ```
 
-
+---
 
 
 
