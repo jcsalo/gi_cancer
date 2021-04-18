@@ -1,0 +1,131 @@
+
+---
+title: "Esophageal Cancer"
+subtitle: "Trimodality Therapy"
+author: "Jonathan Salo MD"
+institute: "Levine Cancer Institute, Charlotte NC"
+#date: "Click Down Arrow to Begin"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+  html_document: default
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+  pdf_document: default
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 34px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+
+
+
+<!--- --->
+<!--- --->
+
+
+
+# Introduction
+
+I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
+
+If you're viewing this video, chances are that you or someone close to you has encountered esophageal cancer and is contemplating treatment.
+
+---
+
+This video focuses on patients with locally advanced esophageal cancer. This is defined as T3 or Node-positive esophageal cancer.  
+
+If that terminology is unfamiliar or you haven't seen our video on Esophageal Cancer Treatment Options video, a link is provided in the description.
+
+
+---
+
+For a refresher, we have four major categories of esophageal cancers:
+
+- Superficial -> Treated without surgery
+- Localized -> Treated with surgery alone
+- Locally Advanced -> Chemotherapy + Radiation -> Surgery
+- Metastatic -> Chemotherapy
+
+---
+
+We're going to focus on two categories: localized and locally advanced
+
+---
+
+.pull-left[This drawing shows a localized tumor. These tend to be smaller tumors that are less likely to spread to lymph nodes]
+
+.pull-right[<img src="images/t2n0Artboard 3@4x.png" width="100%" height = "100%">]
+
+---
+
+.pull-left[This shows a locally-advanced tumor which is either T3. These tumors are more likely to spread to lymph nodes.]
+
+.pull-right[<img src="images/t3n01Artboard 3@4x.png" width="100%" height = "100%">]
+
+---
+
+.pull-left[Esophagectomy removes the tumor and the surrounding lymph nodes.  Unfortunately, once tumor cells have spread to the lymph nodes, there is a risk of microscopic disease that can't be seen and can't be removed by surgery alone.]
+
+.pull-right[<img src="images/Eso_Resection2Artboard 2@4x.png" width="100%" height = "100%">]
+
+---
+
+For this reason, for tumors that have a change of spread to lymph nodes, the best approach is to use chemotherapy and radiation before surgery to kill microscopic tumor cells, in order to make certain that no tumor cells are left behind after surgery.
+
+---
+
+Cancers that at T2N0 are considered localized, and surgery alone is usually adequate. 
+
+Cancers that are T3 or N1 are considered locally advanced, and treated with chemotherapy and radiation before surgery.
+
+---
+
+# Trimodality Therapy
+
+Over 10 years ago, researchers in the Netherlands took a group of 363 patients with esophageal cancer and divided them into two groups. They they treated the two groups with two different treatment strategies.
+
+The first group was treated with surgery alone.
+
+The second group was treated with chemotherapy and radiation together for six weeks, followed by surgery.
+
+---
+
+The results were quite dramatic: The group that was treated with all three therapies, chemotherapy and radiation and surgery, lived on average twice a long as patients who had surgery alone.
+
+---
+
+This scientific study was called the CROSS trial.  The therapy called tri-modality therapy, because three therapies are administered: chemotherapy, radiation, and surgery.
+
+--
+
+A typical schedule for trimodality is six weeks of chemotherapy and radiation together.  Chemotherapy is given once a week, and radiation five days per week.
+
+```
+
+Several weeks after the end of radiation therapy, a PET or CT scan is done to look at the response. Surgery is typically done 8 weeks after the end of radiation.
+
+
+```
+
+# Side Effects
+
+```
+
+
+```
+
+I would love to hear you comments about this video, so please leave a comment below.  If you are receiving chemotherapy and radiation, please let us know about your experience. 
+
+We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
+
+
+
