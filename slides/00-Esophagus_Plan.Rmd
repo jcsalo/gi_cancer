@@ -2,8 +2,8 @@
 title: "Esophagus Plan"
 date: "`r Sys.Date()`"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -12,64 +12,61 @@ output:
       countIncrementalSlides: false
 ---
 
-[Plan Overview](plan_overview.pdf)
+[Plan Overview Map](plan_overview.pdf)
 
 ---
 
-[01-intro_LCI](01-intro_LCI.pdf)
+[LCI Introduction](01-intro_LCI.pdf)
 
 - Directions/Parking
 - Links to my Atrium
 
 ---
 
-[02-Eso_Dx_Staging](02-Eso_Dx_Staging.pdf)
+[EsoCa Diagnosis and Staging](02-Eso_Dx_Staging.pdf)
 
 - Dx tests (EGD, EUS, PET,Laparoscopy)
 - TNM Staging
 
 ---
 
-04 - Esophageal Treatment Options (full)
+[EsoCa Treatment Options] (04-Eso_Rx_Options.pdf)
 
 Covers all 4 Rx stages
 
-Links
+Links to: 
 
-- [06-Eso_Early](#06-Eso_Early)
+- [EsoCa Early Stage](06-Eso_Early.pdf)
 
-- [08-Eso_Advanced](#08-Eso_Advanced)
-
----
-
-name: 06-Eso_Early
-
-06-Eso_Early
-
-Links
-
-- [10_Eso_Endo_Rx](#10-Eso_Endo_Rx)
-
-- 12_Primary Surgery
-
+- [EsoCa Advanced](08-Eso_Advanced.pdf)
 
 ---
 
-## 08-Eso_Advanced
+[EsoCa Early Stage](06-Eso_Early.pdf)
+
+-Early Stage present without Dysphagia
+-EUS needed to distinguish T1 from T2
+
+Links
+
+- [Endoscopic_Rx](10-Eso_Endo_Rx.pdf)
+
+- [Eso Primary Surgery](12-Eso_Surgery.pdf)
+
+
+---
+
+[EsoCa Advanced](08-Eso_Advanced.pdf)
 
 Links 
 
-- 14_Trimodality Therapy
+- [Trimodality Therpay](14_Trimodality.pdf)
 
-- 16_Systemic Therapy
-
-name: 08-Eso_Advanced
+- [Systemic Therapy](16_Systemic.pdf)
 
 ---
 
-name: endoscopic_tx
-
-## 10 - Endoscopic Therapy
+[Endoscopic Therapy](10-Eso_Endo_Rx.pdf)
 
 Incoming Links
 
