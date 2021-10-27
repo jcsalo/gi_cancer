@@ -67,7 +67,7 @@ We're going to focus on two categories: localized and locally advanced
 
 ---
 
-.pull-left[This shows a locally-advanced tumor which is either T3. These tumors are more likely to spread to lymph nodes.]
+.pull-left[This shows a locally-advanced tumors which are either T3 or has tumor spread to lymph nodes. These tumors are more likely to spread to lymph nodes.]
 
 .pull-right[<img src="images/t3n01Artboard 3@4x.png" width="100%" height = "100%">]
 
@@ -79,7 +79,9 @@ We're going to focus on two categories: localized and locally advanced
 
 ---
 
-For this reason, for tumors that have a change of spread to lymph nodes, the best approach is to use chemotherapy and radiation before surgery to kill microscopic tumor cells, in order to make certain that no tumor cells are left behind after surgery.
+For patients with esophageal cancer that is either T3 or Node-positive, research has shown that *initial* treatment with chemotherapy and radiation therapy makes the surgery more effective by killing microscopic tumor cells that can't be detected at the time of surgery. Based upon this research, the most effective ther
+
+Research has shown that a combination of chemotherapy and radiation, 
 
 ---
 
