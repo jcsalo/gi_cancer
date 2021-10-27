@@ -66,17 +66,23 @@ Links
 name: 08-Eso_Advanced
 
 ---
+
 name: endoscopic_tx
 
-10 - Endoscopic Therapy
+## 10 - Endoscopic Therapy
 
 Incoming Links
 
 - [06 - Esophageal Stage I/II Rx Options](#eso_stage_I_II)
 
 ---
-name: primary_surgery
+
+name: 12-Eso_Surgery
 
 12 - Primary Surgery
+
+---
+
+name: 
 
 
