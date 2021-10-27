@@ -9,7 +9,7 @@ knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FAL
 
 Videos are available on YouTube: https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c
 
-[Introduction to Levine Cancer Institute](slides/01-slides.html)
+[Introduction to Levine Cancer Institute](slides/01-intro_LCI.html)
 
 
 
@@ -18,13 +18,13 @@ Videos are available on YouTube: https://www.youtube.com/channel/UC5Deez8jUMnLhc
 ### Diagnosis/Staging
 
 ```{r}
-knitr::include_url("slides/01-slides.html")
+knitr::include_url("slides/02-Eso_Dx_Staging.html")
 ```
 
 ### Treatment Overview
 
 ```{r}
-knitr::include_url("slides/02-slides.html")
+knitr::include_url("slides/04_RxOptionsEsoCa.html")
 ```
 
 - R for Data Science, Data Visualization Chapter: http://r4ds.had.co.nz/data-visualisation.html

@@ -2,6 +2,7 @@
 title: "Esophagus Plan"
 date: "`r Sys.Date()`"
 output:
+  pdf_document: default
   html_document: default
   xaringan::moon_reader:
     lib_dir: libs
@@ -9,18 +10,20 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-  pdf_document: default
 ---
 
-[LCI Introduction](01-intro_LCI.html)
+[Plan Overview](plan_overview.pdf)
+
+---
+
+[01-intro_LCI](01-intro_LCI.pdf)
 
 - Directions/Parking
-- Links to virtual platform
-- Link to virtual platform videos
+- Links to my Atrium
 
 ---
 
-02 - Esophgaeal Dx and Staging [link](02-Eso_Dx_Staging.html)
+[02-Eso_Dx_Staging](02-Eso_Dx_Staging.pdf)
 
 - Dx tests (EGD, EUS, PET,Laparoscopy)
 - TNM Staging
@@ -33,24 +36,26 @@ Covers all 4 Rx stages
 
 Links
 
-- 06-Eso_Stage_I_II
+- [06-Eso_Early](#06-Eso_Early)
 
-- 08-Eso_Stage_III_IV
+- [08-Eso_Advanced](#08-Eso_Advanced)
 
 ---
 
-06-Eso_Stage_I_II
+name: 06-Eso_Early
+
+06-Eso_Early
 
 Links
 
-- 10_Endoscopic Therapy
+- [10_Eso_Endo_Rx](#10-Eso_Endo_Rx)
 
 - 12_Primary Surgery
 
 
 ---
 
-08-Eso_Stage_III_IV
+## 08-Eso_Advanced
 
 Links 
 
@@ -58,15 +63,20 @@ Links
 
 - 16_Systemic Therapy
 
+name: 08-Eso_Advanced
+
 ---
+name: endoscopic_tx
 
 10 - Endoscopic Therapy
 
 Incoming Links
 
-- [06 - Esophageal Stage I/II Rx Options]()
+- [06 - Esophageal Stage I/II Rx Options](#eso_stage_I_II)
 
 ---
+name: primary_surgery
 
+12 - Primary Surgery
 
 

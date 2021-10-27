@@ -1,0 +1,273 @@
+
+---
+title: "Esophageal Cancer"
+subtitle: "Treatment Overview"
+author: "Jonathan Salo MD"
+institute: "Levine Cancer Institute, Charlotte NC"
+date: "Click Right Arrow to Begin"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+  html_document: default
+  pdf_document: default
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 34px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+<!--- P10000266--->
+<!--- Premiere: Intro_02--->
+# Introduction
+
+I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
+
+If you or someone close to you has been diagnosed with esophageal cancer, this video is for you.
+
+In this video, you will learn about
+
+- Four different categories of esophageal cancer
+- How the cancer stage helps make treatment decisions
+
+---
+
+These videos were designed to help my patients understand their cancer and its treatment. 
+
+The internet is a great tool for learning, including learning about cancer.
+
+But when you or a family member receives a new diagnosis of cancer, it's important that you receive information that is specifically tailored to your situation.
+
+---
+
+There are four different treatment categories of esophageal cancer
+
+- I = Superficial -> Treated without surgery
+- II = Localized -> Treated with surgery alone
+- III = Locally Advanced -> Chemotherapy + Radiation -> Surgery
+- IV = Metastatic -> Chemotherapy
+
+---
+
+# Deciding on Treatment
+
+Several Factors go into making a decision about treatment for esophageal cancer:
+
+- Cancer Stage
+- Overall fitness of the patient
+- Patient preferences
+
+The first task once we have a new diagnosis of cancer is staging. Staging is the process of finding out the extent of the cancer and how far it might have spread.
+
+In some cases, there may be more than one treatment that is appropriate for the cancer stage, but the different treatments may be more or less rigorous.  In these cases, the overall health of the patient will help find the best treatment.
+
+In other cases, there may be more than one treatment option and 
+
+---
+
+This video will cover all four treatment categories, which for many people allows them to get a broad overview, but for some it can be a bit overwhelming because there is a lot of information that *may not* apply to them.
+
+Some of you will want more specific information that applies to your situation or that of a family member. I'll try to direct you to the right information.
+
+---
+
+# Category? Stage?
+
+You'll notice I'm using the terms " Treatment Category I" rather than "Stage I". The reason is very simple.  The cancer staging system was originally designed for researchers to predict outcomes after cancer treatment. 
+
+But for cancer patients and their families, what's important is what the best treatment is for their cancer.  Unfortunately, the cancer stages don't exactly line up with how that cancer is treated.
+
+For instance, some Stage II patients are best treated with surgery while other Stage II patients are best treated with a combination of chemotherapy, radiation, and surgery.
+
+The goal of these videos is to help patients understand *cancer treatment*.
+
+Having said that, Stage 1 patients are *generally* treated with Treatment Category I, and the same with Stages 2, 3, and 4
+
+
+---
+
+# What if I don't know the stage?
+
+If you haven't met with your treatment team to talk about the stage, I can give you some general direction to help get you started.
+
+Patients who had difficulty swallowing usually have Category III or Category IV cancers. If you want more specific information esophageal cancer and there is difficulty swallowing or weight loss involved, Click on the link above, which will give you information about how we approach esophageal cancer when there is difficulty swallowing. These videos talk about Category III and Stage IV cancers of the esophagus, and about staging and treatment. 
+[Esophageal Cancer Treatment - Stage 3_4](08-Eso_Advanced.html)
+
+
+
+Patients without difficulty swallowing often have Stage I or Stage II cancers. These patients may have bleeding, or heartburn, or may have no symptoms.  If you want more specific information about Category I or Category II cancers, click on the link above. This video will give you information about Category I and Category II cancers, and about staging and treatment.
+
+[Esophageal Cancer Treatment - Stage 1_2](06-Eso_Early.html)
+
+---
+
+The first step in designing a treatment plan for esophageal cancer is staging. If you haven't seen it already, please see the video about esophageal cancer diagnosis and staging to give you an overview.
+
+[Esophageal Cancer Diagnosis and Staging](02_Eso_Dx_Staging.html)
+
+---
+
+Once we have determined the Tumor, Nodes, and
+Metastasis category, for a tumor, we can begin
+to develop a treatment plan.
+Here’s where things get a bit complicated
+American Joint Commission on Cancer publishes
+a book about the staging system for esophageal
+cancer, and it’s a bit complex
+--
+The AJCC staging system is designed for research
+and statistics, and it consists of 13 different
+categories. As you might imagine, it’s too
+complex for our purposes.
+The purpose of these videos is for you to have
+enough background that you can have an
+informed decision with your esophageal cancer
+care team.
+We’ll talk about that team later in the video
+
+---
+For simplicity, we are going to talk about different
+treatment categories of esophageal cancer, and
+how they are generally treated. You and your
+cancer care team will find the right treatment
+that’s best for you
+
+---
+
+In general, we can talk about four different
+categories of esophageal cancer:
+Superficial cancers can frequently be treated with
+endoscopy, without the need for surgery
+Early stage cancers can be treated with surgery
+and frequently don’t require chemotherapy or
+radiation
+Locally advanced cancers are usually treated with
+chemotherapy and radiation first, then surgery
+Metastatic cancers are usually treated with
+chemotherapy
+---
+
+Superficial cancers are T1a and some T1b
+cancers. These can frequently be removed from
+inside the esophagus with an endoscope and
+never need surgery.
+Early stage cancers are T1b and some T2
+cancers. These are usually treated with surgery
+and don’t need chemotherapy and radiation
+---
+Locally advanced tumors are T3 or node-positive
+tumors, meaning N1 or N2 or N3. These cancers
+are treated with chemotherapy and radiation
+first, which is then followed by surgery.
+
+Metastatic cancers are M1, in which cancer has
+spread to other organs. These cancers are
+treated with chemotherapy.
+---
+
+
+To Summarize:
+Superficial Cancers can be treated with an
+endoscope without the need for surgery using
+techniques such as endoscopic mucosal
+resection. These tumors are generally T1aN0M0
+---
+This drawing represents a superficial tumor which
+would be a candidate for endoscopic therapy:
+The tumor is T1a, and just invades the top layer.
+The lymph nodes are N0, which means there is
+no signs of spread to the lymph nodes
+---
+This drawing shows an early-stage tumor which
+would be a candidate for primary surgery:
+Either T1b or T2, these tumors invade to far into
+the wall of the esophagus to be treated with
+endoscopic therapy. The lymph nodes are N0,
+which means there is no signs of spread to the
+lymph nodes
+---
+
+This shows a locally-advanced tumor which is
+either T3 or has positive nodes, meaning N1 or
+N2 or N3
+These tumors are best treated by a combination of
+chemotherapy and radiation, followed by surgery
+---
+
+Esophageal cancer is considered metastatic if
+there is signs of spread to other organs such as
+the liver, lungs, or bone. These cancers are
+considered M1 and are best treated with
+chemotherapy.
+---
+
+#Care Team
+
+The care of esophageal cancer takes a whole
+team working together to give you the best care.
+Let’s take a look at the different team members:
+---
+Gastroenterologist works with an endoscope,
+which is a flexible tube which inserted through
+the mouth into the esophagus. The
+gastroenterologist may perform one of several
+procedures in your care:
+
+Upper endoscopy to examine the inside of the
+esophagus and stomach and biopsy any
+concerning areas
+
+Endoscopic ultrasound is used in some cases to
+carefully examine the depth of invasion of a
+tumor in the esophagus or stomach
+
+---
+
+
+A gastroenterologist may also treat superficial
+cancers of the esophagus and stomach with
+endoscopic therapy such as an endoscopic
+mucosal resection
+---
+
+Diagnostic radiologist
+Interpret CT or PET scans
+Perform biopsies under the guidance of CT or
+ultrasound
+---
+
+Medical Oncologist
+Treat cancer with chemotherapy or
+immunotherapy, using drugs given intravenously
+(and sometimes by pill).
+---
+Radiation Therapist
+Treats cancer with high-energy x-rays that target
+tumors in the esophagus and nearby lymph
+nodes
+---
+# Surgeon
+Perform surgery to remove the cancer in the
+esophagus and surrounding lymph nodes and
+reconstruct the gastrointestinal tract. This
+usually means creating a new esophagus from a
+portion of the stomach.
+A surgeon would also place a feeding tube if
+needed, and place a central venous port for
+chemotherapy.
+---
+Treatment is based upon stage and the ability of a
+patient to undergo treatment
+In some cases, treatment decisions are
+straightforward, while in others, decision-making
+is more complex
+Complex cases often require consultation with
+other specialists
+---
+
+

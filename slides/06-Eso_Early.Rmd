@@ -1,0 +1,48 @@
+---
+title: "Early Stage Esophgaeal Cancer"
+author: "Jonathan Salo MD"
+institute: "Levine Cancer Institute"
+date: "<small>Click Right Arrow to Begin</small>"
+#date: "`r Sys.Date()`"
+params:
+  hide: FALSE
+  show: FALSE
+output:
+  html_document:
+  pdf_document: default
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+always_allow_html: yes
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 32px;
+    padding: 1em 4em 1em 4em;
+    line-height: 1.6;
+}
+</style>
+
+```{r, setup, echo=F, warning=FALSE}
+#remotes::install_github("gadenbuie/xaringanExtra")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_scribble()
+```
+
+<!--- P10000266--->
+<!--- Intro_02--->
+I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
+
+.font60[If you’re seeing this video, it’s likely because you have an upcoming consultation scheduled.]
+
+You may have a recent diagnosis of cancer. Whatever your situation, we have a great team of people who can help you every step of the way.
+
+[Plan](00-Esophagus_Plan.pdf)
+
+---
+
+name: start
+

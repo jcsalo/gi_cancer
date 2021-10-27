@@ -7,8 +7,8 @@ institute: "Levine Cancer Institute, Charlotte NC"
 #date: "Click Down Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   xaringan::moon_reader:
     lib_dir: libs
     nature:

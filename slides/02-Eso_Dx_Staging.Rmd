@@ -22,7 +22,7 @@ params:
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 34px;
+    font-size: 32px;
     padding: 1em 4em 1em 4em;
 }
 </style>
@@ -33,7 +33,7 @@ If you or someone close to you has recently been diagnosed with esophageal cance
 I’m Dr Jonathan Salo and I'm a GI Cancer Surgeon.
 
 ---
-```{r, echo=F}
+```{r, echo=F, warning=FALSE,comment='', message=FALSE}
 library(knitr)
 ```
 
