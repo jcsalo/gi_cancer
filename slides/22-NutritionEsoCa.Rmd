@@ -1,0 +1,175 @@
+
+---
+title: "Nutrition for Esophgeal CA"
+subtitle: "⚔<br/>with xaringan"
+author: "Jonathan Salo"
+institute: "Levine Cancer Institute"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 32px;
+    padding: 1em 4em 1em 4em;
+    line-height: 1.6;
+}
+</style>
+<!--- P10000266--->
+<!--- Premiere: Intro_02--->
+# Introduction
+
+I’m Dr Jonathan Salo, I’m a GI Cancer Surgeon
+Esophageal cancer can cause difficulty with
+swallowing, which can limit your body’s ability to
+get the nutrition you need in order to keep your
+body healthy during cancer treatment.
+In this video you’ll learn about
+
+- Essential building blocks for good nutrition
+- Protein supplements
+- Feeding tubes
+---
+There are four major nutritional building block:
+Carbohydrates
+Fats
+Micronutrients
+Protein
+---
+Carbohydrates are important for energy
+There are many different kinds of carbohydrates:
+There are sugars, which make food taste sweet
+but are also hard on your liver and pancreas
+There are starches, which also provide a source of
+energy but are easier on your system.
+Starches are large molecules made up of a long chain of sugars. 
+--
+Fats are a second category of nutrients.
+Fats make food taste better and are important in
+small quantities for rebuilding tissue.
+The average American diet, however, contains
+more fat than most people need
+--
+Micronutrients are the vitamins and minerals your
+body needs to keep functioning smoothly.
+A daily vitamin is enough for most people.
+In some cases, your doctor may recommend iron
+supplementation, but only if your iron levels are
+low
+---
+# Protein
+Protein is the essential building block of tissue in
+your body, especially muscle.
+If you don’t have enough protein in your diet, you
+can lose muscle mass, which can result in
+weakness and fatigue
+---
+Protein is found in meats, fish, eggs, nuts, and
+beans.
+Your dietitian can give you a more precise number,
+but in general the average woman needs 60
+grams of protein per day and the average man
+needs 75 grams of protein per day
+---
+For many people with esophageal cancer,
+however, eating meat can be difficult.
+Because of this, inadequate protein intake is the
+most common nutritional problem for patients
+with esophageal cancer.
+---
+For patients who have difficulty eating, we
+recommend protein supplements to make
+certain they have enough protein to stay healthy.
+---
+#Protein Supplements
+When we talk about protein supplements, we will
+talk about two different categories:
+
+- Protein Shakes
+- Meal Supplements
+---
+Protein shakes contain protein and flavoring and
+may contain micronutrients, but don’t tend to
+contain much in the way of carbohydrates or fat.
+An example of a protein shake would be Premier
+Protein or Pure Protein.
+---
+# Meal Replacements
+Meal replacements contain protein as well as
+carbohydrates, either in the form or sugars or
+dietary fiber, along with fats. Examples of meal
+replacements would be Ensure or Boost.
+---
+Your dietitian will help decide whether a protein
+shake or meal replacement is best for you, but
+for most patients that are able to take at least
+some other food, **protein shakes** taste better and
+are usually more suitable.
+Bear in mind that the average woman need 60
+grams of protein per day, and the average man
+needs 75 grams of protein per day, so it will be
+important to read the label to make certain
+you’re getting enough protein
+---
+For most people with esophageal cancer who
+have difficulty eating, things can get worse
+during esophageal cancer therapy.
+The reason is that the most common initial
+treatment in chemotherapy and radiation.
+Chemotherapy can tend to depress your appetite.
+Radiation can lead to a temporary ‘sunburn’ on the
+inside of the esophagus called radiation
+esophagitis. This usually gets better after the
+radiation ends, but during the radiation it can make it more difficult to swallow.
+---
+One of the questions you will want to address with your esophageal cancer care team is whether or
+not you need a feeding tube to help with yournutrition during cancer treatment.
+Your dietitian and physicians will evaluate your situation and made a recommendation.
+Let’s take a look at the options:
+---
+A gastrostomy tube is placed into the stomach by
+a surgical procedure. Feedings can be
+administered with a syringe. A gastrostomy tube
+still allows you to each as much normally as you
+would like.
+
+A jejunostomy tube is placed into the jejunum, or
+the first portion of the small intestine. Feedings
+require a pump and are generally given
+overnight, which can take 12-16 hours. A
+jejunostomy tube still allows you to each as
+much normally as you would like.
+---
+The decision between a gastrostomy tube and
+jejunostomy tube can be a little complex, but
+here are some general principles.
+For those with stomach cancer who need
+supplemental feeding, a jejunostomy tube is
+needed.
+
+For patients who undergo surgery on the
+esophagus, a jejunostomy tube is frequently
+used after surgery
+---
+For patients who have esophageal cancer and
+who are undergoing chemotherapy and
+radiation, either a gastrostomy tube or
+jejunostomy tube can be used, depending upon
+whether or not surgery on the esophagus is
+planned.
+This is a more complicated decision that your care
+team will make in coordination with your
+surgeon.
+---
+
+I hope this video has been helpful.
+Here are links to other videos you may find helpful.
+Feel free to subscribe in order to be notified about
+new videos
+
+

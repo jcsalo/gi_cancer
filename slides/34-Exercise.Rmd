@@ -1,0 +1,328 @@
+
+---
+title: "Exercise and Cancer Surgery"
+#subtitle: "Surgery"
+author: "Jonathan Salo MD"
+institute: "Levine Cancer Institute, Charlotte NC"
+#date: "Click Down Arrow to Begin"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  html_document: default
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params: 
+  pdf_param:TRUE
+always_allow_html: yes     
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 32px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+<!--- P10000266--->
+<!--- Premiere: Intro_02--->
+# Introduction
+
+I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
+
+If you're watching this video, you or someone you know may be contemplating cancer surgery.
+
+In this video, you will learn about muscle strength and cancer how exercise can help reduce your complications after surgery.
+
+If you haven't already seen our video about nutrition and cancer surgery, there is a link in the description below.
+
+---
+
+# Nutrition
+
+The foods we eat provide three things to our bodies:
+
+-   Carbohydrates: fuel for energy
+-   Protein: building blocks for muscle
+-   Fat: fuel for storing energy
+
+---
+
+# Muscle Loss in Cancer
+
+Patients with GI cancers often start to eat less and can lose weight
+
+- Cancer in the esophagus or stomach can make it harder to eat. 
+
+- Patients with cancer can lose their appetite, which decreases how much they eat
+
+---
+
+# Nutrition
+
+When your intake of carbohydrates decreases, your body looks for a source of energy. There are two placed your body can find additional fuel for energy:
+
+- Fat in your body
+- Muscle in you body
+
+Many of us are happy with the loss of fat in our body when we lose weight, but what many people don't realize is that when we lose weight, we often lose muscle as well.
+
+---
+
+
+.pull-left[Imagine for a moment a log cabin in the mountains. Before winter sets in, you would want to have enough firewood available for fuel during the cold weather.]
+
+.pull_right[<img src="images/cabin-918914_1920.jpg" width="50%" height = "50%"><img src="images/chainsaw-2396616_1920.jpg" width="50%" height = "50%">]
+
+
+---
+
+.pull-left[Once winter comes, you would use that firewood as fuel to stay warm.]
+
+.pull_right[<img src="images/wood-1146640_1920.jpg" width="50%" height = "50%"><img src="images/fireplace-5103159_1920.jpg" width="50%" height = "50%">]
+
+---
+
+.pull-left[If you get snowed in, you might start running out of fuel.]
+
+.pull_right[<img src="images/schnedach-273033_1920.jpg" width="50%" height = "50%"><img src="images/wood-1884339_1920.jpg" width="50%" height = "50%">]
+
+---
+
+.pull-left[If you run out of firewood, you might have to start burning some of the logs just to stay warm.]
+
+.pull_right[<img src="images/log-building-340492_1920.jpg" width="50%" height = "50%"><img src="images/fire-4411097_1920.jpg" width="50%" height = "50%">]
+
+---
+
+# Muscle Loss
+
+The same thing happens to your muscle when you lose a lot of weight:  If your body can't get enough energy from the food you eat, it can start to use your muscle as a source of energy. 
+The result can be a loss of muscle. It can be hard to notice, because it happens gradually, but this can cause fatigue and a decrease in energy.
+
+---
+
+# Muscle Loss Evaluation
+
+When we see patients in the office, we test their muscle strength. We frequently find that our patients with GI cancers have lost muscle strength.
+
+---
+
+# Testing Muscle Strength
+
+.pull-left[We can test your muscle strength with a simple gauge called a dynamometer.]
+
+.pull_right[<img src="images/450px-Hand_dynamometer.jpg" width="50%" height = "50%">]
+
+---
+
+
+# Patient Health and Esophagectomy Outcomes
+
+About half of our patients have good strength, shown in green.
+A quarter are have low strength, shown in red
+Another quarter are in the middle, shown in yellow
+
+---
+
+```{r pie, echo=F}
+library(ggplot2)
+
+#create data frame
+data <- data.frame("Group" = c('Good', 'Middle', 'Low'),
+                   "amount" = c(50, 25, 25),
+                   "risk" = c(.1,.05,.005),
+                   "pos" = c(75,13,36))
+data<-data[order(-data$risk),]
+data$category<-factor(data$Group, levels = c("Low","Middle","Good"))
+legend_ord<-c("Good","Middle","Low")
+
+#create pie chart
+ggplot(data, aes(x="", y=amount, fill=Group)) +
+  geom_bar(stat="identity", width=1) +
+  coord_polar("y", start=pi) +
+  theme_void()+
+  #scale_fill_discrete(breaks=legend_ord)
+  scale_fill_manual(values=c("#008450","#EFB700","#B81D13"), breaks=legend_ord)+
+  theme(legend.position="none")+
+  geom_text(aes(x=1, y = pos, label = Group),size=8)+
+  labs(title="Muscle Strength", face="bold", size=14)+
+  theme(plot.title=element_text(size=20, face="bold", hjust=0.5))
+
+#data
+
+```
+---
+
+The risk of pneumonia after esophagectomy depends upon muscle strength.  For patients with good strength, the rate of pneumonia is 5%.  But for the group with low strength, the rate of pneumonia is 20%.
+
+---
+
+
+```{r , message=FALSE, warning=FALSE, pneumonia_fig2b, echo=F}
+library(ggplot2)
+df1<-data.frame(pneumonia=c(0.20,0.10,0.05),strength=c("Low","Middle","Good"),pneumonia_labels =c("20%\nLow\nStrength","10%\nMiddle","5%\nGood"))
+strengths=c("Low","Middle","Good")
+group_widths=c(25,25,50)
+p<-ggplot(data=df1, aes(x=strength,y=pneumonia))+
+  geom_bar(stat="identity", fill=c("#B81D13","#EFB700","#008450"))+scale_x_discrete(limits=strengths)+scale_y_continuous(labels = scales::percent_format(accuracy=1)) +
+        geom_text(aes(label=pneumonia_labels),vjust=1.2, color="white",size=11)+
+  theme_minimal()+
+  theme( axis.text=element_text(size=20,face="bold"),axis.title.x=element_text(size=20, face="bold"),axis.title.y=element_text(size=20, face="bold"),plot.title = element_text(hjust=0.5,face="bold",size=24)) +
+  ggtitle("Risk of Pneumonia after Esophagectomy") +
+  labs(y="Percent With Pneumonia",x="Muscle Strength") 
+p
+```
+---
+
+# Muscle Strength and Esophagectomy
+
+.pull-left[The results of our research suggest a simple answer: The risk of pneumonia after surgery is related to a patient's muscle strength.]
+
+.pull-right[<img src="images/emancipation-156066_1280.png" width="100%" height = "100%">]
+
+---
+
+.pull-left[Now this doesn't mean that you need to look like this to be able to get through your esophagectomy]
+
+.pull-right[<img src="images/man-461195_1920.jpg" width="100%" height = "100%">]
+
+
+---
+
+The good news is that you can increase your muscle mass before surgery in two very simple ways:
+
+- Good nutrition with lots of protein
+
+- Exercise
+
+---
+
+To rebuild muscle, the average man needs to consume 75 grams of protein per day, and women at least 60 grams. 
+
+If you haven't watched our video on Nutrition for Esophageal Cancer Treatment, there will be a link at the end of the video.
+
+---
+
+#  Exercise
+
+When it comes to exercise, we ask our patients to engage in 30 minutes of vigorous exercise 6 days per week in preparation for surgery.  
+
+We define *vigorous* exercise as working hard enough that it's hard to carry on a conversation while exercising.  You should still be able to breath easily, but working just hard enough that talking is difficult.
+
+It's important to start slow, especially if you haven't been used to exercising.
+
+---
+
+# Heart Rate
+
+Another way to judge your heart rate is to use a heart rate monitor.  The following is an approximate range of heart rate during exerise:
+
+Age | Minimum | Maximum
+--------|---------|---------
+40 | 125 | 150
+50 | 120 | 145
+60 | 112 | 135
+70 | 105 | 127
+
+
+---
+
+# Heart Rate Monitors
+
+A heart rate monitor doesn't need to be expensive. 
+
+Here are some monitors from either WalMart or Amazon for less than $25:
+
+---
+
+.pull-left[<img src="images/fm_1.jpg" width="60%" height = "60%"><img src="images/fm_2.jpg" width="70%" height = "70%">]
+
+.pull-right[<img src="images/fm_3.jpg" width="50%" height = "50%"><img src="images/fm_4.jpg" width="120%" height = "120%">]
+
+---
+
+
+# Exercise Options
+
+.pull-left[If you have access to a gym, that would be an excellent option.  You'll be surrounded by other people who are exercising, and that can help you get started. ]
+
+.pull-right[<img src="images/sports-1962574_1920.jpg" width="100%" height = "100%">]
+
+---
+
+#  Exercise Bike
+
+.pull-left[A stationary exercise bike is a great option.  If allows you to exercise consistently despite the weather, and it's more convenient than going to the gym. ]
+
+.pull-right[<img src="images/00o0o_fZ5KwSJXSH2z_0v20t2_1200x900.jpg" width="100%" height = "100%">]
+
+---
+
+
+#  Exercise Bike
+
+
+ An exercise bike doesn't need to be expensive. Here are some examples of bikes offered on Craigslist. 
+ 
+ 
+---
+ 
+
+.pull-left[<img src="images/00t0t_bUUWOrlZtvZz_0t20CI_1200x900.jpg" width="80%" height = "80%"><img src="images/00U0U_7zZcZF7qli9z_0CI0t2_1200x900.jpg" width="80%" height = "80%">]
+
+.pull-right[<img src="images/00O0O_iy4b4gud4DMz_0CI0t2_1200x900.jpg" width="80%" height = "80%"><img src="images/00101_hx38gIzONSPz_0lM0t2_1200x900.jpg" width="80%" height = "80%">]
+
+
+
+
+
+---
+
+ Keep in mind that a lot of people buy exercise equipment as part of a New Year's resolution, but then by February 1st they are collecting dust. 
+ 
+ Don't be afraid to ask friends, family, and neighbors if anyone has a bike you can borrow as part of your cancer treatment.
+ 
+ 
+---
+
+# Walking
+
+.pull-left[Another option if you can't get access to a gym or exercise equipment is walking. Bear in mind that if you want to get the most benefit from walking, it will need to be a brisk. ]
+
+.pull-right[<img src="images/nature-2587309_1920.jpg" width="100%" height = "100%">]
+
+---
+
+.pull-left[ If you choose to walk for exercise, it will be important to use a heart rate monitor to make sure you can push yourself to walk at a brisk pace. Remember: the goal is to work hard enough that you have difficulty talking while you're exercising. ]
+
+.pull-right[<img src="images/heart-rate-monitoring-device-1903997_1280.jpg" width="100%" height = "100%">]
+
+---
+
+# Heart Disease
+
+.pull-left[If you have heart disease, or high blood pressure, I have one simple message before starting to exercise. Stop, and ask your doctor before starting to exercise. They can help you design an exercise program that will be safe for you.]
+
+.pull-right[<img src="images/stop-1374937_1920.jpg" width="100%" height = "100%">]
+
+
+
+---
+
+# Good News
+
+The good news is that with proper nutrition and exercise, you can increase your muscle strength, and we have good reason to believe this will reduce your risk of complications after surgery.
+
+---
+
+I would love to hear you comments about this video, so please leave a comment below.  If you are contemplating an esophagectomy, please let us know how you are 
+
+We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
+
+
+
+
