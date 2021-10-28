@@ -8,7 +8,7 @@ navbar:
   - text: YouTube
     href: https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-cHA7Q
   - text: Scripts
-    href: slides/00-Esophagus_plan.pdf
+    href: slides/00-Esophagus_Plan.pdf
   - text: Video Map
     href: overview.pdf
   right:
