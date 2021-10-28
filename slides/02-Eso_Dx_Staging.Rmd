@@ -7,18 +7,19 @@ institute: "Levine Cancer Institute, Charlotte NC"
 date: "Click Right Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
+  html_document: default
+  pdf_document:
+    includes:
+      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-  pdf_document:
-    includes:
-      in_header: preamble.tex
-  html_document: default
 params: 
   pdf_param:TRUE
+always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {

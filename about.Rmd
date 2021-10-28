@@ -7,7 +7,18 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
 
+This website is a collection of educational materials written by Dr Jonathan Salo.
 
-This is an [R Markdown website](http://rmarkdown.rstudio.com/rmarkdown_websites.html).
+The information provided is no substitute for sound medical advice.
+
+
+
+
+
+
+
+
+
+
 
 

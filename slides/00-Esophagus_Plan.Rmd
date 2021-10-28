@@ -2,14 +2,19 @@
 title: "Esophagus Plan"
 date: "`r Sys.Date()`"
 output:
-  html_document: default
-  pdf_document: default
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+  html_document: default
+params: 
+  pdf_param:TRUE
+always_allow_html: yes     
 ---
 
 [Plan Overview Map](plan_overview.pdf)
@@ -30,7 +35,7 @@ output:
 
 ---
 
-[EsoCa Treatment Options] (04-Eso_Rx_Options.pdf)
+[EsoCa Treatment Options](04-Eso_Rx_Options.pdf)
 
 Covers all 4 Rx stages
 
@@ -60,7 +65,7 @@ Links
 
 Links 
 
-- [Trimodality Therpay](14_Trimodality.pdf)
+- [Trimodality Therapyy](14_Trimodality.pdf)
 
 - [Systemic Therapy](16_Systemic.pdf)
 

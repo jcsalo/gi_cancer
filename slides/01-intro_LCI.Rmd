@@ -8,15 +8,19 @@ params:
   hide: FALSE
   show: FALSE
 output:
-  html_document:
-  pdf_document: default
+  html_document: default
+  pdf_document:
+    includes:
+      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-always_allow_html: yes
+params: 
+  pdf_param:TRUE
+always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {

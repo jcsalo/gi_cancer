@@ -24,23 +24,21 @@ knitr::include_url("slides/02-Eso_Dx_Staging.html")
 ### Treatment Overview
 
 ```{r}
-knitr::include_url("slides/04_RxOptionsEsoCa.html")
+knitr::include_url("slides/04-Eso_Rx_Options.html")
 ```
 
-- R for Data Science, Data Visualization Chapter: http://r4ds.had.co.nz/data-visualisation.html
 
-- Modern Dive, Data Visualization Chapter: http://moderndive.com/3-viz.html
-
-- RStudio `ggplot2` Cheatsheet: https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf
-
-### 03: Working with Data
+### Early Stage Disease
 
 ```{r}
-knitr::include_url("slides/03-slides.html")
+knitr::include_url("slides/06-Eso_Early.html")
+```
+
+### Advanced Stage Disease
+```{r}
+knitr::include_url("slides/08-Eso_Advanced.html")
 ```
 
 ## Gastric (Stomach) Cancer {.tabset}
 
-### 04-MOre
 
-### 05- More again

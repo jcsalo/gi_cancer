@@ -8,15 +8,19 @@ params:
   hide: FALSE
   show: FALSE
 output:
-  html_document:
-  pdf_document: default
+  html_document: default
+  pdf_document:
+    includes:
+      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-always_allow_html: yes
+params: 
+  pdf_param:TRUE
+always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
@@ -44,5 +48,25 @@ You may have a recent diagnosis of cancer. Whatever your situation, we have a gr
 
 ---
 
-name: start
+Early Stage cancers are those that are T1 or T2 and N0M0.  
 
+If these are not familiar concepts please refer to videos which discuss staging.
+
+---
+
+# Endoscopic Ultrasound
+
+
+---
+
+T1a -> EMR
+
+T1b or T2 -> Primary Surgery
+
+---
+
+Cards:
+
+[Endoscopic Therapy](10-Endo_Tx.pdf)
+
+[Primary Surgery](12-Eso_surgery.pdf)
