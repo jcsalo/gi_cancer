@@ -9,6 +9,7 @@ params:
   show: FALSE
   pdf_param: TRUE
 output:
+  html_document: default
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -18,7 +19,6 @@ output:
   pdf_document:
     includes:
       in_header: preamble.tex
-  html_document: default
 always_allow_html: yes     
 ---
 <style type="text/css">
@@ -193,7 +193,11 @@ When you meet with your surgeon, part of the consultation will be to evaluate yo
 4) what would you estimate *my* risk of complications
   
 ---
-
+```{r}
+str(params)
+#str(pdf_param)
+#str(pdf_params)
+```
 
 
 

@@ -7,6 +7,7 @@ institute: "Levine Cancer Institute, Charlotte NC"
 #date: "Click Down Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
+  html_document: default
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -17,7 +18,6 @@ output:
   pdf_document:
     includes:
       in_header: preamble.tex
-  html_document: default
 params: 
   pdf_param:TRUE
 always_allow_html: yes     
@@ -57,19 +57,7 @@ If you haven't seen it already, this may be a good time to view the Esophageal C
 
 ---
 
-# Goals of Esophagectomy
 
-.pull-left[
-- Remove tumor from esophagus
-- Remove surrounding lymph nodes
-- Create a new esophagus
-]
-
-.pull-right[
-<img src="images/Eso_Resection1Artboard 2@4x.png" width="50%" height = "50%">
-]
-
----
 # Goals of Esophagectomy
 
 .right-column[ 
@@ -86,29 +74,22 @@ If you haven't seen it already, this may be a good time to view the Esophageal C
 
 # Resection
 
-.pull-left[
-
-
-The *Ivor Lewis* esophagectomy, shown here, removes the lower 2/3 of the esophagus, the tumor, and the surrounding lymph nodes from the chest.
+.pull-left[The *Ivor Lewis* esophagectomy, shown here, removes the lower 2/3 of the esophagus, the tumor, and the surrounding lymph nodes from the chest.
 ]
 
 
-.pull-right[
-<img src="images/Eso_Resection2Artboard 2@4x.png" width="100%" height = "100%">
+.pull-right[<img src="images/Eso_Resection2Artboard 2@4x.png" width="100%" height = "100%">
 ]
 
 ---
 
 # Reconstruction
 
-.pull-left[
-
-A new esophagus is created from the stomach in the abdomen by fashioning it into a tube.
+.pull-left[A new esophagus is created from the stomach in the abdomen by fashioning it into a tube.
 ]
 
 
-.pull-right[
-<img src="images/Eso_Resection3Artboard 2@4x.png" width="100%" height = "100%">
+.pull-right[<img src="images/Eso_Resection3Artboard 2@4x.png" width="100%" height = "100%">
 ]
 
 ---
@@ -118,8 +99,7 @@ A new esophagus is created from the stomach in the abdomen by fashioning it into
 
 .pull-left[The new esophagus is now brought up into the chest. A new connection is made between the esophagus and the stomach, called an *anastomosis*.]
 
-.pull-right[
-<img src="images/Eso_IL_AnastArtboard 2@4x.png" width="100%" height = "100%">
+.pull-right[<img src="images/Eso_IL_AnastArtboard 2@4x.png" width="100%" height = "100%">
 ]
 
 ---

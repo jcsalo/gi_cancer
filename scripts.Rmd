@@ -1,0 +1,31 @@
+---
+title: "GI Canced Education Slides"
+output: html_document
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+Videos are available on YouTube: https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c
+
+[Introduction to Levine Cancer Institute](slides/01-intro_LCI.pdf)
+
+
+## Esophageal Cancer 
+
+[Diagnosis/Staging](slides/02-Eso_Dx_Staging.pdf)
+
+[Treatment Overview](slides/04-Eso_Rx_Options.pdf)
+
+[Early Stage Disease](slides/06-Eso_Early.pdf)
+
+-   [Endoscopic Therapy](slides/10-Endoscopic_Tx.pdf)
+-   [Primary Surgery](slides/12-Eso_Surgery.pdf)
+  -   [Risk]
+  -   [Choosing a Surgeon](slides/32-Surgeon.pdf)
+
+
+## Gastric (Stomach) Cancer 
+
+
