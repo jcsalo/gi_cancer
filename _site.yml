@@ -10,7 +10,7 @@ navbar:
   - text: Scripts
     href: slides/00-Esophagus_Plan.pdf
   - text: Video Map
-    href: overview.pdf
+    href: plan_overview.pdf
   right:
   - text: About
     href: about.html
