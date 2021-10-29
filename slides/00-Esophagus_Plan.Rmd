@@ -2,15 +2,15 @@
 title: "Esophagus Plan"
 date: "`r Sys.Date()`"
 output:
+  pdf_document:
+    includes:
+      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   html_document: default
 params: 
   pdf_param:TRUE
