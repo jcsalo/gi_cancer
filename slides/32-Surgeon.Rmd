@@ -1,5 +1,5 @@
 ---
-title: "Welcome to GI Oncology Clinic"
+title: "Choosing a Hospital and Surgeon"
 author: "Jonathan Salo MD"
 institute: "Levine Cancer Institute"
 date: "<small>Click Right Arrow to Begin</small>"
@@ -9,21 +9,22 @@ params:
   show: FALSE
   pdf_param: TRUE
 output:
-  html_document: default
+  pdf_document:
+    includes:
+      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-  pdf_document:
-    includes:
-      in_header: preamble.tex
+      ratio: '16:9'
+  html_document: default
 always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 32px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
     line-height: 1.6;
 }
@@ -33,6 +34,8 @@ always_allow_html: yes
 #remotes::install_github("gadenbuie/xaringanExtra")
 xaringanExtra::use_tile_view()
 xaringanExtra::use_scribble()
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_share_again()
 ```
 
 <!--- P10000266--->
@@ -47,9 +50,37 @@ This video is designed to help you choose a surgeon and hospital for your esopha
 
 ---
 
+When it comes to surgery for esophageal cancer, we're all interested in getting the best outcome possible. The goals of any operation are rapid recovery, being able to return to activities, and a low risk of complications.
+
+Esophageal surgery is a substantial operation, so it's even more important to increase the chances of a good outcome.
+
+---
+
+There are several factors which can change the odds of a good outcome:
+
+Patient factors
+
+Hospital and the Surgeon
+
+---
+
+# Patient factors
+
+If you haven't do so already, please watch our video on Esophageal Surgery. There's a link above and one in the description below
+
+In that video, we talk about the importance of muscle strength a good outcome after esophageal surgery.
+
+---
+
+The good news is that with proper nutrition and exercise, you can increase your muscle strength and improve your chances of a good outcome after surgery.
+
+In this video, we'll talk about the impact of the hospital and the surgeon on outcomes after surgery.
+
+---
+
 # Understanding Outcomes
 
-We're going to start by talking about outcomes after surgery and how statistis can help you make a decision about your surgery. Let's talk Baseball for a minute.
+We're going to start by talking about outcomes after surgery and how statistics can help you make a decision about your surgery. Let's talk Baseball for a minute.
 
 ---
 
@@ -81,7 +112,7 @@ We're going to start by talking about outcomes after surgery and how statistis c
 
 ---
 
-The batting average and other numbers allows fans to compare players. A player with a high batting average doesn't hit a home run every time at bat, but a player with a high batting average is certainly going to help win more games than a player with a low batting average. The batting average won't absolutely predict what will happen with every time a player goes to bat, but it shows an *average* over the season or over a career.
+The batting average allows fans to compare players. A player with a high batting average doesn't hit a home run every time, but a player with a high batting average is certainly going to help win more games. The batting average won't absolutely predict what will happen with every time a player goes to bat, but it shows an *average* over the season or over a career.
 
 ---
 
@@ -93,7 +124,7 @@ Unfortunately, there aren't baseball cards for hospitals and surgeons, and findi
 
 # Hospital Volume
 
-<small>Practice makes perfect in many things in life, and esophageal surgery is no exception.</small>
+Practice makes perfect in many things in life, and esophageal surgery is no exception.
 
 Hospitals where an esophagectomy is performed more frequently _in general_ have better outcomes than hospitals where the operation is only occasionally done. 
 
@@ -137,19 +168,19 @@ p
 
 ---
 
-# Finding a Hospital
+The easiest way to find out whether a hospital is high volume or low volume is to ask your surgeon. 
 
-The easiest way to find out whether a particular hospital is high volume or low volume is to ask your surgeon. 
-
-Another method is to do some research on the internet. The Leapfrog Group is a non-profit organization that collects and published safety in healthcare. Their website ranks hospitals for safety and can help you find a high-volume hospital. 
+You could also check the internet. The Leapfrog Group is a non-profit organization that collects and publishes safety information healthcare. Their website ranks hospitals for safety and can help you find a high-volume hospital. 
 
 ---
 
-# Leapfrog Group Website
 
-You can find a link to their website in the description: [HospitalSafetyGrade.org](https://www.hospitalsafetygrade.org)
+You can find a link to the Leapfrog website in the description: [HospitalSafetyGrade.org](https://www.hospitalsafetygrade.org)
 
 You can search on a hospital. Once there, you can click "View this hospital's leapfrog Hospital Survey Results"
+
+
+---
 
 Of course there are low-volume hospital that have good outcomes, but starting with a high-volume hospital is a place to start.
 
@@ -164,7 +195,7 @@ The surgeon is another key factor in the outcome of an operation.  The Leapfrog 
 
 # Your Surgeon's Outcomes
 
-Knowing your hospital's outcomes is important, but knowing your surgeon's outcomes is probably more important.  Your surgeon should be able to tell you what their statistics are for outcomes like anastomotic leak, pneumonia, and death after surgery.
+Knowing your hospital's outcomes is important, but knowing your surgeon's outcomes is equally important.  Your surgeon should be able to tell you what their statistics are for outcomes like anastomotic leak, pneumonia, and death after surgery. These are discussed in the video about surgery.
 
 ---
 
@@ -174,30 +205,46 @@ If you surgeon doesn't know their personal statistics, you may want to look for 
 
 # Risk assessment
 
-As we showed in a previous video, the patient's overall health, particularly their muscle strength, is an important factor in predicting the risk of complications after surgery.  If you haven't done so already, I would recommend watching our video on esophageal surgery.  There is a link above and there will be a link in the description.
+As we discuss in the video on esophagectomy surgery, the patient's overall health, particularly their muscle strength, is an important factor in predicting the risk of complications after surgery. 
 
 ---
 
-When you meet with your surgeon, part of the consultation will be to evaluate your overall health and your personal risk of complications after surgery
+<small> If you haven't done so already, I would recommend watching our video on esophageal surgery.  There's a link in the description below<small>
 
-----
+---
+
+When you meet with your surgeon, part of the consultation will be a preoperative evaluation of your overall health and your personal risk of complications after surgery.
+
+
+---
+
+As part of the preoperative evaluation, your surgeon may order additional tests such or consultations, especially to evaluate the health of your heart or lungs.
+
+---
 
 # Questions for Your Surgeon
 
 1) How many esophagectomy operations are performed each year in your hospital?
+
 2) How many esophagectomy operations do you perform personally each year?
+
+---
+
 3) What are *your* overall rates of complications?
   - Pneumonia
   - Anastomotic Leak
   - Death in the first 90 days after surgery
-4) what would you estimate *my* risk of complications
   
+4) what would you estimate *my* risk of complications based upon your evaluation?
+  
+
 ---
-```{r}
-str(params)
-#str(pdf_param)
-#str(pdf_params)
-```
+
+I hope you find this video helpful. If you have questions, please include them in the comments below, or if you have ideas for other videos about gastrointestinal cancer, please leave them in the comments section below.
+
+---
+
+Link Out
 
 
 
