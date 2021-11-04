@@ -7,24 +7,24 @@ date: "<small>Click Right Arrow to Begin</small>"
 params:
   hide: FALSE
   show: FALSE
+  pdf_param: TRUE
 output:
-  html_document: default
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-params: 
-  pdf_param:TRUE
+      ratio: "16:9"
+  html_document: default
+  pdf_document:
+    includes:
+      in_header: preamble.tex
 always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 32px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
     line-height: 1.6;
 }
@@ -32,8 +32,7 @@ always_allow_html: yes
 
 ```{r, setup, echo=F, warning=FALSE}
 #remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_tile_view()
-xaringanExtra::use_scribble()
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
 ```
 
 <!--- P10000266--->
@@ -41,8 +40,6 @@ xaringanExtra::use_scribble()
 I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
 
 .font60[If you’re seeing this video, it’s likely because you have an upcoming consultation scheduled.]
-
-You may have a recent diagnosis of cancer. Whatever your situation, we have a great team of people who can help you every step of the way.
 
 [Plan](00-Esophagus_Plan.pdf)
 
@@ -54,19 +51,31 @@ If these are not familiar concepts please refer to videos which discuss staging.
 
 ---
 
-# Endoscopic Ultrasound
+In short, early stage cancers consist of small tumors without involvement of the lymph nodes, and they are either T1 or T2.
 
+T1 tumors are treated very differently from T2 tumors, to it is important to distinguish between the two.
 
 ---
 
-T1a -> EMR
+# Endoscopic Ultrasound
 
-T1b or T2 -> Primary Surgery
+Endoscopic ultrasound is the best test to distinguish T1 tumors from T2 tumors.
+
+From a patient's perspective it's very similar to an upper endoscopy.  Under sedation, the gastroenterologist places a scope through the mouth into the esophagus.  The difference is that at the end of the scope, there is located a tiny ultrasound probe, which can take pictures of the wall of the esophagus and measure the tumor in the esophagus.
+
+---
+
+The endoscopic ultrasound will give one of three answers:
+
+T1 tumor -> can frequently be treated through the endoscope, without the need for surgery. We'll discuss that more 
+
+T2 -> Are usually treated with surgery
+
+T3 -> Treated with a combination of chemotherapy
 
 ---
 
 Cards:
 
-[Endoscopic Therapy](10-Endo_Tx.pdf)
 
 [Primary Surgery](12-Eso_surgery.pdf)

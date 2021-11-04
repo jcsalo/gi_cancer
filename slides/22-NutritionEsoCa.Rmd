@@ -1,7 +1,6 @@
 
 ---
 title: "Nutrition for Esophgeal CA"
-subtitle: "⚔<br/>with xaringan"
 author: "Jonathan Salo"
 institute: "Levine Cancer Institute"
 date: "`r Sys.Date()`"

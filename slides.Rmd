@@ -39,6 +39,47 @@ knitr::include_url("slides/06-Eso_Early.html")
 knitr::include_url("slides/08-Eso_Advanced.html")
 ```
 
-## Gastric (Stomach) Cancer {.tabset}
 
 
+## Surgery {.tabset}
+
+### Esophagectomy
+
+```{r}
+knitr::include_url("slides/12-Eso_Surgery.html")
+```
+
+### Choosing a Surgeon
+```{r}
+knitr::include_url("slides/32-Surgeon.html")
+```
+
+
+
+## Supportive {.tabset}
+
+### Nutrition
+
+```{r}
+knitr::include_url("slides/22-NutritionEsoCa.html")
+```
+
+### Gastrostomy Tube
+
+```{r}
+knitr::include_url("slides/24-gastrostomy.html")
+```
+
+
+### Central Venous Port
+
+```{r}
+knitr::include_url("slides/26-Port.html")
+```
+
+
+### Exercise
+
+```{r}
+knitr::include_url("slides/34-Exercise.html")
+```

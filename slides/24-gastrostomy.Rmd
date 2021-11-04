@@ -1,21 +1,22 @@
 
 ---
-title: "Gastrostomy"
+title: "Gastrostomy Tube for Nutrition"
 subtitle: "⚔"
 author: "Jonathan Salo"
 institute: "Levine Cancer Institute"
 date: "`r Sys.Date()`"
 output:
-  html_document: default
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+  html_document: default
 params: 
   pdf_param:TRUE
 always_allow_html: yes     
@@ -27,13 +28,18 @@ always_allow_html: yes
     line-height: 1.6;
 }
 </style>
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+```
 <!--- P10000266--->
 <!--- Premiere: Intro_02--->
 # Introduction
 
 Esophageal cancer can cause difficulty with swallowing, which can limit your body’s ability to 
 get the nutrition you need in order to keep your body healthy during cancer treatment.
+
 ---
+
 I’m Dr Jonathan Salo, I’m a GI Cancer Surgeon.
 In this video you’ll learn about
 

@@ -7,7 +7,6 @@ institute: "Levine Cancer Institute, Charlotte NC"
 date: "Click Right Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  html_document: default
   pdf_document:
     includes:
       in_header: preamble.tex
@@ -17,25 +16,26 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
+  html_document: default
 params: 
   pdf_param:TRUE
 always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 34px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
 }
 </style>
 <!--- P10000266--->
 <!--- Premiere: Intro_02--->
-# Introduction
-
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+```
 I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
 
-If you or someone close to you has been diagnosed with esophageal cancer, this video is for you.
-
-In this video, you will learn about
+If you or someone close to you has been diagnosed with esophageal cancer, this video is for you. In this video, you will learn about
 
 - The esophageal cancer care team
 - Four different categories of esophageal cancer
@@ -80,22 +80,26 @@ endoscopic therapy such as an endoscopic
 mucosal resection
 ---
 
-Diagnostic radiologist
+# Diagnostic radiologist
+
 Interpret CT or PET scans
 Perform biopsies under the guidance of CT or
 ultrasound
 ---
 
-Medical Oncologist
+# Medical Oncologist
+
 Treat cancer with chemotherapy or
 immunotherapy, using drugs given intravenously
 (and sometimes by pill).
 ---
-Radiation Therapist
+
+# Radiation Therapist
 Treats cancer with high-energy x-rays that target
 tumors in the esophagus and nearby lymph
 nodes
 ---
+
 # Surgeon
 Perform surgery to remove the cancer in the
 esophagus and surrounding lymph nodes and
@@ -106,10 +110,13 @@ A surgeon would also place a feeding tube if
 needed, and place a central venous port for
 chemotherapy.
 ---
+
+# Treatment Desicions
 Treatment decisions may require consultation a number of specialists
 
 ---
 
+# Treatment Categories of Esophageal Cancer
 
 There are four different treatment categories of esophageal cancer
 
@@ -127,10 +134,15 @@ Several Factors go into making a decision about treatment for esophageal cancer:
 - Cancer Stage
 - Overall fitness of the patient
 - Patient preferences
+---
+
+# Staging
 
 The first task once we have a new diagnosis of cancer is staging. Staging is the process of finding out the extent of the cancer and how far it might have spread.
 
 In some cases, there may be more than one treatment that is appropriate for the cancer stage, but the different treatments may be more or less rigorous.  In these cases, the overall health of the patient will help find the best treatment.
+
+---
 
 In other cases, there may be more than one treatment option and a patient's preferences in terms of the type of treatment become important.
 
@@ -144,18 +156,26 @@ Some of you will want more specific information that applies to your situation o
 
 ---
 
+The first step in designing a treatment plan for esophageal cancer is staging. If you haven't seen it already, please see the video about esophageal cancer diagnosis and staging to give you an overview.
+
+[Esophageal Cancer Diagnosis and Staging](02_Eso_Dx_Staging.html)
+
+---
+
 # Category? Stage?
 
 You'll notice I'm using the terms " Treatment Category I" rather than "Stage I". The reason is very simple.  The cancer staging system was originally designed for researchers to predict outcomes after cancer treatment. 
 
 But for cancer patients and their families, what's important is what the best treatment is for their cancer.  Unfortunately, the cancer stages don't exactly line up with how that cancer is treated.
 
+---
+
+
 For instance, some Stage II patients are best treated with surgery while other Stage II patients are best treated with a combination of chemotherapy, radiation, and surgery.
 
 The goal of these videos is to help patients understand *cancer treatment*.
 
 Having said that, Stage 1 patients are *generally* treated with Treatment Category I, and the same with Stages 2, 3, and 4
-
 
 ---
 
@@ -166,7 +186,7 @@ If you haven't met with your treatment team to talk about the stage, I can give 
 Patients who had difficulty swallowing usually have Category III or Category IV cancers. If you want more specific information esophageal cancer and there is difficulty swallowing or weight loss involved, Click on the link above, which will give you information about how we approach esophageal cancer when there is difficulty swallowing. These videos talk about Category III and Stage IV cancers of the esophagus, and about staging and treatment. 
 [Esophageal Cancer Treatment - Stage 3_4](08-Eso_Advanced.html)
 
-
+---
 
 Patients without difficulty swallowing often have Stage I or Stage II cancers. These patients may have bleeding, or heartburn, or may have no symptoms.  If you want more specific information about Category I or Category II cancers, click on the link above. This video will give you information about Category I and Category II cancers, and about staging and treatment.
 
@@ -174,8 +194,4 @@ Patients without difficulty swallowing often have Stage I or Stage II cancers. T
 
 ---
 
-The first step in designing a treatment plan for esophageal cancer is staging. If you haven't seen it already, please see the video about esophageal cancer diagnosis and staging to give you an overview.
-
-[Esophageal Cancer Diagnosis and Staging](02_Eso_Dx_Staging.html)
-
----
+We hope you have found this video helpful. If you have questions or if there are topics you would like us to cover, please leave a comment below.  Feel free to subscribe to be notified when we post new videos.
