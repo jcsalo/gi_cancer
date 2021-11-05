@@ -1,5 +1,5 @@
 ---
-title: "Welcome to GI Oncology Clinic"
+title: "Metastatic Esophageal Cancer"
 author: "Jonathan Salo MD"
 institute: "Levine Cancer Institute"
 date: "<small>Click Right Arrow to Begin</small>"
@@ -7,24 +7,24 @@ date: "<small>Click Right Arrow to Begin</small>"
 params:
   hide: FALSE
   show: FALSE
+  pdf_param: TRUE
 output:
-  html_document: default
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-params: 
-  pdf_param:TRUE
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+  html_document: default
+
 always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 32px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
     line-height: 1.6;
 }
@@ -38,143 +38,37 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "
 <!--- Intro_02--->
 I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
 
-.font60[If you’re seeing this video, it’s likely because you have an upcoming consultation scheduled.]
-
-You may have a recent diagnosis of cancer. Whatever your situation, we have a great team of people who can help you every step of the way.
+In this video, you will learn about the treatment of metastatic esophageal cancer.
 
 [Plan](00-Esophagus_Plan.pdf)
 
 ---
 
-name: start
+Metastatic esophageal cancer is cancer that has spread to other organs such as the liver, lungs, or bone.
 
-## GI Oncology Clinic
 
-We’re in Building 2 of Levine Cancer Institute. If you’re using GPS, the traffic circle for patient dropoff is located at 1320 East Morehead Street.
-
-The entrance to the building is on East Morehead Street between South Kings and Kenilworth.
+The primary treatment for metastatic esophageal cancer is chemotherapy, which is usually given intravenously.
 
 ---
 
-## Parking
-
-A parking garage is right next door to the traffic circle.
-
-If you need help with directions, please call us at (980) 442-6410
-
-Our mailing address is 1021 Morehead Medical Drive, which is why you will find “1021” on the building.
+The first step wil be staging scans such as a CT scan or PET scan.  If you haven't done so already, please take a look at our video that talks about these scans [Advanced Esophageal Cancer](08-Eso_Advanced.html)
 
 ---
 
-## Covid-19 Safety
+The next step will be meeting with a *Medical Oncologist* to develop a treatment plan.
 
-We recognize the value of having someone with you during the consultation.  However, in order to protect our patients and staff, we require that if you want to have a visitor accompany you, they be vaccinated against Covid-19
+---
+
+If you have had difficulty eating or weight loss, you may need a feeding tube to help maintain your nutrition.  Please see our video on nutrition during esophageal cancer treatement [Nutrition in Esophageal Cancer](22-NutritionEsoCa.html)
+
+---
+
+Because most ot the chemotherapy drugs are administered intravenously, you may need a central venous port [Central Venous Port](26-Port.html)
 
 
 ---
 
-## Hybrid Virtual Visits
 
-If you have a family member or friend that you would like to include in the conversation during consultation, we can arrange for a phone call over speakerphone during the consultation.
-
----
-
-## What to Expect 
-
-During your consultation, we will review your case
-and the information that has been collected so
-far.
-
-We may need to do a physical exam of your heart
-and lungs, so please wear comfortable clothing.
-I will provide you with my evaluation and make a
-plan for the next steps
-
----
-
-## Next Steps
-
-- Additional x-rays, such as a CT scan or PET scan
-- An endoscopic procedure
-- Placement of a feeding tube for nutrition 
-- Placement of a port for chemotherapy
-- Scheduling for surgery
-- Referral for chemotherapy or radiation
-
----
-
-## Resources for You and your Family
-
-Cancer affects not
-only the patient but the whole community of
-family and friends. We have a lot of resources:
-- Support groups 
-- Counseling to help with stress reduction
-- Financial counselors and social workers to help
-with insurance and other financial issues
-- Supportive Oncology department to help with
-managing symptoms
-
----
-
-## More Resources
-
-We have a full-time staff of **dietitians**
-
-We have an **Integrative Oncology** program which
-and can assist you in choosing supplements and complementary therapies to help manage symptoms and promote wellness.
-
-We have a **senior oncology clinic** which can help
-with the special needs of our patients over age
-75
-
----
-
-## My Atrium Portal
-
-This is a secure way for you to communicate with your care team at Atrium Health and Levine Cancer Institute. With the portal, you can:
-
-- View your upcoming appointments
-- Review the information in your medical records
-- Send your care team a message
-
----
-
-The MyAtrium Health Portal can be accessed via:
-
-- Web browser on a desktop or laptop computer
-- iPhone app
-- Android app
-
-To sign up, go to myatriumhealth.org.  
-
-To sign up, click New User. You will receive an activation text or email within 3 days
-
----
-
-## MyAtriumHealth Assistance
-
-If you need help setting up your account, we have support staff available Monday through Friday 8am to 5 pm at
-
-• (704) 667-9145 or toll-free at
-
-• (855) 799-0044
-
----
-
-## Please Bring With You to your Visit:
-
-• A list of your current medications
-
-• A copy of your insurance cards
-
-• List of your physicians
-
-• Names and phone numbers of family members that you want to participate in discussions about your health care
-
-• A list of any questions you may have
-
----
 
 If you have a new diagnosis of cancer, please check out one of the following videos
 
