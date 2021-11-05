@@ -29,11 +29,9 @@ always_allow_html: yes
     line-height: 1.6;
 }
 </style>
-
 ```{r, setup, echo=F, warning=FALSE}
 #remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_tile_view()
-xaringanExtra::use_scribble()
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
 ```
 
 <!--- P10000266--->

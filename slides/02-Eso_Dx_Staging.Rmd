@@ -23,10 +23,14 @@ always_allow_html: yes
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 32px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
 }
 </style>
+```{r, setup, echo=F, warning=FALSE}
+#remotes::install_github("gadenbuie/xaringanExtra")
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+```
 # Introduction
 
 If you or someone close to you has recently been diagnosed with esophageal cancer, this video is intended for you.
@@ -34,9 +38,7 @@ If you or someone close to you has recently been diagnosed with esophageal cance
 I’m Dr Jonathan Salo and I'm a GI Cancer Surgeon.
 
 ---
-```{r, echo=F, warning=FALSE,comment='', message=FALSE}
-library(knitr)
-```
+
 
 ## In this video you’ll learn about:
 

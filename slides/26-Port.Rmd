@@ -1,0 +1,151 @@
+
+---
+title: "Central Venous Port for Chemotherapy"
+subtitle: "⚔"
+author: "Jonathan Salo"
+institute: "Levine Cancer Institute"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+  html_document: default
+params: 
+  pdf_param:TRUE
+always_allow_html: yes     
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 32px;
+    padding: 1em 4em 1em 4em;
+    line-height: 1.6;
+}
+</style>
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+```
+<!--- P10000266--->
+<!--- Premiere: Intro_02--->
+# Introduction
+
+Esophageal cancer can cause difficulty with swallowing, which can limit your body’s ability to 
+get the nutrition you need in order to keep your body healthy during cancer treatment.
+
+---
+
+I’m Dr Jonathan Salo, I’m a GI Cancer Surgeon.
+In this video you’ll learn about
+
+• Essential building blocks for good nutrition
+
+• Protein supplements
+
+• Feeding tubes
+
+---
+
+For most people with esophageal cancer who have difficulty eating, things can get worse during cancer therapy.
+
+Chemotherapy and radiation can lead to a temporary ‘sunburn’ on the inside of the esphagus called radiation esophagitis. his usually gets better after the radiation ends
+
+---
+
+One of the questions you will want to address with your esophageal cancer care team is whether or not you need a feeding tube to help with your nutrition during cancer treatment.
+
+Your dietitian and physicians will evaluate your situation and made a recommendation, but I’d like to show you some options.
+
+---
+#GI Tract Anatomy
+
+
+Normally, food passes from the mouth into the esophagus, and then into the stomach. The stomach serves as a reservoir for food, to allow you to eat a big Thanksgiving. The stomach starts digestion, and then after the meal slowly allows small portions of food to pass into the small intestines, where most of the digestion occurs.
+---
+For patients with cancer of the esophagus or stomach, the most common feeding tube is a jejunostomy tube
+
+---
+
+For patients with cancer of the esophagus, there are two different kinds of feeding tube which can be used:
+
+A gastrostomy tube is placed into the stomach
+
+A jejunostomy tube is placed in the small intestines
+
+Your dietitian and physician will help you decide which tube is best for your situation
+
+---
+
+
+Gastrostomy tube
+
+• Placed into stomach
+
+Jejunostomy tube
+
+• Placed into small intestin
+
+---
+Feeding Gastrostomy
+
+A gastrostomy tube allows feeding with a syringe, which can be done several times per day.
+
+When it’s not being used, the gastrostomy tube can be hidden underneath clothing.
+
+For patient who later need surgery on the esophagus, it will be necessary to remove the
+
+gastrostomy tube and place a jejunostomy tube, as the stomach frequently used to create a new
+
+esophagus
+
+---
+A gastrostomy tube can be placed either by endoscopy, which is called a PEG tube
+
+A gastrostomy tube can also be placed by laparoscopy, which is usually preferred if
+
+surgery on the esophagus is planned in the future.
+
+Your surgeon will help you decide which kind of tube is best for you. This is especially important 
+if you will need esophageal surgery in the future, as the stomach is frequently used to make a new esophagus
+
+---
+
+A gastrostomy tube is generally placed as an  outpatient, which means you can go home the 
+same day.
+
+In some cases, a central venous port for chemotherapy is placed at the same time as a gastrostomy tube.
+
+---
+The other type of feeding tube is a jejunostomy.
+
+
+A jejunostomy tube tube is placed into the small  intestines. Because the small intestine is used to receiving food in small quantities, a jejunostomy tube requires the use of a pump to deliver feedings gradually over a matter of hours.
+
+In general, feedings are done at night in order to allow you to be active during the day
+
+---
+
+A jejunostomy tube is used in cases where it’s not possible to place a gastrostomy tube, such as when there is a tumor in the stomach. A jejunostomy tube is routinely used after esophageal surgery, so in patients who need help with nutrition prior to surgery, it makes sense to put in a jejunostomy tube before surgery. The same tube can then be used for nutrition both before and after surgery.
+
+---
+
+
+We have a link here to a video that explains more
+
+about the jejunostomy tube
+
+---
+
+I hope this video has been helpful.
+
+Here are links to other videos you may find helpful.
+
+Feel free to subscribe in order to be notified about
+
+new videos
+

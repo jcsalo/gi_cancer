@@ -1,33 +1,37 @@
 
 ---
 title: "Esophageal Cancer"
-subtitle: "Trimodality Therapy"
+subtitle: "Locally Advanced Cancer"
 author: "Jonathan Salo MD"
 institute: "Levine Cancer Institute, Charlotte NC"
 #date: "Click Down Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  html_document: default
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
+  html_document: default
+  pdf_document:
+    includes:
+      in_header: preamble.tex
 params: 
   pdf_param:TRUE
 always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 34px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
 }
 </style>
-
+```{r, setup, echo=F, warning=FALSE}
+#remotes::install_github("gadenbuie/xaringanExtra")
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+```
 
 
 <!--- --->

@@ -21,6 +21,10 @@ output:
 </style>
 <!--- P10000266--->
 <!--- Premiere: Intro_02--->
+```{r, setup, echo=F, warning=FALSE}
+#remotes::install_github("gadenbuie/xaringanExtra")
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+```
 # Introduction
 
 I’m Dr Jonathan Salo, I’m a GI Cancer Surgeon

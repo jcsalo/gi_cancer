@@ -75,6 +75,35 @@ T3 -> Treated with a combination of chemotherapy
 
 ---
 
+# T1 Esophageal Cancers
+
+T1 tumors involve only the mucosa, the layer on the inner surface of the esophagus.  Because these tumors do not invade deeply, it is often possible to remove them using a scope. In some cases, the tumor can be treated without the need for surgery.  Endoscopic removal of tumor is called _endoscopic mucosal resection_
+
+---
+
+# Endoscopic Musocal Resection
+
+For the patient's perspective, the procedure is similar to an endoscopy, which is done under sedation. Fluid is injected underneath the tumor, which raises a sort of blister.  The top layer (and the tumor) are then removed. The procedure is done as an outpatient.
+
+---
+
+# Pathology
+
+The pathologist then examines the specimen to see whether the tumor has been removed completely
+
+---
+
+# Favorable
+
+---
+
+# Unfavorable
+
+- Surveillance
+- Surgery
+
+---
+
 Cards:
 
 

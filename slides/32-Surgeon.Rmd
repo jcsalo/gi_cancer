@@ -32,10 +32,7 @@ always_allow_html: yes
 
 ```{r, setup, echo=F, warning=FALSE}
 #remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_tile_view()
-xaringanExtra::use_scribble()
-xaringanExtra::use_fit_screen()
-xaringanExtra::use_share_again()
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
 ```
 
 <!--- P10000266--->
