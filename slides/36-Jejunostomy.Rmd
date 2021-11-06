@@ -1,8 +1,8 @@
 
 ---
-title: "Gastrostomy"
+title: "Feeding Jejunostomy"
 subtitle: "⚔"
-author: "Jonathan Salo"
+author: "Jonathan Salo MD"
 institute: "Levine Cancer Institute"
 date: "`r Sys.Date()`"
 output:

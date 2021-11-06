@@ -1,22 +1,25 @@
-
 ---
 title: "Esophageal Cancer"
-subtitle: "Diagnosis and Staging"
-author: "Jonathan Salo MD"
-institute: "Levine Cancer Institute, Charlotte NC"
-date: "Click Right Arrow to Begin"
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  html_document: default
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
+  html_document: default
 params: 
   pdf_param:TRUE
 always_allow_html: yes     
@@ -26,12 +29,25 @@ always_allow_html: yes
     font-size: 40px;
     padding: 1em 4em 1em 4em;
 }
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
 </style>
-```{r, setup, echo=F, warning=FALSE}
-#remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
-# Introduction
+
+ Introduction
 
 If you or someone close to you has recently been diagnosed with esophageal cancer, this video is intended for you.
 
@@ -264,6 +280,9 @@ If you found this video helpful or have questions or suggestions, please comment
 
 ---
 
-LINK OUT to 05_Eso_Rx_Options
+Here are some other videos you may find helpful:
+
+[Esophageal Cancer Treatment Options](04-Eso_Rx_Options.html)
+
 
 

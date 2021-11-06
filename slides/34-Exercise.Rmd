@@ -3,20 +3,20 @@
 title: "Exercise and Cancer Surgery"
 #subtitle: "Surgery"
 author: "Jonathan Salo MD"
-institute: "Levine Cancer Institute, Charlotte NC"
+institute: "Levine Cancer Institute<br>Charlotte NC"
 #date: "Click Down Arrow to Begin"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  html_document: default
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+  html_document: default
 params: 
   pdf_param:TRUE
 always_allow_html: yes     
@@ -305,7 +305,7 @@ Here are some monitors from either WalMart or Amazon for less than $25:
 
 # Heart Disease
 
-.pull-left[If you have heart disease, or high blood pressure, I have one simple message before starting to exercise. Stop, and ask your doctor before starting to exercise. They can help you design an exercise program that will be safe for you.]
+.pull-left[If you have heart disease, or high blood pressure, I have one simple message before starting to exercise. Stop, and ask your primary care doctor or cardiologist before starting to exercise. They can help you design an exercise program that will be safe for you.]
 
 .pull-right[<img src="images/stop-1374937_1920.jpg" width="100%" height = "100%">]
 
@@ -319,10 +319,10 @@ The good news is that with proper nutrition and exercise, you can increase your 
 
 ---
 
-I would love to hear you comments about this video, so please leave a comment below.  If you are contemplating an esophagectomy, please let us know how you are 
+If you or a family member have had an encounter with preparing for esophageal cancer surgery, I would love to hear about your experience, so please take a minute to leave a comment below. We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
 
-We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
+---
 
-
+Here are some additional videos you may find helpful
 
 

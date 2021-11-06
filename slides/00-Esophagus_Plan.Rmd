@@ -51,10 +51,11 @@ Links to:
 
 -Early Stage present without Dysphagia
 -EUS needed to distinguish T1 from T2
+-EMR if T1 (describe)
+-Primary surgery if unfavorable or T2
 
 Links
 
-- [Endoscopic_Rx](10-Eso_Endo_Rx.pdf)
 
 - [Eso Primary Surgery](12-Eso_Surgery.pdf)
 
@@ -65,7 +66,7 @@ Links
 
 Links 
 
-- [Trimodality Therapyy](14_Trimodality.pdf)
+- [Locally Advanced](14_Trimodality.pdf)
 
 - [Systemic Therapy](16_Systemic.pdf)
 

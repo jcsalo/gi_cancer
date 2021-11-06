@@ -39,6 +39,15 @@ knitr::include_url("slides/06-Eso_Early.html")
 knitr::include_url("slides/08-Eso_Advanced.html")
 ```
 
+### Locally Advanced
+```{r}
+knitr::include_url("slides/14-Eso_Locally_Advanced.html")
+```
+
+### Metastatic Disease
+```{r}
+knitr::include_url("slides/16-Eso_Metastatic.html")
+```
 
 
 ## Surgery {.tabset}
