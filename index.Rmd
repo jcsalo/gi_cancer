@@ -10,7 +10,7 @@ title: "GI Cancer Education"
 
 #### Diagnosis and Staging
 
-[Video](https://www.youtube.com/watch?v=aDkgurq17wE)
+[Video](https://www.youtube.com/watch?v=aDkgurq17wE) [Slides](slides/02-Eso_Dx_Staging.html) [Handout](slides/02-Eso_Dx_Staging.pdf)
 
 #### Treatment Options
 

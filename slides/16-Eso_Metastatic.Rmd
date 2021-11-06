@@ -1,41 +1,51 @@
 ---
-title: "Welcome to GI Oncology Clinic"
-author: "Jonathan Salo MD"
-institute: "Levine Cancer Institute"
-date: "<small>Click Right Arrow to Begin</small>"
-#date: "`r Sys.Date()`"
-params:
-  hide: FALSE
-  show: FALSE
+title: "Metastatic Esophageal Cancer"
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  html_document: default
   pdf_document:
     includes:
       in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
+  html_document: default
 params: 
   pdf_param:TRUE
 always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 32px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
-    line-height: 1.6;
 }
-</style>
-```{r, setup, echo=F, warning=FALSE}
-#remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
-```
 
-<!--- P10000266--->
-<!--- Intro_02--->
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
+</style>
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
+```
 I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
 
 In this video, you will learn about the treatment of metastatic esophageal cancer.
@@ -63,15 +73,19 @@ If you have had difficulty eating or weight loss, you may need a feeding tube to
 
 ---
 
-Because most ot the chemotherapy drugs are administered intravenously, you may need a central venous port [Central Venous Port](26-Port.html)
+Because most of the chemotherapy drugs are administered intravenously, you may need a central venous port [Central Venous Port](26-Port.html)
+
 
 
 ---
 
+If you or a family member have had an encounter with esophagal cancer, I would love to hear about your experience, so please take a minute to leave a comment below. We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
 
+---
 
-If you have a new diagnosis of cancer, please check out one of the following videos
+Here are some additional videos you may find helpful:
 
-Feel free to subscribe so you can be notified about new videos
+[Central Venous Port for Chemotherapy](26-Port.html)
+[Nutrition in Esophageal Cancer](22-NutritionEsoCa.html)
 
-If there are video topics you would like us to cover, please leave a comment below.
+---

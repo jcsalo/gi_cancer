@@ -1,10 +1,9 @@
-
 ---
 title: "Exercise and Cancer Surgery"
-#subtitle: "Surgery"
-author: "Jonathan Salo MD"
-institute: "Levine Cancer Institute<br>Charlotte NC"
-#date: "Click Down Arrow to Begin"
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
@@ -13,9 +12,13 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
   pdf_document:
     includes:
       in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -23,12 +26,26 @@ always_allow_html: yes
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 32px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
 }
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
 </style>
-<!--- P10000266--->
-<!--- Premiere: Intro_02--->
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
+```
 # Introduction
 
 I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
