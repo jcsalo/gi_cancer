@@ -10,30 +10,45 @@ title: "GI Cancer Education"
 
 #### Diagnosis and Staging
 
-[Video](https://www.youtube.com/watch?v=aDkgurq17wE) [Slides](slides/02-Eso_Dx_Staging.html) [Handout](slides/02-Eso_Dx_Staging.pdf)
+[Video](https://www.youtube.com/watch?v=aDkgurq17wE) &nbsp; &nbsp; &nbsp; &nbsp; [Slides](slides/02-Eso_Dx_Staging.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/02-Eso_Dx_Staging.pdf)
 
 #### Treatment Options
 
-[Video](https://www.youtube.com/watch?v=Tk8cp3uL-lU)
+[Video](https://www.youtube.com/watch?v=Tk8cp3uL-lU)&nbsp; &nbsp; &nbsp; &nbsp; [Slides](slides/04-Eso_Rx_Options.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/04-Eso_Rx_Options.pdf)
+
+#### Early Stage Esophageal Cancer
+
+&nbsp; &nbsp; &nbsp; &nbsp; [Slides](slides/06-Eso_Early.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/06-Eso_Early.pdf)
 
 
 #### Surgery for Esophageal Cancer
 
-[Slides](slides/12_Eso_Surgery.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/12_Eso_Surgery.pdf)  &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/12_Eso_Surgery.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/12_Eso_Surgery.pdf)  &nbsp; &nbsp; &nbsp; &nbsp; 
 
 #### Choosing a Surgeon for Esophagectomy
 
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/32_Surgeon.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/32-Surgeon.pdf)
 
-[Slides](slides/14_Eso_Surgeon.html) &nbsp; &nbsp; &nbsp; &nbsp;
+
+#### Early Stage Esophageal Cancer
+
+&nbsp; &nbsp; &nbsp; &nbsp; [Slides](slides/06-Eso_Early.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/06-Eso_Early.pdf)
+
+
+#### Surgery for Esophageal Cancer
+
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/12_Eso_Surgery.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/12_Eso_Surgery.pdf)  &nbsp; &nbsp; &nbsp; &nbsp; 
+
+#### Choosing a Surgeon for Esophagectomy
+
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/32_Surgeon.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/32-Surgeon.pdf)
 
 
 #### Nutrition for Esophageal Cancer Treatment
 
-[Video](https://www.youtube.com/watch?v=XsqL41lU29w&t=23s)
+[Video](https://www.youtube.com/watch?v=XsqL41lU29w&t=23s) &nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/32_Surgeon.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/32-Surgeon.pdf)
 
 #### Exercise and Cancer Surgery
 
 [Slides](slides/72_Exercise.html) &nbsp; &nbsp; &nbsp; &nbsp;
-
-
 

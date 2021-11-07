@@ -13,12 +13,12 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
+ #   toc: yes
+    fig_caption: yes
+    df_print: kable
   pdf_document:
     includes:
       in_header: preamble.tex
-    toc: yes
-    fig_caption: yes
-    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
