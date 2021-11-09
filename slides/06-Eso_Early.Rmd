@@ -1,14 +1,17 @@
 ---
 title: "Early Stage Esophgaeal Cancer"
-author: "Jonathan Salo MD"
-institute: "Levine Cancer Institute"
-date: "<small>Click Right Arrow to Begin</small>"
-#date: "`r Sys.Date()`"
-params:
-  hide: FALSE
-  show: FALSE
-  pdf_param: TRUE
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -17,26 +20,31 @@ output:
       countIncrementalSlides: false
       ratio: "16:9"
   html_document: default
-  pdf_document:
-    includes:
-      in_header: preamble.tex
+params: 
+  pdf_param:TRUE
 always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 40px;
+    font-size: 44px;
     padding: 1em 4em 1em 4em;
-    line-height: 1.6;
 }
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
 </style>
-
-```{r, setup, echo=F, warning=FALSE}
-#remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
-```
-
 <!--- P10000266--->
 <!--- Intro_02--->
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
+```
 I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
 
 .font60[If you’re seeing this video, it’s likely because you have an upcoming consultation scheduled.]
@@ -95,16 +103,29 @@ The pathologist then examines the specimen to see whether the tumor has been rem
 
 # Favorable
 
+In an ideal circumstance, the tumor is confined to the center of the area which has been removed, ensuring that there is no tumor left behind.
+
+A tumor is judged to be favorable for endoscopic mucosal resection if the tumor appears to be slow growing and the margins are clear, which suggests that the tumor was completely removed.
+
+---
+
+# Surveillance
+
+When a small tumor has been completely removed by endoscopic mucosal resection, frequently no further therapy is required.  In this case, follow up endoscopy is recommended to be certain that there is no recurrence.
+
 ---
 
 # Unfavorable
 
-- Surveillance
-- Surgery
+If a tumor is removed with endoscopic mucosal resection and it appears as though the tumor may not have been completely removed or is more rapidly growing, the options are either surgical removal with esophagectomy or close surveillance with endoscopy.
 
 ---
 
-Cards:
+If you or a family member have had an encounter with esophagal cancer surgery, I would love to hear about your experience, so please take a minute to leave a comment below. We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
+
+---
+
+Here are some additional videos you may find helpful:
 
 
-[Primary Surgery](12-Eso_surgery.pdf)
+[Surgery for Esophageal Cancer](12-Eso_surgery.pdf)

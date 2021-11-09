@@ -1,10 +1,9 @@
-
 ---
-title: "Esophageal Cancer"
-subtitle: "Locally Advanced Cancer"
-author: "Jonathan Salo MD"
-institute: "Levine Cancer Institute, Charlotte NC"
-#date: "Click Down Arrow to Begin"
+title: "Locally Advanced Esophageal Cancer"
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
@@ -14,10 +13,13 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-  html_document: default
   pdf_document:
     includes:
       in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
+  html_document: default
 params: 
   pdf_param:TRUE
 always_allow_html: yes     
@@ -27,18 +29,23 @@ always_allow_html: yes
     font-size: 40px;
     padding: 1em 4em 1em 4em;
 }
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
 </style>
-```{r, setup, echo=F, warning=FALSE}
-#remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
-
-
-<!--- --->
-<!--- --->
-
-
-
 # Introduction
 
 I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
@@ -113,23 +120,15 @@ The results were quite dramatic: The group that was treated with all three thera
 
 This scientific study was called the CROSS trial.  The therapy called tri-modality therapy, because three therapies are administered: chemotherapy, radiation, and surgery.
 
---
+---
 
 A typical schedule for trimodality is six weeks of chemotherapy and radiation together.  Chemotherapy is given once a week, and radiation five days per week.
 
-```
+---
 
 Several weeks after the end of radiation therapy, a PET or CT scan is done to look at the response. Surgery is typically done 8 weeks after the end of radiation.
 
-
-```
-
-# Side Effects
-
-```
-
-
-```
+---
 
 I would love to hear you comments about this video, so please leave a comment below.  If you are receiving chemotherapy and radiation, please let us know about your experience. 
 

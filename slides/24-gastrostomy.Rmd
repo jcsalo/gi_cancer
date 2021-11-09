@@ -1,10 +1,10 @@
-
 ---
-title: "Gastrostomy Tube for Nutrition"
-subtitle: "⚔"
-author: "Jonathan Salo"
-institute: "Levine Cancer Institute"
-date: "`r Sys.Date()`"
+title: "Esophagectomy for Esophageal Cancer"
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -16,6 +16,9 @@ output:
   pdf_document:
     includes:
       in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -23,13 +26,25 @@ always_allow_html: yes
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 32px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
-    line-height: 1.6;
 }
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
 </style>
-```{r xaringanExtra, echo=FALSE}
-xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
 <!--- P10000266--->
 <!--- Premiere: Intro_02--->
@@ -62,11 +77,13 @@ One of the questions you will want to address with your esophageal cancer care t
 Your dietitian and physicians will evaluate your situation and made a recommendation, but I’d like to show you some options.
 
 ---
+
 #GI Tract Anatomy
 
 
 Normally, food passes from the mouth into the esophagus, and then into the stomach. The stomach serves as a reservoir for food, to allow you to eat a big Thanksgiving. The stomach starts digestion, and then after the meal slowly allows small portions of food to pass into the small intestines, where most of the digestion occurs.
 ---
+
 For patients with cancer of the esophagus or stomach, the most common feeding tube is a jejunostomy tube
 
 ---
@@ -88,9 +105,10 @@ Gastrostomy tube
 
 Jejunostomy tube
 
-• Placed into small intestin
+• Placed into small intestine
 
 ---
+
 Feeding Gastrostomy
 
 A gastrostomy tube allows feeding with a syringe, which can be done several times per day.
@@ -104,6 +122,7 @@ gastrostomy tube and place a jejunostomy tube, as the stomach frequently used to
 esophagus
 
 ---
+
 A gastrostomy tube can be placed either by endoscopy, which is called a PEG tube
 
 A gastrostomy tube can also be placed by laparoscopy, which is usually preferred if
@@ -121,6 +140,7 @@ same day.
 In some cases, a central venous port for chemotherapy is placed at the same time as a gastrostomy tube.
 
 ---
+
 The other type of feeding tube is a jejunostomy.
 
 
@@ -145,7 +165,5 @@ I hope this video has been helpful.
 
 Here are links to other videos you may find helpful.
 
-Feel free to subscribe in order to be notified about
-
-new videos
+Feel free to subscribe in order to be notified about new videos
 

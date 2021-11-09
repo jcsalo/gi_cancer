@@ -20,20 +20,27 @@ Videos are available on YouTube: https://www.youtube.com/channel/UC5Deez8jUMnLhc
 
 [Early Stage Disease](slides/06-Eso_Early.pdf)
 
--   [Endoscopic Therapy](slides/10-Endoscopic_Tx.pdf)
--   [Primary Surgery](slides/12-Eso_Surgery.pdf)
+Localized Disease
+
+-   [Surgery for Esophagectomy Cancer](slides/12-Eso_Surgery.pdf)
 -   [Choosing a Surgeon](slides/32-Surgeon.pdf)
 -   [Exercise](slides/34-Exercise.pdf)
 
 [Advanced Stage Disease](slides/08-Eso_Advanced.pdf)
 
--   [Locally Advanced](slides/14-Eso_LA.pdf)
--   [Central Venous Port](slides/26-Port.pdf)
--   [Nutrition for Esophageal Cancer Treatment](slides/22-NutritionEsoCa.pdf)
--   [Gastrostomy Tube for Nutritional Support](slides/24-gastrostomy.pdf)
+-   [Locally Advanced](slides/14-Eso_Locally_Advanced.pdf)
+  -   [Central Venous Port](slides/26-Port.pdf)
+  -   [Surgery for Esophagectomy Cancer](slides/12-Eso_Surgery.pdf)
+  -   [Choosing a Surgeon](slides/32-Surgeon.pdf)
+  -   [Exercise](slides/34-Exercise.pdf)
+  -   [Nutrition for Esophageal Cancer Treatment](slides/22-NutritionEsoCa.pdf)
+  -   [Gastrostomy Tube for Nutritional Support](slides/24-gastrostomy.pdf)
 
 -   [Metastatic Esophageal Cancer](slides/16-Eso_Metastatic.pdf)
-
+  -   [Central Venous Port](slides/26-Port.pdf)
+  -   [Nutrition for Esophageal Cancer Treatment](slides/22-NutritionEsoCa.pdf)
+  -   [Gastrostomy Tube for Nutritional Support](slides/24-gastrostomy.pdf)
+  
 ## Gastric (Stomach) Cancer 
 
 

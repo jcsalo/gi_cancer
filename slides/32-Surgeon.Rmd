@@ -1,42 +1,51 @@
 ---
 title: "Choosing a Hospital and Surgeon"
-author: "Jonathan Salo MD"
-institute: "Levine Cancer Institute"
-date: "<small>Click Right Arrow to Begin</small>"
-#date: "`r Sys.Date()`"
-params:
-  hide: FALSE
-  show: FALSE
-  pdf_param: TRUE
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      ratio: '16:9'
+      ratio: "16:9"
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
   html_document: default
+params: 
+  pdf_param:TRUE
 always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
     font-size: 40px;
     padding: 1em 4em 1em 4em;
-    line-height: 1.6;
 }
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
 </style>
-
-```{r, setup, echo=F, warning=FALSE}
-#remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
-
-<!--- P10000266--->
-<!--- Intro_02--->
 I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
 
 .font60[If you’re seeing this video, it’s likely because you have a recent diagnosis of esophageal cancer.]
@@ -65,11 +74,11 @@ Hospital and the Surgeon
 
 If you haven't do so already, please watch our video on Esophageal Surgery. There's a link above and one in the description below
 
-In that video, we talk about the importance of muscle strength a good outcome after esophageal surgery.
+In that video, we talk about the importance of muscle strength and nutrition for a a good outcome after esophageal surgery.
 
 ---
 
-The good news is that with proper nutrition and exercise, you can increase your muscle strength and improve your chances of a good outcome after surgery.
+The good news is that with proper nutrition and exercise, you can increase your muscle strength and reduce your chances of complications after surgery.
 
 In this video, we'll talk about the impact of the hospital and the surgeon on outcomes after surgery.
 
@@ -83,14 +92,14 @@ We're going to start by talking about outcomes after surgery and how statistics 
 
 # Baseball
 
-.pull-left[ If you want to evaluate how a team is doing, you look at the scoreboard ]
+.pull-left[ If you go to a baseball game and want to know how a team is doing, you look at the scoreboard ]
 
 .pull-right[<img src="images/action-1850887_1920.jpg" width="100%" height = "100%"><img src="images/sports-4341729_1920.jpg" width="100%" height = "100%">]
 
 ---
 
 
-.pull-left[If you want to evaluate a baseball player, you look at their batting average ]
+.pull-left[If you want to evaluate an individual baseball player, you want to know more than how they did in one game: you would look at their batting average ]
 
 .pull-right[<img src="images/hit-1407826_1920.jpg" width="100%" height = "100%">]
 
@@ -192,11 +201,11 @@ The surgeon is another key factor in the outcome of an operation.  The Leapfrog 
 
 # Your Surgeon's Outcomes
 
-Knowing your hospital's outcomes is important, but knowing your surgeon's outcomes is equally important.  Your surgeon should be able to tell you what their statistics are for outcomes like anastomotic leak, pneumonia, and death after surgery. These are discussed in the video about surgery.
+Knowing your hospital's outcomes is important, but knowing your surgeon's outcomes is equally important.  Your surgeon should be able to tell you what their statistics are for outcomes like anastomotic leak, pneumonia, and death after surgery. These are discussed in the video about surgery.[12-Eso_Surgery](12-Eso_Surgery.html)
 
 ---
 
-If you surgeon doesn't know their personal statistics, you may want to look for a second opinion.  After all, if you met a professional baseball player, you would expect that they would be familiar with their batting average. 
+If you surgeon doesn't know their personal statistics for performing an esophagectomy, you may want to consider a second opinion.  After all, if you met a professional baseball player, you would expect that they would be familiar with their batting average. 
 
 ---
 
@@ -231,13 +240,13 @@ As part of the preoperative evaluation, your surgeon may order additional tests 
   - Pneumonia
   - Anastomotic Leak
   - Death in the first 90 days after surgery
-  
-4) what would you estimate *my* risk of complications based upon your evaluation?
-  
 
+4) What sort of testing of my overall health will be needed before surgery?
+  
+5) what would you estimate *my* risk of complications based upon your evaluation?
 ---
 
-I hope you find this video helpful. If you have questions, please include them in the comments below, or if you have ideas for other videos about gastrointestinal cancer, please leave them in the comments section below.
+I hope have found this video helpful. If you or a family member have had an encounter with esophageal cancer surgery, I would love to hear about your experience, so please take a minute to leave a comment below. We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
 
 ---
 
