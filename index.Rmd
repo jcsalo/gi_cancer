@@ -33,6 +33,10 @@ title: "GI Cancer Education"
 
 [Video](https://www.youtube.com/watch?v=XsqL41lU29w&t=23s) &nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/22-NutritionEsoCa.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/22-NutritionEsoCa.pdf)
 
+#### Gastrostomy for Nutritional Support
+
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/24-Gastrostomy.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/24-Gastrostomy.pdf)
+
 #### Exercise and Cancer Surgery
 
 &nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/34-Exercise.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/34-Exercise.pdf)
