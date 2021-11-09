@@ -175,6 +175,7 @@ There are of course exceptions, but this is a
 general guideline
 
 ---
+
 ## Nodes
 
 - N0 – No lymph nodes involved
@@ -183,6 +184,7 @@ general guideline
 - N3 – 7 or more nodes involved
 
 ---
+
 # Metastasis
 
 
