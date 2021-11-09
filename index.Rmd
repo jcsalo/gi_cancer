@@ -23,7 +23,7 @@ title: "GI Cancer Education"
 
 #### Surgery for Esophageal Cancer
 
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/12_Eso_Surgery.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/12_Eso_Surgery.pdf)  &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/12-Eso_Surgery.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/12-Eso_Surgery.pdf)  &nbsp; &nbsp; &nbsp; &nbsp; 
 
 #### Choosing a Surgeon for Esophagectomy
 
