@@ -16,7 +16,7 @@ output:
   pdf_document:
     includes:
       in_header: preamble.tex
-    toc: yes
+    #toc: yes
     fig_caption: yes
     df_print: kable
   html_document: default
@@ -74,21 +74,29 @@ We're going to focus on two categories: localized and locally advanced
 
 ---
 
-.pull-left[This drawing shows a localized tumor. These tend to be smaller tumors that are less likely to spread to lymph nodes]
+This drawing shows a localized tumor. These tend to be smaller tumors that are less likely to spread to lymph nodes
 
-.pull-right[<img src="images/t2n0Artboard 3@4x.png" width="100%" height = "100%">]
+```{r, echo=F, warning =F, message=F, out.width="50%"}
+include_graphics("images/t2n0Artboard 3@4x.png")
+```
 
----
-
-.pull-left[This shows a locally-advanced tumors which are either T3 or has tumor spread to lymph nodes. These tumors are more likely to spread to lymph nodes.]
-
-.pull-right[<img src="images/t3n01Artboard 3@4x.png" width="100%" height = "100%">]
 
 ---
 
-.pull-left[Esophagectomy removes the tumor and the surrounding lymph nodes.  Unfortunately, once tumor cells have spread to the lymph nodes, there is a risk of microscopic disease that can't be seen and can't be removed by surgery alone.]
+This shows a locally-advanced tumors which are either T3 or has tumor spread to lymph nodes. These tumors are more likely to spread to lymph nodes.
 
-.pull-right[<img src="images/Eso_Resection2Artboard 2@4x.png" width="100%" height = "100%">]
+```{r, echo=F, warning =F, message=F, out.width="50%"}
+include_graphics("images/t3n01Artboard 3@4x.png")
+```
+
+---
+
+Esophagectomy removes the tumor and the surrounding lymph nodes.  Unfortunately, once tumor cells have spread to the lymph nodes, there is a risk of microscopic disease that can't be seen and can't be removed by surgery alone.
+
+```{r, echo=F, warning =F, message=F, out.width="50%"}
+include_graphics("images/Eso_Resection2Artboard 2@4x.png")
+```
+
 
 ---
 

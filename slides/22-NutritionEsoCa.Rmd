@@ -6,6 +6,12 @@ institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
 date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -13,12 +19,6 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-  pdf_document:
-    includes:
-      in_header: preamble.tex
-    toc: yes
-    fig_caption: yes
-    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -75,55 +75,38 @@ Carbohydrates are important for energy
 
 There are many different kinds of carbohydrates:
 
-There are sugars, which make food taste sweet
-but are also hard on your liver and pancreas
+There are sugars, which make food taste sweet but are also hard on your liver and pancreas
 
-There are starches, which also provide a source of
-energy but are easier on your system.
+There are starches, which also provide a source of energy but are easier on your system.
 Starches are large molecules made up of a long chain of sugars. 
 
 ---
 
 Fats are a second category of nutrients.
-Fats make food taste better and are important in
-small quantities for rebuilding tissue.
-The average American diet, however, contains
-more fat than most people need
+Fats make food taste better and are important in small quantities for rebuilding tissue.
+The average American diet, however, contains more fat than most people need
 
 ---
 
-Micronutrients are the vitamins and minerals your
-body needs to keep functioning smoothly.
+Micronutrients are the vitamins and minerals your body needs to keep functioning smoothly.
 A daily vitamin is enough for most people.
-In some cases, your doctor may recommend iron
-supplementation, but only if your iron levels are
+In some cases, your doctor may recommend iron supplementation, but only if your iron levels are
 low
 
 ---
 
 # Protein
-Protein is the essential building block of tissue in
-your body, especially muscle.
-If you don’t have enough protein in your diet, you
-can lose muscle mass, which can result in
-weakness and fatigue
+Protein is the essential building block of tissue in your body, especially muscle.
+If you don’t have enough protein in your diet, you can lose muscle mass, which can result in weakness and fatigue
 
 ---
 
-Protein is found in meats, fish, eggs, nuts, and
-beans.
-Your dietitian can give you a more precise number,
-but in general the average woman needs 60
-grams of protein per day and the average man
-needs 75 grams of protein per day
+Protein is found in meats, fish, eggs, nuts, and beans.
+Your dietitian can give you a more precise number, but in general the average woman needs 60 grams of protein per day and the average man needs 75 grams of protein per day
 
 ---
 
-For many people with esophageal cancer,
-however, eating meat can be difficult.
-Because of this, inadequate protein intake is the
-most common nutritional problem for patients
-with esophageal cancer.
+For many people with esophageal cancer, however, eating meat can be difficult. Because of this, inadequate protein intake is the most common nutritional problem for patients with esophageal cancer.
 
 ---
 
