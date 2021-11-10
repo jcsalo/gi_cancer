@@ -6,6 +6,12 @@ institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
 date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -13,12 +19,6 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-  pdf_document:
-    includes:
-      in_header: preamble.tex
-    toc: yes
-    fig_caption: yes
-    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -46,11 +46,9 @@ always_allow_html: yes
 library(knitr)
 xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
- Introduction
+# Introduction
 
-If you or someone close to you has recently been diagnosed with esophageal cancer, this video is intended for you.
-
-I’m Dr Jonathan Salo and I'm a GI Cancer Surgeon.
+If you or someone close to you has recently been diagnosed with esophageal cancer, this video is intended for you. I’m Dr Jonathan Salo and I'm a GI Cancer Surgeon.
 
 ---
 
@@ -175,6 +173,7 @@ There are of course exceptions, but this is a
 general guideline
 
 ---
+
 ## Nodes
 
 - N0 – No lymph nodes involved
@@ -183,6 +182,7 @@ general guideline
 - N3 – 7 or more nodes involved
 
 ---
+
 # Metastasis
 
 
@@ -196,11 +196,12 @@ such as the lungs, liver, or bone
 
 ---
 
-#Diagnostic Tests
+# Diagnostic Tests
 
 Next we will talk about some of the diagnostic tests that are used for staging.
 
 When you meet with your doctors, one the first things they will do is to come up with a plan for testing that is tailored to you and your particular tumor. So we will talk about these tests in general terms, but not all tests are needed for all patients
+
 ---
 
 # Scans
@@ -212,6 +213,7 @@ A CT scan is usually the first test for staging. This will show whether there is
 # PET Scan
 
 A PET scan is a specialized scan which combines a CT scan with an injection of a small amount of tracer which lights up areas of cancer.
+
 ---
 
 # EUS
@@ -221,6 +223,7 @@ In cases where it is important to know about the exact size of the tumor, an end
 ---
 
 In some cases, particularly for cancers in the stomach, it is important to look for signs of spread in the abdominal cavity. In some situations, cancers can spread in the abdominal cavity but the areas are so small they don’t show up on a CT scan. In these cases, a laparoscopy is helpful.
+
 ---
 
 ## Laparoscopy
