@@ -4,7 +4,7 @@ subtitle: "Jonathan Salo MD"
 author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
 institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
 date: "<small>Click Right Arrow &#8594; to Begin</small>"
-#date: "2016/12/12 (updated: `r Sys.Date()`)"
+#date: "2016/12/12 (updated: 2021-11-10)"
 output:
   pdf_document:
     includes:
@@ -42,10 +42,7 @@ always_allow_html: yes
 </style>
 <!--- --->
 <!--- --->
-```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
-library(knitr)
-xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
-```
+
 <!--- P10000266--->
 <!--- Premiere: Intro_02--->
 # Introduction
