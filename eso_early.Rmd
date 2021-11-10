@@ -7,6 +7,8 @@ output: html_document
 knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
 ```
 
+Early stage esophageal cancer is   
+
 Videos are available on YouTube: https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c
 
 [Introduction to Levine Cancer Institute](slides/01-intro_LCI.pdf)
