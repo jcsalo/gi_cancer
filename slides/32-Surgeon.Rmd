@@ -16,7 +16,7 @@ output:
   pdf_document:
     includes:
       in_header: preamble.tex
-    toc: yes
+    #toc: yes
     fig_caption: yes
     df_print: kable
   html_document: default
