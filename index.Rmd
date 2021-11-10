@@ -3,7 +3,7 @@ title: "GI Cancer Education"
 ---
 <br/>
 
-### Patient education resources for GI cancer patients
+## Patient education resources for GI cancer patients
 
 
 ### Esophageal Cancer
@@ -23,32 +23,38 @@ title: "GI Cancer Education"
 
 #### Surgery for Esophageal Cancer
 
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/12_Eso_Surgery.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/12_Eso_Surgery.pdf)  &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/12-Eso_Surgery.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/12-Eso_Surgery.pdf)  &nbsp; &nbsp; &nbsp; &nbsp; 
 
 #### Choosing a Surgeon for Esophagectomy
 
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/32_Surgeon.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/32-Surgeon.pdf)
-
-
-#### Early Stage Esophageal Cancer
-
-&nbsp; &nbsp; &nbsp; &nbsp; [Slides](slides/06-Eso_Early.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/06-Eso_Early.pdf)
-
-
-#### Surgery for Esophageal Cancer
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/12_Eso_Surgery.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/12_Eso_Surgery.pdf)  &nbsp; &nbsp; &nbsp; &nbsp; 
-
-#### Choosing a Surgeon for Esophagectomy
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/32_Surgeon.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/32-Surgeon.pdf)
-
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/32-Surgeon.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/32-Surgeon.pdf)
 
 #### Nutrition for Esophageal Cancer Treatment
 
-[Video](https://www.youtube.com/watch?v=XsqL41lU29w&t=23s) &nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/32_Surgeon.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/32-Surgeon.pdf)
+[Video](https://www.youtube.com/watch?v=XsqL41lU29w&t=23s) &nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/22-NutritionEsoCa.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/22-NutritionEsoCa.pdf)
+
+#### Gastrostomy for Nutritional Support
+
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/24-Gastrostomy.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/24-Gastrostomy.pdf)
 
 #### Exercise and Cancer Surgery
 
-[Slides](slides/72_Exercise.html) &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/34-Exercise.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/34-Exercise.pdf)
 
+#### Advanced Esophageal Cancer
+
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/08-Eso_Advanced.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/08-Eso_Advanced.pdf)
+
+#### Locally Advanced Esophageal Cancer
+
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/14-Eso_Locally_Advanced.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/14-Eso_Locally_Advanced.pdf)
+
+
+#### Metastatic Esophageal Cancer
+
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/16-Eso_Metastatic.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/16-Eso_Metastatic.pdf)
+
+
+#### Central Venous Port for Chemotherpy
+
+&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/26-Port.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/26-Port.pdf)

@@ -1,42 +1,51 @@
 ---
 title: "Choosing a Hospital and Surgeon"
-author: "Jonathan Salo MD"
-institute: "Levine Cancer Institute"
-date: "<small>Click Right Arrow to Begin</small>"
-#date: "`r Sys.Date()`"
-params:
-  hide: FALSE
-  show: FALSE
-  pdf_param: TRUE
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      ratio: '16:9'
+      ratio: "16:9"
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
   html_document: default
+params: 
+  pdf_param:TRUE
 always_allow_html: yes     
 ---
 <style type="text/css">
 .remark-slide-content {
     font-size: 40px;
     padding: 1em 4em 1em 4em;
-    line-height: 1.6;
 }
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
 </style>
-
-```{r, setup, echo=F, warning=FALSE}
-#remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
-
-<!--- P10000266--->
-<!--- Intro_02--->
 I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
 
 .font60[If you’re seeing this video, it’s likely because you have a recent diagnosis of esophageal cancer.]

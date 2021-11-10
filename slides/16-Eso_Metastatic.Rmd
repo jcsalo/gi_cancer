@@ -6,22 +6,20 @@ institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
 date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  pdf_document:
-    includes:
-      in_header: preamble.tex
-    toc: yes
-    fig_caption: yes
-    df_print: kable
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
+  html_document: 
       ratio: "16:9"
-  html_document: default
-params: 
-  pdf_param:TRUE
 always_allow_html: yes     
 ---
 <style type="text/css">
@@ -56,6 +54,36 @@ In this video, you will learn about the treatment of metastatic esophageal cance
 
 Metastatic esophageal cancer is cancer that has spread to other organs such as the liver, lungs, or bone.
 
+The primary treatment for metastatic esophageal cancer is chemotherapy, which is usually given intravenously.
+
+---
+
+The first step wil be staging scans such as a CT scan or PET scan.  If you haven't done so already, please take a look at our video that talks about these scans [Advanced Esophageal Cancer](08-Eso_Advanced.html)
+
+---
+
+The next step will be meeting with a *Medical Oncologist* to develop a treatment plan.
+
+---
+
+If you have had difficulty eating or weight loss, you may need a feeding tube to help maintain your nutrition.  Please see our video on nutrition during esophageal cancer treatement [Nutrition in Esophageal Cancer](22-NutritionEsoCa.html)
+
+---
+
+Because most ot the chemotherapy drugs are administered intravenously, you may need a central venous port [Central Venous Port](26-Port.html)
+
+
+---
+
+
+
+If you have a new diagnosis of cancer, please check out one of the following videos
+
+Feel free to subscribe so you can be notified about new videos
+
+If there are video topics you would like us to cover, please leave a comment below.
+
+=======
 
 The primary treatment for metastatic esophageal cancer is chemotherapy, which is usually given intravenously.
 

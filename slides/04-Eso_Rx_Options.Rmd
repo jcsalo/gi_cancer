@@ -1,5 +1,5 @@
 ---
-title: "Esophageal Cancer Treatment"
+title: "Esophageal Cancer Treatment Options"
 subtitle: "Jonathan Salo MD"
 author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
 institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
@@ -13,12 +13,12 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
- #   toc: yes
-    fig_caption: yes
-    df_print: kable
   pdf_document:
     includes:
       in_header: preamble.tex
+    toc: yes
+    fig_caption: yes
+    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -46,6 +46,7 @@ always_allow_html: yes
 library(knitr)
 xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
+---
 
 I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina.
 
@@ -78,6 +79,8 @@ the mouth into the esophagus. The
 gastroenterologist may perform one of several
 procedures in your care:
 
+---
+
 Upper endoscopy to examine the inside of the
 esophagus and stomach and biopsy any
 concerning areas
@@ -88,7 +91,7 @@ tumor in the esophagus or stomach
 
 ---
 
-A gastroenterologist may also treat superficial
+A gastroenterologist may also treat small
 cancers of the esophagus and stomach with
 endoscopic therapy such as an endoscopic
 mucosal resection
@@ -117,10 +120,9 @@ nodes
 # Surgeon
 Perform surgery to remove the cancer in the
 esophagus and surrounding lymph nodes and
-reconstruct the gastrointestinal tract. This
-usually means creating a new esophagus from a
-portion of the stomach.
-A surgeon would also place a feeding tube if
+reconstruct the gastrointestinal tract. 
+
+A surgeon may also place a feeding tube if
 needed, and place a central venous port for
 chemotherapy.
 ---
@@ -132,7 +134,7 @@ Treatment decisions may require consultation a number of specialists
 
 # Treatment Categories of Esophageal Cancer
 
-There are four different treatment categories of esophageal cancer
+four different treatment categories of esophageal cancer
 
 - I = Superficial -> Treated without surgery
 - II = Localized -> Treated with surgery alone
@@ -196,6 +198,9 @@ Having said that, Stage 1 patients are *generally* treated with Treatment Catego
 # What if I don't know the stage?
 
 If you haven't met with your treatment team to talk about the stage, I can give you some general direction to help get you started.
+
+
+---
 
 Patients who had difficulty swallowing usually have Category III or Category IV cancers. If you want more specific information esophageal cancer and there is difficulty swallowing or weight loss involved, Click on the link above, which will give you information about how we approach esophageal cancer when there is difficulty swallowing. These videos talk about Category III and Stage IV cancers of the esophagus, and about staging and treatment. 
 [Esophageal Cancer Treatment - Stage 3_4](08-Eso_Advanced.html)
