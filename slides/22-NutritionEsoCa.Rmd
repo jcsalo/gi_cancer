@@ -57,7 +57,7 @@ Esophageal cancer can cause difficulty with swallowing, which can limit your bod
 In this video you’ll learn about
 
 - Essential building blocks for good nutrition
-- Protein supplements
+- Nutritional drinks
 - Feeding tubes
 
 ---
@@ -65,9 +65,10 @@ In this video you’ll learn about
 There are four major nutritional building block:
 
 - Carbohydrates
-- Fats
-- Micronutrients
 - Protein
+- Fats
+- Vitamins and Minerals
+
 
 ---
 
@@ -75,20 +76,20 @@ Carbohydrates are important for energy
 
 There are many different kinds of carbohydrates:
 
-There are sugars, which make food taste sweet but are also hard on your liver and pancreas
+There are sugars, which make food taste sweet but may also raise your blood sugar
 
 There are starches, which also provide a source of energy but are easier on your system.
-Starches are large molecules made up of a long chain of sugars. 
+Starches are large molecules made up of a long chain of sugars, but don't take sweet, are are found in food such as bread and potatoes.
 
 ---
 
 Fats are a second category of nutrients.
-Fats make food taste better and are important in small quantities for rebuilding tissue.
+Fats make food taste better and are important in small quantities for rebuilding tissue. Fat is found in oil, butter, shortening, and fried foods.
 The average American diet, however, contains more fat than most people need
 
 ---
 
-Micronutrients are the vitamins and minerals your body needs to keep functioning smoothly.
+Vitamins and minerals are needed to keep your body running smoothly.
 A daily vitamin is enough for most people.
 In some cases, your doctor may recommend iron supplementation, but only if your iron levels are
 low
@@ -102,7 +103,7 @@ If you don’t have enough protein in your diet, you can lose muscle mass, which
 ---
 
 Protein is found in meats, fish, eggs, nuts, and beans.
-Your dietitian can give you a more precise number, but in general the average woman needs 60 grams of protein per day and the average man needs 75 grams of protein per day
+Your dietitian can give you a more precise number, but in general the average woman needs 60 grams of protein per day and the average man needs 75 grams of protein per day. You may need even more protein during cancer treatment in order to rebuild damaged tissue.
 
 ---
 
@@ -110,64 +111,41 @@ For many people with esophageal cancer, however, eating meat can be difficult. B
 
 ---
 
-For patients who have difficulty eating, we
-recommend protein supplements to make
-certain they have enough protein to stay healthy.
+For patients who have difficulty eating, we recommend nutritional drinks to make certain they have enough protein to stay healthy.
 
 ---
 
-#Protein Supplements
-When we talk about protein supplements, we will
-talk about two different categories:
+When we talk about nutritional drinks, we will talk about two different categories:
 
 - Protein Shakes
 - Meal Replacements
 
 ---
 
-Protein shakes contain protein and flavoring and
-may contain micronutrients, but don’t tend to
-contain much in the way of carbohydrates or fat.
-An example of a protein shake would be Premierj
-Protein or Pure Protein.
+Protein shakes contain protein and flavoring and may contain micronutrients, but don’t tend to contain much in the way of carbohydrates or fat.
+An example of a protein shake would be Premier Protein or Pure Protein.
 
 ---
 
 # Meal Replacements
-Meal replacements contain protein as well as
-carbohydrates, either in the form or sugars or
-dietary fiber, along with fats. Examples of meal
-replacements would be Ensure or Boost.
+Meal replacements contain protein as well as carbohydrates, along with fats. Examples of meal replacements would be Ensure or Boost.
 
 ---
 
-Your dietitian will help decide whether a protein
-shake or meal replacement is best for you, but
-for most patients that are able to take at least
-some other food, **protein shakes** taste better and
-are usually more suitable.
+Your dietitian will help decide whether a protein shake or meal replacement is best for you, but for most patients that are able to take at least some other food, **protein shakes** taste better and are usually more suitable.
 
 ---
 
-Bear in mind that the average woman need 60
-grams of protein per day, and the average man
-needs 75 grams of protein per day, so it will be
-important to read the label to make certain
-you’re getting enough protein
+Bear in mind that the average woman need 60 grams of protein per day, and the average man needs 75 grams of protein per day, so it will be important to read the label to make certain you’re getting enough protein
 
 ---
 
-For most people with esophageal cancer who
-have difficulty eating, things can get worse
-during esophageal cancer therapy.
-The reason is that the most common initial
-treatment in chemotherapy and radiation.
+For most people with esophageal cancer who have difficulty eating, things can get worse during esophageal cancer therapy. The reason is that the most common initial treatment in chemotherapy and radiation.
 
 ---
 
 Chemotherapy can tend to depress your appetite.
-Radiation can lead to a temporary ‘sunburn’ on the inside of the esophagus called radiation
-esophagitis. This usually gets better after the radiation ends, but during the radiation it can make it more difficult to swallow.
+Radiation can lead to a temporary ‘sunburn’ on the inside of the esophagus called radiation esophagitis. This usually gets better after the radiation ends, but during the radiation it can make it more difficult to swallow. Swallowing usually gets better within the first 2 to 3 weeks after the end of radiation.
 
 ---
 
@@ -178,13 +156,9 @@ Let’s take a look at the options:
 
 ---
 
-A gastrostomy tube is placed into the stomach by a surgical procedure. Feedings can be
-administered with a syringe. A gastrostomy tube still allows you to each as much as you
-would like.
+A gastrostomy tube is placed into the stomach by a surgical procedure. Feedings can be administered with a syringe. A gastrostomy tube still allows you to each as much as you would like.
 
-A jejunostomy tube is placed into the jejunum, or the small intestine. Feedings
-require a pump and are generally given overnight, which can take 12-16 hours. A
-jejunostomy tube still allows you to each as much  as you would like.
+A jejunostomy tube is placed into the jejunum, or the small intestine. Feedings require a pump and are generally given overnight, which can take 12-16 hours. A jejunostomy tube still allows you to each as much  as you would like.
 
 ---
 
@@ -204,5 +178,6 @@ If you or a family member have had an encounter with esophageal cancer, I would 
 
 ---
 
-Here are some additional videos you may find helpful:
+Here are some additional videos which you may find helpful:
 
+[Gastrostomy Tube for Nutritional Support](24-Gastrostomy.html)
