@@ -6,12 +6,6 @@ institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
 date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  pdf_document:
-    includes:
-      in_header: preamble.tex
-    #toc: yes
-    fig_caption: yes
-    df_print: kable
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -19,6 +13,12 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -57,35 +57,48 @@ If you're viewing this video, chances are that you or someone close to you has e
 
 This video focuses on patients with locally advanced esophageal cancer. This is defined as T3 or Node-positive esophageal cancer.  
 
-If that terminology is unfamiliar or you haven't seen our video on Esophageal Cancer Treatment Options video, a link is provided in the description.
+If that terminology is unfamiliar or you haven't seen our Esophageal Cancer Staging video, there is a link above and one in the description below. 
 
 
 ---
 
-For a refresher, we have four major categories of esophageal cancers:
+For a refresher, esophageal cancer, as it grows, can tends to make it difficult for patients to swallow, and they can lose weight as a result.
+
+So patients with esophageal cancer fit into two main groups:
+
+- A small group who don't have any difficulty eating that have *early* stage disease
+- Majority of patients who have some difficulty eating or may have weight loss who have *advanced* disease.
+
+--
+
+Among those with early stage disease, there are two categories: 
 
 - Superficial -> Treated without surgery
 - Localized -> Treated with surgery alone
-- Locally Advanced -> Chemotherapy + Radiation -> Surgery
-- Metastatic -> Chemotherapy
+
+For more information about early stage esophageal cancer, there is a link above and in the description.
 
 ---
 
-We're going to focus on two categories: Locally Advanced and Metastatic.
+This video will focus on *advanced* esophageal cancer, which consists of two categories: Locally Advanced and Metastatic.
 
-Locally-advanced tumors are usually all T3, meaning that the tumor has grow through the wall of the esophagus.
+- Locally Advanced -> T3M0
+- Metastatic -> M1
+
+---
+
+Locally-advanced tumors are usually all T3, meaning that the tumor has grow through the wall of the esophagus *AND* there is no signs of spread to other organs, so they are M0
 
 ```{r out.width="90%", echo=F}
 include_graphics("images/t3n01Artboard 3@4x.png")
 ```
 ---
 
-The key difference between locally advanced and metastatic tumors is whether there is spread to other organs such as the liver or lungs.
-
-Locally advanced tumors are staged as M0, while metastatic tumors are staged as M1
+Metastatic esophageal cancer is a case where there has been spread to other organs such as the liver or lungs.  These are considered stage M1.
 
 
 ---
+**Staging** The first task with a new diagnosis of esophageal cancer is staging, which is the process of finding out the size of the tumor and whether there is any signs of spread.
 
 # CT scan
 
@@ -95,9 +108,10 @@ Often the first test that is done for staging is a CT scan. The CT scan will sho
 
 # PET scan
 
-A PET scan is similar to at CT scan, but it also uses a tracer made from sugar which can light up areas of tumor.  From the patient perspective, this is similar to a CT scan.  Because the test uses a tracer made from labeled sugar, it is important that your blood sugar level not be too high.  For most patients, this means not eating for 4 hours before the exam and not drinking anything except water for the 4 hours before.
+A PET scan is similar to at CT scan, but it also uses a tracer made from sugar which can light up areas of tumor.  From the patient perspective, this is similar to a CT scan.  Because the test uses a tracer made from labeled sugar, it is important that your blood sugar level not be too high.  For most patients, this means not eating or drinking anything except water for the 4 hours before the scan.
 
 ---
+
 
 # Treatment
 
@@ -111,38 +125,26 @@ For patients with Metastatic tumors that are M1, the usual treatment is chemothe
 
 ---
 
-The key difference between locally advanced and metastatic tumors is whether there is spread to other organs such as the liver or lungs.
-
-Locally advanced tumors are staged as M0, while metastatic tumors are staged as M1
+Once the staging studies are complete, you and your esophageal cancer treatment team can design a treatment plan for you and your cancer.
 
 
 ---
 
-# CT scan
+I hope you have found this video helpful. This videos and others like it are designed to 
 
-Often the first test that is done for staging is a CT scan. The CT scan will show whether there is spread to the liver or lungs.
+educate patients and families about esophageal cancer 
 
----
+and equip them for their discussions with their esophageal cancer care team. 
 
-# PET scan
-
-A PET scan is similar to at CT scan, but it also uses a tracer made from sugar which can light up areas of tumor.  From the patient perspective, this is similar to a CT scan.  Because the test uses a tracer made from labeled sugar, it is important that your blood sugar level not be too high.  For most patients, this means not eating for 4 hours before the exam and not drinking anything except water for the 4 hours before.
+As always, these videos are no substitute for expert medical advice. 
 
 ---
 
-# Treatment
+Feel free to leave a comment or a question, or if you have suggestions for future videos.
 
-For patients with Locally Advanced tumors that are T3 and M0, the usual treatment is a combination of chemotherapy, radiation, and surgery called trimodality therapy.  There is a link here for a video that discussed the treatment of Locally Advanced tumors.
-[Locally Advanced Esophageal Cancer](14-Eso_Locally_Advanced.html)
+If you or a family member have had an encounter with esophageal cancer, I would love to hear about your experience, so please take a minute to leave a comment below. 
 
----
-
-For patients with Metastatic tumors that are M1, the usual treatment is chemotherapy.  In most cases, this is given intravenously through a central venous port.  Chemotherapy is administered under the care of a Medical Oncologist. [Metastatic Esophageal Cancer](16-Eso_Metastatic.html)
-
----
-
-
-If you or a family member have had an encounter with esophageal cancer, I would love to hear about your experience, so please take a minute to leave a comment below. We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
+We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
 
 ---
 
