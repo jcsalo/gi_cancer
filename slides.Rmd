@@ -51,11 +51,6 @@ knitr::include_url("slides/16-Eso_Metastatic.html")
 ```
 
 
-### Metastatic Disease
-```{r}
-knitr::include_url("slides/16-Eso_Metastatic.html")
-```
-
 ## Surgery {.tabset}
 
 ### Esophagectomy
@@ -79,7 +74,14 @@ knitr::include_url("slides/32-Surgeon.html")
 knitr::include_url("slides/22-NutritionEsoCa.html")
 ```
 
-### Gastrostomy Tube
+### Gastrostomy
+
+```{r}
+knitr::include_url("slides/24-gastrostomy.html")
+```
+
+
+### Jejunostomy
 
 ```{r}
 knitr::include_url("slides/24-gastrostomy.html")
