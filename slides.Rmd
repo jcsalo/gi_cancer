@@ -15,6 +15,12 @@ Videos are available on YouTube: https://www.youtube.com/channel/UC5Deez8jUMnLhc
 
 ## Esophageal Cancer {.tabset}
 
+### Symptoms
+
+```{r}
+knitr::include_url("slides/015-Eso_Symptoms.html")
+```
+
 ### Diagnosis/Staging
 
 ```{r}

@@ -8,9 +8,19 @@ title: "GI Cancer Education"
 
 ### Esophageal Cancer
 
+#### Esophageal Cancer Symptoms
+
+(Video Pending)  &nbsp; [Slides](slides/0215-Eso_Symptoms.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/015-Eso_Symptoms.pdf)
+
+
 #### Diagnosis and Staging
 
 [Video](https://www.youtube.com/watch?v=aDkgurq17wE) &nbsp; &nbsp; &nbsp; &nbsp; [Slides](slides/02-Eso_Dx_Staging.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/02-Eso_Dx_Staging.pdf)
+
+
+#### Esophageal Cancer Care Team
+
+(Video Pending) [Slides](slides/03-Eso_Care_Team.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/03-Eso_care_team.pdf)
 
 #### Treatment Options
 
