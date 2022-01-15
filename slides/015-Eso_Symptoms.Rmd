@@ -1,5 +1,5 @@
 ---
-title: "Esophageal Cancer Treatment Options"
+title: "Esophageal Cancer Symptoms"
 subtitle: "Jonathan Salo MD"
 author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
 institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
@@ -60,6 +60,69 @@ These videos were designed to help my patients understand their cancer and its t
 The internet is a great tool for learning, including learning about cancer.
 
 But when you or a family member receives a new diagnosis of cancer, it's important that you receive information that is specifically tailored to your situation.
+---
+
+## Anatomy
+
+The esophagus is a hollow muscular tube which connects the throat to the stomach. Normally, the esophagus pushes food from the throat to the stomach. The food passes through a one-way valve called a *sphincter* between the esophagus and the stomach.  The sphincter is a valve which prevents food and acid from going back up into the esophagus.  Once food is in the stomach, acid is added to start digestion.  The stomach then pumps food out through another one-way valve called the pylorus, to enter the duodenum and eventually the small intestines for digestion. The pylorus controls how much food enters the small intestines at one time, so that the small intestines don't become overwhelmed by too much food at one time.
+
+---
+
+## Cancer Terms
+
+Let‘s start with some definitions. A **tumor** is an abnormal growth. Tumors can be either benign or malignant
+
+A **benign** tumor of the esophagus may grow over time and cause obstruction and make it difficult to swallow, but it won’t ever spread anywhere else
+
+---
+
+ A **malignant** tumor of the esophagus can cause obstruction but also has the potential to spread elsewhere in the body.
+
+**Cancer** is another term for a malignant tumor Unfortunately, the majority of tumors found in the esophagus are cancer. We will use the term cancer and tumor interchangeably. We will come back to esophageal cancer later in the video.
+
+---
+
+# Dysphagia
+
+In many cases, if a tumor grows in the esophagus, the first symptoms are those due to obstruction of the esophagus. 
+
+The first symptom is difficulty swallowing, called *dysphagia*.  Typically, this starts with a sensation that food gets stuck in the esophagus. This is usually worse with meats and bread. At first, it's usually possible to resume swallowing by washing the food down with liquids or by eating more slowly. A change in the diet to avoid solid foods can be helpful.  Over time, however, if the tumor grows, it can affect the swallow of softer foods or even liquids.
+
+--- 
+
+# Odynophagia
+
+The esophagus works as a pump to move food from the throat to the stomach. As a result, if there is an obstruction, the esophagus will contract to try to force food through the area fo narrowing. The result can be pain with eating,particularly when eating solid food. 
+
+---
+
+
+# Regurgitation
+
+Occasionally, if a tumor in the esophagus continues to grow, it can cause the regurgitation of undigested food.  This can happen without warning, and can happen either immediately after eating or even several hours later.
+
+---
+
+# Reflux
+
+Other patients with esophageal cancer will have a small tumor which is not large enough to cause obstruction.
+
+For some, the first symptom of esophageal cancer is acid reflux.  This can be caused by if the one-way valve between the esophagus and the stomach doesn't work properly and allows acid to enter the esophagus. 
+
+Heart burn
+
+# Bleeding
+  Red bloodk or black tarry 
+  Vomiting blood
+  Anemia
+  
+  
+
+
+
+
+
+
 
 ---
 
