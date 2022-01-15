@@ -92,7 +92,7 @@ Under sedation, a flexible scope is passed through the mouth into the esophagus,
 
 ---
 
-If a mass is found in the esophagus, a small portion can be removed, which is called a **biopsy**
+If a tumor is found in the esophagus, a small portion can be removed, which is called a **biopsy**
 
 
 The biopsy is examined by a pathologist, who will determine whether the tumor is benign or whether it is a cancer
@@ -177,6 +177,7 @@ general guideline
 ## Nodes
 
 - N0 – No lymph nodes involved
+- Node positive 
 - N1 – 1 or 2 lymph nodes involved
 - N2 – 3-6 nodes involved
 - N3 – 7 or more nodes involved
@@ -234,7 +235,8 @@ The procedure is usually done as an outpatient, so you can go home the same day.
 
 ---
 
-The next video discusses treatment options for esophageal cancer.
+The next video discusses your esophageal cancer care team: 
+[Esophageal Cancer Care Team](03-Eso_Care_Team.html)
 
 Feel free to subscribe to be notified of new videos.
 
@@ -242,8 +244,5 @@ If you found this video helpful or have questions or suggestions, please comment
 
 ---
 
-Here are some other videos you may find helpful:
-
-[Esophageal Cancer Treatment Options](04-Eso_Rx_Options.html)
 
 

@@ -1,0 +1,143 @@
+---
+title: "Esophageal Cancer Treatment Options"
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
+  html_document: default
+params: 
+  pdf_param:TRUE
+always_allow_html: yes     
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 40px;
+    padding: 1em 4em 1em 4em;
+}
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
+</style>
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
+```
+---
+
+I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina. If you or someone close to you has been diagnosed with esophageal cancer, this video is for you. In this video, you will learn about
+
+- The esophageal cancer care team
+- Four different categories of esophageal cancer
+- How the cancer stage helps make treatment decisions
+
+---
+
+These videos were designed to help my patients understand their cancer and its treatment. 
+
+The internet is a great tool for learning, including learning about cancer.
+
+But when you or a family member receives a new diagnosis of cancer, it's important that you receive information that is specifically tailored to your situation.
+
+---
+
+
+# Care Team
+
+The care of esophageal cancer takes a whole team working together to give you the best care. Let’s take a look at the different team members:
+
+---
+
+Gastroenterologist works with an endoscope, which is a flexible tube which inserted through the mouth into the esophagus. The gastroenterologist may perform one of several procedures in your care:
+
+---
+
+Upper endoscopy to examine the inside of the esophagus and stomach and biopsy any concerning areas
+
+Endoscopic ultrasound is used in some cases to carefully examine the depth of invasion of a tumor in the esophagus or stomach
+
+---
+
+A gastroenterologist may also treat small cancers of the esophagus and stomach with endoscopic therapy such as an endoscopic mucosal resection
+
+---
+
+# Diagnostic radiologist
+
+Interpret CT or PET scans Perform biopsies under the guidance of CT or ultrasound
+
+---
+
+# Medical Oncologist
+
+Treat cancer with chemotherapy or immunotherapy, using drugs given intravenously (and sometimes by pill). 
+
+---
+
+# Radiation Therapist
+Treats cancer with high-energy x-rays that target tumors in the esophagus and nearby lymph nodes. A radiation therapist can also be referred to as a radiation oncologist.
+
+---
+
+# Surgeon
+Perform surgery to remove the cancer in the esophagus and surrounding lymph nodes and reconstruct the gastrointestinal tract. 
+
+A surgeon may also place a feeding tube if needed, and place a central venous port for chemotherapy.
+
+---
+
+# Dietitian
+
+For patients with esophageal cancer, getting adequate nutrition can be a challenge. Frequently the tumor itself can make it difficult to swallow. In addition, cancer therapy can affect your appetite. Some patients will require a temporary feeding tube to help with their nutrition.
+
+In all these cases, a dietitian can help you make sure that your body receives the nutrition it needs.
+
+---
+
+# Nurses
+
+In every step along the way in your journey with esophageal cancer, there will be nurses who will help implement the treatment plan.  They are a great source of information for any questions that arise during your treatment.
+
+
+---
+# Support Staff
+
+The diagnosis of esophageal cancer affects more than just the esophagus - It affects the whole person and the whole family.  Most cancer centers will have a wide variety of services to help you and your family navigate your journey. Some examples:
+
+- Counselors and psychologists to help with 
+- Financial counselors
+- Palliative Care team to help with symptom control
+
+Don't be afraid to ask about resource which may be available at your cancer center.
+
+---
+
+# Treatment Options
+
+The next video discusses Treatment Options for esophageal cancer.
+
+
+[Esophageal Cancer Treatment Options](04-Eso_Rx_Options.html)
