@@ -28,12 +28,25 @@ always_allow_html: yes
 
 ---
 
+[EsoCa Symptoms](015-Eso_symptoms.pdf)
+
+- Directions/Parking
+- Links to my Atrium
+
+---
+
 [EsoCa Diagnosis and Staging](02-Eso_Dx_Staging.pdf)
 
 - Dx tests (EGD, EUS, PET,Laparoscopy)
 - TNM Staging
 
 ---
+[EsoCa Treatment Team](03-Eso_Care_team.pdf)
+
+- Specialists
+
+---
+
 
 [EsoCa Treatment Options](04-Eso_Rx_Options.pdf)
 

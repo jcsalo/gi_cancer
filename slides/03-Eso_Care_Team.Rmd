@@ -6,6 +6,12 @@ institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
 date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -13,12 +19,6 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-  pdf_document:
-    includes:
-      in_header: preamble.tex
-    #toc: yes
-    fig_caption: yes
-    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -141,3 +141,19 @@ The next video discusses Treatment Options for esophageal cancer.
 
 
 [Esophageal Cancer Treatment Options](04-Eso_Rx_Options.html)
+
+---
+
+We hope you have found this video helpful. This videos and others like it are designed to 
+
+educate patients and families about esophageal cancer 
+
+and equip them for their discussions with their esophageal cancer care team. 
+
+As always, these videos are no substitute for expert medical advice. 
+
+---
+
+Feel free to leave a comment or a question, or if you have suggestions for future videos.
+
+---

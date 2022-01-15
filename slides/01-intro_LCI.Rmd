@@ -8,18 +8,18 @@ params:
   hide: FALSE
   show: FALSE
 output:
-  html_document: default
-  pdf_document:
-    includes:
-      in_header: preamble.tex
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-params: 
-  pdf_param:TRUE
+  html_document: default
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+  params: 
+    pdf_param:TRUE
 always_allow_html: yes     
 ---
 <style type="text/css">
@@ -42,8 +42,6 @@ I'm Dr Jonathan Salo, a  Cancer Surgeon at the Levine Cancer Institute.
 .font60[If you’re seeing this video, it’s likely because you have an upcoming consultation scheduled.]
 
 You may have a recent diagnosis of cancer. Whatever your situation, we have a great team of people who can help you every step of the way.
-
-[Plan](00-Esophagus_Plan.pdf)
 
 ---
 
@@ -95,7 +93,7 @@ plan for the next steps
 
 ## Next Steps
 
-- Additional x-rays, such as a CT scan or PET scan
+- X-rays, such as a CT scan or PET scan
 - An endoscopic procedure
 - Placement of a feeding tube for nutrition 
 - Placement of a port for chemotherapy
@@ -122,7 +120,7 @@ managing symptoms
 
 We have a full-time staff of **dietitians**
 
-We have an **Integrative Oncology** program which
+Our **Integrative Oncology** program which
 and can assist you in choosing supplements and complementary therapies to help manage symptoms and promote wellness.
 
 We have a **senior oncology clinic** which can help

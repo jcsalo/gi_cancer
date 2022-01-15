@@ -6,6 +6,12 @@ institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
 date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -13,12 +19,6 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-  pdf_document:
-    includes:
-      in_header: preamble.tex
-    #toc: yes
-    fig_caption: yes
-    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -43,7 +43,7 @@ always_allow_html: yes
 </style>
 <!--- --->
 <!--- --->
-```{r xaringanExtra, echo=FALSE}
+```{r xaringanExtra, echo=FALSE, warning=FALSE}
 xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 library(knitr)
 ```
@@ -55,21 +55,21 @@ If you're viewing this video, chances are that you or someone close to you has e
 
 ---
 
-For a refresher, esophageal cancer, as it grows, can tends to make it difficult for patients to swallow, and they can lose weight as a result.
+For a refresher, esophageal cancer, as it grows, can tends to make it difficult for patients to swallow.
 
 So patients with esophageal cancer fit into two main groups:
 
 - A small group who don't have any difficulty eating that have *early* stage disease
 - Majority of patients who have some difficulty eating or may have weight loss who have *advanced* disease.
 
---
+---
 
 Among those with early stage disease, there are two categories: 
 
 - Superficial -> Treated without surgery
 - Localized -> Treated with surgery alone
 
-For more information about early stage esophageal cancer, there is a link above and in the description.
+For more information about early stage esophageal cancer, there is a link above and in the description. [Non-obstructing esophageal tumors](06-Eso_Early.html)
 
 ---
 

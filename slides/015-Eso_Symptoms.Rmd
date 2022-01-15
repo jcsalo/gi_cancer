@@ -50,8 +50,7 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "
 
 I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina. If you or someone close to you has been diagnosed with esophageal cancer, this video is for you. In this video, you will learn about
 
-- Four different categories of esophageal cancer
-- How the cancer stage helps make treatment decisions
+- Some of the signs and symptoms of esophageal cancer
 
 ---
 
@@ -103,47 +102,63 @@ Occasionally, if a tumor in the esophagus continues to grow, it can cause the re
 
 ---
 
-# Reflux
+# Bleeding
 
 Other patients with esophageal cancer will have a small tumor which is not large enough to cause obstruction.
 
-For some, the first symptom of esophageal cancer is acid reflux.  This can be caused by if the one-way valve between the esophagus and the stomach doesn't work properly and allows acid to enter the esophagus. 
-
-Heart burn
-
-# Bleeding
-  Red bloodk or black tarry 
-  Vomiting blood
-  Anemia
-  
-  
-
-
-
-
-
-
+For some, the first indication of a tumor in the esophagus is bleeding.  For some patients, this means vomiting up blood, while for others this is passing dark, tarry stools, and for others, it could be anemia, caused by slow blood loss over a long period of time.
 
 ---
+
+# Reflux
+
+For some, the first symptom of esophageal cancer is gastroesophageal reflux.  This can be caused by if the one-way valve between the esophagus and the stomach doesn't work properly and allows acid to enter the esophagus. The acid *relfuxes* up from the stomach to the esophagus. This can lead to heartburn, because the esophagus is not designed to handle acid. 
+
+-
+Other signs of gastroesophageal reflux include an acid taste in the back of the mouth, or a chronic cough, frequent clearing of the throat, or even wheezing and asthma.
+
+-
+
+# Barrett's Esophagus
+
+If reflux persists over time, it can cause chronic irritation to the lining of the esophagus called the *mucosa*. In some cases, the mucosa of the esophagus changes in response to  the chronic irritation.  The new mucosa is more resistant to acid, and frequently the heartburn goes away. The change in the mucosa of the esophagus in response to acid reflux is called *Barrett's Esophagus*.
+
+---
+
+By itself, Barrett's esophagus is not dangerous, but people with Barrett's esophagus are at elevated risk of developing esophageal cancer. 
+  
+The American College of Physicians recommends that patients with Barrett's esophagus undergo screening upper endoscopy every 3-5 years.
+
+---
+
+# Do I have Barrett's esophagus?
+
+Unfortunately, the only way to diagnose Barrett's esophagus is to undergo a upper endoscopy to look at the inside of the esophagus.
+
+The American College of Physicians recommends upper endoscopy for anyone who continues to have reflux symptoms after a 4 to 8 week trial of acid-blocking medicines and for men over age 50 who may be at increased risk of Barrett's esophagus.
 
 
 
 # Obstructing vs Non-obstructing esophageal cancer
 
-For most patients with esophageal cancer, difficulty swallowing is 
+To summarize, Esophageal cancer tends to fit into two varieties: obstructing tumors and non-obstructing tumors.  We will come back to this when we talk about treatment in another video.
 
+In the next video in our series, you will learn about the diagnosis and staging of esophageal cancer.
 
----
-
-Patients who had difficulty swallowing usually have Category III or Category IV cancers. If you want more specific information esophageal cancer and there is difficulty swallowing or weight loss involved, Click on the link above, which will give you information about how we approach esophageal cancer when there is difficulty swallowing. These videos talk about Category III and Stage IV cancers of the esophagus, and about staging and treatment. 
-[Esophageal Cancer Treatment - Stage 3_4](08-Eso_Advanced.html)
+[Esophageal Cancer Diagnosis and Staging](02-Eso_Dx_staging.html)
 
 ---
 
-Patients without difficulty swallowing often have Stage I or Stage II cancers. These patients may have bleeding, or heartburn, or may have no symptoms.  If you want more specific information about Category I or Category II cancers, click on the link above. This video will give you information about Category I and Category II cancers, and about staging and treatment.
+We hope you have found this video helpful. This videos and others like it are designed to 
 
-[Esophageal Cancer Treatment - Stage 1_2](06-Eso_Early.html)
+educate patients and families about esophageal cancer 
+
+and equip them for their discussions with their esophageal cancer care team. 
+
+As always, these videos are no substitute for expert medical advice. 
 
 ---
 
-We hope you have found this video helpful. If you have questions or if there are topics you would like us to cover, please leave a comment below.  Feel free to subscribe to be notified when we post new videos.
+Feel free to leave a comment or a question, or if you have suggestions for future videos.
+
+---
