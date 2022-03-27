@@ -45,11 +45,10 @@ always_allow_html: yes
 ```{r xaringanExtra, echo=FALSE}
 xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
-I'm Dr Jonathan Salo, a GI Cancer Surgeon in North Carolina.
 
-.font60[If you’re seeing this video, it’s likely because you have an upcoming consultation scheduled.]
+I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina. If you or someone close to you has been diagnosed with esophageal cancer, this video is for you. In this video, you will learn about
 
-[Plan](00-Esophagus_Plan.pdf)
+- *Early* or *non-obstructing* esophageal cancer
 
 
 ---
@@ -70,14 +69,17 @@ Among those with *advanced* disease, there are two categories:
 
 For more information about *advanced* esophageal cancer, there is a link above and in the description. [Advanced](08-Eso_Advanced.html)
 
----
 
+
+---
 
 In this video, you will learn about *Early Stage* esophageal tumors.  These generally don't cause any difficulty with eating or swallowing.
 
 Early Stage cancers are those that are T1 or T2 and N0M0.  
 
-If these are not familiar concepts please refer to videos which discuss staging.
+If you haven't seen it already, please see the video about esophageal cancer diagnosis and staging to give you an overview.
+
+[Esophageal Cancer Diagnosis and Staging](02_Eso_Dx_Staging.html)
 
 
 ---
@@ -138,14 +140,7 @@ When a small tumor has been completely removed by endoscopic mucosal resection, 
 1. surgical removal with esophagectomy or 
 2. close surveillance with endoscopy.
 
----
 
-In the next video in our series you will learn about surgery for esophageal cancer.  Surgery is usually recommended for patients with T1 tumors which can't be removed by endoscopic therapy and for patients with T2 tumors.
-
-
-[Surgery for Esophageal Cancer](12-Eso_surgery.pdf)
-
----
 
 We hope you have found this video helpful. This videos and others like it are designed to 
 
@@ -158,3 +153,14 @@ As always, these videos are no substitute for expert medical advice.
 ---
 If you or a family member have had an encounter with esophageal cancer surgery, I would love to hear about your experience, so please take a minute to leave a comment below. We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
 
+---
+
+In the next video in our series you will learn about surgery for esophageal cancer.  Surgery is usually recommended for patients with T1 tumors which can't be removed by endoscopic therapy and for patients with T2 tumors.
+
+
+[Surgery for Esophageal Cancer](12-Eso_surgery.pdf)
+
+
+To learn about *advanced* esophageal cancer, which generally causes difficulty eating, we have a video with the link below:  [Advanced](08-Eso_Advanced.html)
+
+---

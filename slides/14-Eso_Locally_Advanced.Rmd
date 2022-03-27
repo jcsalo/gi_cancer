@@ -70,28 +70,18 @@ For a refresher, we have four major categories of esophageal cancers:
 
 ---
 
-We're going to focus on two categories: localized and locally advanced
+We will divide these into two groups: Early and Advanced
+
+Advanced  esophageal cancer, which consists of two categories: Locally Advanced and Metastatic.
+
+- Locally Advanced -> T3M0
+- Metastatic -> M1
+
+This video focuses on *Locally Advanced* esophageal cancer
 
 ---
 
-This drawing shows a localized tumor. These tumors are T2 and have negative lymph nodes. These tend to be smaller tumors that are less likely to spread to lymph nodes.  In general, because T2 tumors are smaller, they generally don't cause difficulty with eating or weight loss. 
-
-```{r, echo=F, warning =F, message=F, out.width="50%"}
-include_graphics("images/t2n0Artboard 3@4x.png")
-```
-
-
----
-
-This shows a locally-advanced tumors which are either T3 or has signs of spread to lymph nodes. T3 tumors are more likely to spread to lymph nodes than T2 tumors. T3 Tumors are more likely to cause trouble eating or weight loss.  Signs of spread to lymph nodes is generally seen on CT scan or PET scan. In these cases, it is referred to as a "node-positive" cancer.
-
-```{r, echo=F, warning =F, message=F, out.width="50%"}
-include_graphics("images/t3n01Artboard 3@4x.png")
-```
-
----
-
-Esophagectomy surgery removes the tumor and the surrounding lymph nodes.  In some cases, however, there is a risk of microscopic disease that can't be seen and can't be removed by surgery alone.
+In many cases, surgery is used to treat locally-advanced esophageal cancer. Esophagectomy surgery removes the tumor and the surrounding lymph nodes.  In some cases, however, there is a risk of microscopic disease that can't be seen and can't be removed by surgery alone.
 
 ```{r, echo=F, warning =F, message=F, out.width="50%"}
 include_graphics("images/Eso_Resection2Artboard 2@4x.png")
@@ -120,7 +110,7 @@ The results were quite dramatic: The group that was treated with all three thera
 
 ---
 
-This scientific study was called the CROSS trial.  The therapy called tri-modality therapy, because three therapies are administered: chemotherapy, radiation, and surgery.
+This scientific study was called the CROSS trial.  The therapy is called tri-modality therapy, because three therapies are administered: chemotherapy, radiation, and surgery.
 
 ---
 
@@ -150,6 +140,7 @@ Feel free to leave a comment or a question, or if you have suggestions for futur
 
 Here are some additional videos you may find helpful:
 
+[Preparation for Cancer Therapy](xx-Cancer_Tx_Prep.pdf)
 
 [Surgery for Esophageal Cancer](12-Eso_surgery.pdf)
 
