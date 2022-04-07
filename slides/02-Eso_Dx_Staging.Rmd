@@ -145,7 +145,7 @@ Metastasis is spread to other parts of the body such as liver, lungs, or bone.
 
 ---
 
-The stage consists of 3 parts:
+To review, the stage consists of 3 parts:
 
 - T for Tumor
 
@@ -178,10 +178,7 @@ general guideline
 ## Nodes
 
 - N0 – No lymph nodes involved
-- Node positive 
-- N1 – 1 or 2 lymph nodes involved
-- N2 – 3-6 nodes involved
-- N3 – 7 or more nodes involved
+- N+ - Lymph nodes involved with cancer
 
 ---
 

@@ -46,9 +46,7 @@ always_allow_html: yes
 xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
 
-I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina. If you or someone close to you has been diagnosed with esophageal cancer, this video is for you. In this video, you will learn about
-
-- *Early* or *non-obstructing* esophageal cancer
+I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina. If you or someone close to you has been diagnosed with esophageal cancer, this video is for you. In this video, you will learn about *Early Stage* esophageal cancer
 
 
 ---
@@ -62,7 +60,7 @@ So patients with esophageal cancer fit into two main groups:
 
 --
 
-Among those with *advanced* disease, there are two categories: 
+Among those with *Advanced* disease, there are two categories: 
 
 - Locally Advanced -> T3 or N+ -> Treated with a combination of chemotherapy + radiation, followed by surgery
 - Metastatic -> Treated with chemotherapy
@@ -73,7 +71,7 @@ For more information about *advanced* esophageal cancer, there is a link above a
 
 ---
 
-In this video, you will learn about *Early Stage* esophageal tumors.  These generally don't cause any difficulty with eating or swallowing.
+In this video, you will learn about *Early Stage* esophageal tumors.  These generally don't cause any difficulty with eating or swallowing. They may cause bleeding or symptoms of heartburn, but generally don't cause trouble eating or weight loss.
 
 Early Stage cancers are those that are T1 or T2 and N0M0.  
 
@@ -125,7 +123,7 @@ The pathologist then examines the specimen to see whether the tumor has been rem
 
 (favorable)  In an ideal circumstance, the tumor is confined to the center of the area which has been removed, ensuring that there is no tumor left behind.
 
-A tumor is judged to be favorable for endoscopic mucosal resection if the tumor appears to be slow growing and the margins are clear, which suggests that the tumor was completely removed.
+A tumor is judged to be *favorable* for endoscopic mucosal resection if the tumor appears to be slow growing and the margins are clear, which suggests that the tumor was completely removed.
 
 ---
 
@@ -140,7 +138,7 @@ When a small tumor has been completely removed by endoscopic mucosal resection, 
 1. surgical removal with esophagectomy or 
 2. close surveillance with endoscopy.
 
-
+---
 
 We hope you have found this video helpful. This videos and others like it are designed to 
 

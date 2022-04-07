@@ -7,6 +7,7 @@ date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
+    css: ["default","default-fonts","hygge"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -44,6 +45,7 @@ always_allow_html: yes
 <!--- --->
 ```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
 library(knitr)
+library(fontawesome)
 xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 knitr::opts_chunk$set(
   fig.showtext = TRUE,
@@ -56,34 +58,12 @@ knitr::opts_chunk$set(
 
 I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina. If you or someone close to you has been diagnosed with esophageal cancer, this video is for you. In this video, you will learn about
 
-- Four different categories of esophageal cancer
 - How the cancer stage helps make treatment decisions
+- Four different treatment categories of esophageal cancer
+
 
 ---
 One of the challenges with communicating medical information by video is that not everyone' situation is the same. It goes without saying that the internet is no substitute for talking with your esophageal cancer care team.   If you haven't already, you may want to watch our video about your cancer care team.  I'll leave a link in the description below and the care above. [Your Esophageal Cancer Care Team](slides/03-Eso_Care_Team.html)
-
----
-
-There is a lot of information on the internet about cancer, and it can be a bit overwhelming. With these videos we will try to help guide you to the information that's right for you. 
-
-In general, patients with esophageal cancer will fit into one of two groups: Those with *Early Stage Disease* and those with *Advanced Disease*.
-
-Patients with Advanced Stage Disease generally have difficulty eating and they have T3 tumors, and frequently have lost weight.    If you haven't already, you may want to watch our video about your esophageal cancer staging.  I'll leave a link in the description below and the care above. [Esophageal Cancer Staging](slides/02-Eso_Dx_Staging.html)
-
-Patients with *Early Stage Disease* generally have T1 or T2 tumors and while they may have bleeding or reflux symptoms, they don't have difficulty eating or weight loss.
-
-
----
-
-
-# Treatment Categories of Esophageal Cancer
-
-four different treatment categories of esophageal cancer
-
-- I = Superficial -> Treated without surgery
-- II = Localized -> Treated with surgery alone
-- III = Locally Advanced -> Chemotherapy + Radiation -> Surgery
-- IV = Metastatic -> Chemotherapy
 
 ---
 
@@ -99,15 +79,15 @@ Several Factors go into making a decision about treatment for esophageal cancer:
 
 # Staging
 
-The first task once we have a new diagnosis of cancer is staging. Staging is the process of finding out the extent of the cancer and how far it might have spread.
+The first task once we have a new diagnosis of cancer is staging. Staging is the process of finding out the extent of the cancer and whether or not it might have spread.
 
 In some cases, there may be more than one treatment that is appropriate for the cancer stage, but the different treatments may be more or less rigorous.  In these cases, the overall health of the patient will help find the best treatment.
 
 ---
 
-In other cases, there may be more than one treatment option and a patient's preferences in terms of the type of treatment become important.
+In other cases, there may be more than one treatment option and a patient's *preferences* in terms of the type of treatment become important.
 
-All in all, the treatment decision requires a discussion between the patient and their care team to come up with the best plan.  The purpose of these video is to provide you with background information and of course are no substitute for meeting with your treatment team.
+All in all, the treatment decision requires a discussion between the patient and their care team to come up with the best plan.  The purpose of these video is to provide you with *background information* and of course are no substitute for meeting with your treatment team.
 
 ---
 
@@ -119,9 +99,105 @@ Some of you will want more specific information that applies to your situation o
 
 The first step in designing a treatment plan for esophageal cancer is staging. If you haven't seen it already, please see the video about esophageal cancer diagnosis and staging to give you an overview.
 
-[Esophageal Cancer Diagnosis and Staging](02_Eso_Dx_Staging.html)
+[Esophageal Cancer Diagnosis and Staging](02-Eso_Dx_Staging.html)
 
 ---
+
+# What if I don't know the stage?
+
+If you haven't met with your treatment team to talk about the stage, I can give you some general direction to help get you started.
+
+
+There is a lot of information on the internet about cancer, and it can be a bit overwhelming. With these videos we will try to help guide you to the information that's right for you. 
+
+
+We will talk about two general groups of patients, those with early stage disease, and those with advanced disease.  Because esophageal cancer is difficult to detect early, advanced disease is very common.
+
+---
+
+# Early vs Advanced Stage Disease
+
+Patients with *Early Stage Disease* generally have T1 or T2 tumors and while they may have bleeding or reflux symptoms, they don't have difficulty eating or weight loss.
+
+
+
+.pull-left[
+
+## Early Stage
+
+
+- T1 or T2 Tumors
+- No Difficulty Eating
+- Bleeding or reflux
+
+]
+
+.pull-right[
+
+## Advanced Stage
+
+- Difficulty eating, especially solids
+- Weight loss frequent
+
+]
+
+
+---
+
+Patients with *Advanced Disease* generally have T3 tumors and have some difficulty eating, and frequently have weight loss
+
+
+
+.pull-left[
+
+## Early Stage
+
+
+- T1 or T2 Tumors
+- No Difficulty Eating
+- Bleeding or reflux
+
+]
+
+.pull-right[
+
+## Advanced Stage
+
+- Difficulty eating, especially solids
+- Weight loss frequent
+
+]
+
+---
+
+
+# Early Stage Disease
+
+Patients with early stage disease can be divided into two categories:
+
+- I = Superficial -> Treated without surgery
+- II = Localized -> Treated with surgery alone
+
+Superficial tumors are usually T1
+
+Localized tumors are T2 and some T1 tumors
+---
+
+# Advanced Stage Disease
+
+Patients with early stage disease can be divided into two categories:
+
+
+- III = Locally Advanced -> Chemotherapy + Radiation -> Surgery
+- IV = Metastatic -> Chemotherapy
+
+Locally advanced tumors are usually T3
+
+Metastatic tumors are usually M1 and have signs of spread to other organs
+
+We will have links at the end to videos about early stage or advanced stage disease.
+---
+
 
 # Category? Stage?
 
@@ -140,44 +216,30 @@ Having said that, Stage 1 patients are *generally* treated with Treatment Catego
 
 ---
 
-# What if I don't know the stage?
 
-If you haven't met with your treatment team to talk about the stage, I can give you some general direction to help get you started.
-
+To review:  Patients with early stage cancer usually don't have difficulty eating are more likely to have tumors that are superficial or localized, while patients with advanced disease tend to have trouble eating and weight loss are more likely to have tumors that are locally-advanced or metastatic.
 
 ---
 
-# Obstructing vs Non-obstructing
-
-For most patients with esophageal cancer, difficulty swallowing is frequently the first symptom they have that something is wrong.  This can be accompanied by weight loss or regurgitation of food. These patients have obstructing tumors, and are usually Category III or Category IV, meaning they are locally advanced or metastatic.  This video provides more information on obstructing esophageal cancer
-
-[Obstructing esophageal tumors](08-Eso_Advanced.html)
-
-
-
----
-
-# Non-obstructing esophageal cancers
-
-Patients without difficulty swallowing often have Stage I or Stage II cancers. These patients may have bleeding, or heartburn, or may have no symptoms.  If you want more specific information about Category I or Category II cancers, meaning they are superficial or localized.
-
-[Non-obstructing esophageal tumors](06-Eso_Early.html)
-
----
-
-To review:  Patients with non-obstructing esophageal cancer are more likely to have tumors that are superficial or localized, while patients with obstructing esophageal cancer are more likely to have tumors that are locally-advanced or metastatic.
-
-
-We hope you have found this video helpful. This videos and others like it are designed to 
-
-educate patients and families about esophageal cancer 
-
-and equip them for their discussions with their esophageal cancer care team. 
+We hope you have found this video helpful. This videos and others like it are designed to educate patients and families about esophageal cancer and equip them for their discussions with their esophageal cancer care team. 
 
 As always, these videos are no substitute for expert medical advice. 
 
 ---
 
-Feel free to leave a comment or a question, or if you have suggestions for future videos.
+
+Feel free to subscribe so you can be notified about new videos. If you found this video helpful or if there are topics you would like us to cover, please let us know in the comments section.
+
+Here are links to some videos that you may find helpful:
+
+---
+
+# Links
+
+
+[Advanced Esophageal Cancer](08-Eso_Advanced.html)
+
+
+[Early Stage Esophageal Cancer](06-Eso_Early.html)
 
 ---

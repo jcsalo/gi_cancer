@@ -58,7 +58,7 @@ This video focuses on patients with locally advanced esophageal cancer. This is 
 
 If that terminology is unfamiliar or you haven't seen our video on Esophageal Cancer Treatment Options video, a link is provided in the description.
 
-
+[Esophageal Cancer Treatment Options](04-Eso_Rx_Options.html)
 ---
 
 For a refresher, we have four major categories of esophageal cancers:
@@ -119,6 +119,23 @@ A typical schedule for trimodality therapy is six weeks of chemotherapy and radi
 ---
 
 Several weeks after the end of radiation therapy, a PET or CT scan is done to look at the response. Surgery is typically done 8 weeks after the end of radiation.
+
+---
+
+For most people, the chemotherapy and radiation are well tolerated.  In some cases, side effects do occur. 
+
+
+---
+
+# Radiation Esophagitis
+
+The radiation attacks the cancer cells in the esophagus and nearby lymph nodes, but it can also cause irritation of the lining of the esophagitis.  You could think if it as a sunburn on the inside of the esophagus. What this means is that for patients who have some trouble eating before starting therapy, swallowing can get worse before it gets better.  The most challenging time will be the last week of treatment.  By two weeks after the end of treatment, the tumor is beginning to shrink and the inflammation is getting better, and most patients find that their swallowing gets easier.  But during the treatment, it's important to get enough nutrition and stay hydrated. Protein shakes and nutritional supplements can help here. In some cases, a feeding tube can help provide nutritional support to get through treatment.
+
+---
+
+# Blood counts
+
+In a small number of patients, the chemotherapy can lower the blood counts, so your chemotherapy team will periodically check blood test to be certain you have enough white blood cells to fight infection.  About 7% of patients will need some additonal medications to keep their blood counts up.  But in 93% of patients, the white blood cell counts remain normal.
 
 ---
 
