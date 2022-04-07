@@ -5,66 +5,23 @@ title: "GI Cancer Education"
 
 ## Patient education resources for GI cancer patients
 
-
 ### Esophageal Cancer
 
-#### Esophageal Cancer Symptoms
+| Topic     | Slides | Handout | Video|
+| :----------- | :--------: |:------:| :------:|
+|Diagnosis & Staging    |[Slides](slides/02-Eso_Dx_Staging.html)|[Handout](slides/02-Eso_Dx_Staging.pdf)|[Video](https://www.youtube.com/watch?v=aDkgurq17wE) |
+|Your Cancer Care Team|  [Slides](slides/03-Eso_Care_Team.html)     |[Handout](slides/03-Eso_Care_Team.pdf)|[Video](https://www.youtube.com/watch?v=aDkgurq17wE) |
+|Treatment Options|[Slides](slides/04-Eso_Rx_Options.html)|[Handout](slides/04-Eso_Rx_Options.pdf)|[Video](https://www.youtube.com/watch?v=Tk8cp3uL-lU)|
+|Early Stage Disease|[Slides](slides/06-Eso_Early.html) | [Handout](slides/06-Eso_Early.pdf)||
+|Advanced Disease | [Slides](slides/08-Eso_Advanced.html) | [Handout](slides/08-Eso_Advanced.pdf)||
+|Locally-Advanced|[Slides](slides/14-Eso_Locally_Advanced.html) | [Handout](slides/14-Eso_Locally_Advanced.pdf)  | |
+|Surgery|[Slides](slides/12-Eso_Surgery.html) | [Handout](slides/12-Eso_Surgery.pdf)  | |
+|Your Surgery Team|[Slides](slides/32-Surgeon.html) |[Handout](slides/32-Surgeon.pdf)||
+|Nutrition |[Slides](slides/22-Nutrition.html) |[Handout](slides/22-Nutrition.pdf)||
+|Nutritional Support |[Slides](slides/23-Feeding_Tubes.html) |[Handout](slides/23-Feeding_Tubes.pdf)||
+|Gastrostomy |[Slides](slides/24-Gastrostomy.html) |[Handout](slides/24-Gastrostomy.pdf)||
+|Jejunostomy Feeding Tube |[Slides](slides/26-Jejunostomy.html) |[Handout](slides/26-Jejunostomy.pdf)||
+|Building Muscle |[Slides](slides/34-Exercise.html) |[Handout](slides/34-Exercise.pdf)||
+|Metastatic Disease|[Slides](slides/16-Eso_Metastatic.html) |[Handout](slides/16-Eso_Metastatic.pdf)||
+|Central Venous Port |[Slides](slides/38-Port.html) |[Handout](slides/38-Port.pdf)||
 
-(Video Pending)  &nbsp; [Slides](slides/0215-Eso_Symptoms.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/015-Eso_Symptoms.pdf)
-
-
-#### Diagnosis and Staging
-
-[Video](https://www.youtube.com/watch?v=aDkgurq17wE) &nbsp; &nbsp; &nbsp; &nbsp; [Slides](slides/02-Eso_Dx_Staging.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/02-Eso_Dx_Staging.pdf)
-
-
-#### Esophageal Cancer Care Team
-
-(Video Pending) [Slides](slides/03-Eso_Care_Team.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/03-Eso_care_team.pdf)
-
-#### Treatment Options
-
-[Video](https://www.youtube.com/watch?v=Tk8cp3uL-lU)&nbsp; &nbsp; &nbsp; &nbsp; [Slides](slides/04-Eso_Rx_Options.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/04-Eso_Rx_Options.pdf)
-
-#### Early Stage Esophageal Cancer
-
-&nbsp; &nbsp; &nbsp; &nbsp; [Slides](slides/06-Eso_Early.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/06-Eso_Early.pdf)
-
-
-#### Surgery for Esophageal Cancer
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/12-Eso_Surgery.html) &nbsp; &nbsp; &nbsp; &nbsp; [Handout](slides/12-Eso_Surgery.pdf)  &nbsp; &nbsp; &nbsp; &nbsp; 
-
-#### Choosing a Surgeon for Esophagectomy
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/32-Surgeon.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/32-Surgeon.pdf)
-
-#### Nutrition for Esophageal Cancer Treatment
-
-[Video](https://www.youtube.com/watch?v=XsqL41lU29w&t=23s) &nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/22-NutritionEsoCa.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/22-NutritionEsoCa.pdf)
-
-#### Gastrostomy for Nutritional Support
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/24-Gastrostomy.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/24-Gastrostomy.pdf)
-
-#### Exercise and Cancer Surgery
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/34-Exercise.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/34-Exercise.pdf)
-
-#### Advanced Esophageal Cancer
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/08-Eso_Advanced.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/08-Eso_Advanced.pdf)
-
-#### Locally Advanced Esophageal Cancer
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/14-Eso_Locally_Advanced.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/14-Eso_Locally_Advanced.pdf)
-
-
-#### Metastatic Esophageal Cancer
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/16-Eso_Metastatic.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/16-Eso_Metastatic.pdf)
-
-
-#### Central Venous Port for Chemotherpy
-
-&nbsp; &nbsp; &nbsp; &nbsp;[Slides](slides/26-Port.html) &nbsp; &nbsp; &nbsp; &nbsp;[Handout](slides/26-Port.pdf)

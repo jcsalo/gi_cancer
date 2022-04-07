@@ -1,0 +1,95 @@
+---
+title: "Nutritional Support"
+subtitle: "Jonathan Salo MD"
+author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
+institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
+date: "<small>Click Right Arrow &#8594; to Begin</small>"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
+  html_document: default
+params: 
+  pdf_param:TRUE
+always_allow_html: yes     
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 40px;
+    padding: 1em 4em 1em 4em;
+}
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
+</style>
+<!--- --->
+<!--- --->
+```{r xaringanExtra, echo=FALSE, warning=FALSE, comment='', message=FALSE}
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
+```
+# Introduction
+
+I’m Dr Jonathan Salo, I’m a GI Cancer Surgeon in Charlotte, North Carolina.
+
+Esophageal cancer can cause difficulty with swallowing, which can limit your body’s ability to get the nutrition you need in order to keep your body healthy during cancer treatment.
+
+---
+
+In this video you’ll learn about
+
+- Feeding tubes
+
+---
+
+
+One of the questions you will want to address with your esophageal cancer care team is whether or
+not you need a _feeding tube_ to help with your nutrition during cancer treatment.
+Your dietitian and physicians will evaluate your situation and made a recommendation.
+Let’s take a look at the options:
+
+---
+
+A gastrostomy tube is placed into the stomach by a surgical procedure. Feedings can be administered with a syringe. A gastrostomy tube still allows you to each as much as you would like.
+
+A jejunostomy tube is placed into the jejunum, or the small intestine. Feedings require a pump and are generally given overnight, which can take 12-16 hours. A jejunostomy tube still allows you to each as much  as you would like.
+
+---
+
+The decision between a gastrostomy tube and jejunostomy tube can be a little complex, but here are some general principles.
+For those with stomach cancer who need supplemental feeding, a jejunostomy tube is needed.
+
+For patients who undergo surgery on the esophagus, a jejunostomy tube is frequently used _after_ surgery
+
+---
+
+For patients who have esophageal cancer and who are undergoing chemotherapy and radiation, either a gastrostomy tube or jejunostomy tube can be used, depending upon whether or not surgery on the esophagus is planned.
+This is a more complicated decision that your care team will make in coordination with your surgeon.
+
+---
+
+If you or a family member have had an encounter with esophageal cancer, I would love to hear about your experience, so please take a minute to leave a comment below. We're constantly creating new videos, so please subscribe to be notified of new videos when we post them.
+
+---
+
+Here are some additional videos which you may find helpful:
+
+[Gastrostomy Tube for Nutritional Support](24-Gastrostomy.html)

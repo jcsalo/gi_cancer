@@ -1,17 +1,11 @@
 ---
-title: "Esophageal Cancer Treatment Options"
+title: "Your Esophageal Cancer Care Team"
 subtitle: "Jonathan Salo MD"
 author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
 institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
 date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
-  pdf_document:
-    includes:
-      in_header: preamble.tex
-    #toc: yes
-    fig_caption: yes
-    df_print: kable
   xaringan::moon_reader:
     lib_dir: libs
     nature:
@@ -19,6 +13,12 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -123,6 +123,7 @@ In every step along the way in your journey with esophageal cancer, there will b
 
 
 ---
+
 # Support Staff
 
 The diagnosis of esophageal cancer affects more than just the esophagus - It affects the whole person and the whole family.  Most cancer centers will have a wide variety of services to help you and your family navigate the process. Some examples:
@@ -135,13 +136,14 @@ Don't be afraid to ask about resource which may be available at your cancer cent
 
 ---
 
-# Your support team
+# Your personal team
 
 These are perhaps the most important members of your treatment team.  They are family members, friends or neighbors who can help you on this journey you are about to begin.  You may find that you will need some help from time to time during your treatment for esophageal cancer. Please don't be afraid to ask for help - you may be surprised at how willing the people close to you are to help.
 
 It can also be very helpful to find someone close to you who can come with you to medical appointments.  It can be very helpful to have an extra set of eyes and ears to make sure there is good communication with your care team.
 
 ---
+
 # Treatment Options
 
 The next video discusses Treatment Options for esophageal cancer.

@@ -1,5 +1,5 @@
 ---
-title: "Choosing a Hospital and Surgeon"
+title: "Your Esophageal Surgery Team"
 subtitle: "Jonathan Salo MD"
 author: "[Levine Cancer Institute](https://atriumhealth.org/medical-services/specialty-care/cancer-care/esophageal-cancer/meet-the-team#)"
 institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
@@ -138,7 +138,7 @@ Hospitals where an esophagectomy is performed more frequently *in general* have 
 This chart shows the relationship between hospital volume and the risk of death after esophagectomy.
 
 
-```{r, mort_fig, echo=F,  fig.height=6,fig.width=8}
+```{r, mort_fig, echo=F,  fig.height=6,fig.width=8, warning=FALSE}
 library(ggplot2)
 df<-data.frame(mortality=c(.102,.067,.039),strength=c("Low (<5)","Middle (5-20)","High (>20)"),mortality_labels =c("10.2%\nLow\nVolume","6.7%\nMiddle","3.9%\nHigh"))
 strengths=c("Low (<5)","Middle (5-20)","High (>20)")

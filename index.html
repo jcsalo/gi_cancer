@@ -13,7 +13,7 @@
 
 <title>GI Cancer Education</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -232,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -277,62 +281,108 @@ $(document).ready(function () {
 <h2>Patient education resources for GI cancer patients</h2>
 <div id="esophageal-cancer" class="section level3">
 <h3>Esophageal Cancer</h3>
-<div id="esophageal-cancer-symptoms" class="section level4">
-<h4>Esophageal Cancer Symptoms</h4>
-<p>(Video Pending)   <a href="slides/0215-Eso_Symptoms.html">Slides</a>         <a href="slides/015-Eso_Symptoms.pdf">Handout</a></p>
-</div>
-<div id="diagnosis-and-staging" class="section level4">
-<h4>Diagnosis and Staging</h4>
-<p><a href="https://www.youtube.com/watch?v=aDkgurq17wE">Video</a>         <a href="slides/02-Eso_Dx_Staging.html">Slides</a>         <a href="slides/02-Eso_Dx_Staging.pdf">Handout</a></p>
-</div>
-<div id="esophageal-cancer-care-team" class="section level4">
-<h4>Esophageal Cancer Care Team</h4>
-<p>(Video Pending) <a href="slides/03-Eso_Care_Team.html">Slides</a>         <a href="slides/03-Eso_care_team.pdf">Handout</a></p>
-</div>
-<div id="treatment-options" class="section level4">
-<h4>Treatment Options</h4>
-<p><a href="https://www.youtube.com/watch?v=Tk8cp3uL-lU">Video</a>        <a href="slides/04-Eso_Rx_Options.html">Slides</a>         <a href="slides/04-Eso_Rx_Options.pdf">Handout</a></p>
-</div>
-<div id="early-stage-esophageal-cancer" class="section level4">
-<h4>Early Stage Esophageal Cancer</h4>
-<p>        <a href="slides/06-Eso_Early.html">Slides</a>         <a href="slides/06-Eso_Early.pdf">Handout</a></p>
-</div>
-<div id="surgery-for-esophageal-cancer" class="section level4">
-<h4>Surgery for Esophageal Cancer</h4>
-<p>       <a href="slides/12-Eso_Surgery.html">Slides</a>         <a href="slides/12-Eso_Surgery.pdf">Handout</a>        </p>
-</div>
-<div id="choosing-a-surgeon-for-esophagectomy" class="section level4">
-<h4>Choosing a Surgeon for Esophagectomy</h4>
-<p>       <a href="slides/32-Surgeon.html">Slides</a>        <a href="slides/32-Surgeon.pdf">Handout</a></p>
-</div>
-<div id="nutrition-for-esophageal-cancer-treatment" class="section level4">
-<h4>Nutrition for Esophageal Cancer Treatment</h4>
-<p><a href="https://www.youtube.com/watch?v=XsqL41lU29w&amp;t=23s">Video</a>        <a href="slides/22-NutritionEsoCa.html">Slides</a>        <a href="slides/22-NutritionEsoCa.pdf">Handout</a></p>
-</div>
-<div id="gastrostomy-for-nutritional-support" class="section level4">
-<h4>Gastrostomy for Nutritional Support</h4>
-<p>       <a href="slides/24-Gastrostomy.html">Slides</a>        <a href="slides/24-Gastrostomy.pdf">Handout</a></p>
-</div>
-<div id="exercise-and-cancer-surgery" class="section level4">
-<h4>Exercise and Cancer Surgery</h4>
-<p>       <a href="slides/34-Exercise.html">Slides</a>        <a href="slides/34-Exercise.pdf">Handout</a></p>
-</div>
-<div id="advanced-esophageal-cancer" class="section level4">
-<h4>Advanced Esophageal Cancer</h4>
-<p>       <a href="slides/08-Eso_Advanced.html">Slides</a>        <a href="slides/08-Eso_Advanced.pdf">Handout</a></p>
-</div>
-<div id="locally-advanced-esophageal-cancer" class="section level4">
-<h4>Locally Advanced Esophageal Cancer</h4>
-<p>       <a href="slides/14-Eso_Locally_Advanced.html">Slides</a>        <a href="slides/14-Eso_Locally_Advanced.pdf">Handout</a></p>
-</div>
-<div id="metastatic-esophageal-cancer" class="section level4">
-<h4>Metastatic Esophageal Cancer</h4>
-<p>       <a href="slides/16-Eso_Metastatic.html">Slides</a>        <a href="slides/16-Eso_Metastatic.pdf">Handout</a></p>
-</div>
-<div id="central-venous-port-for-chemotherpy" class="section level4">
-<h4>Central Venous Port for Chemotherpy</h4>
-<p>       <a href="slides/26-Port.html">Slides</a>        <a href="slides/26-Port.pdf">Handout</a></p>
-</div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Topic</th>
+<th align="center">Slides</th>
+<th align="center">Handout</th>
+<th align="center">Video</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Diagnosis &amp; Staging</td>
+<td align="center"><a href="slides/02-Eso_Dx_Staging.html">Slides</a></td>
+<td align="center"><a href="slides/02-Eso_Dx_Staging.pdf">Handout</a></td>
+<td align="center"><a href="https://www.youtube.com/watch?v=aDkgurq17wE">Video</a></td>
+</tr>
+<tr class="even">
+<td align="left">Your Cancer Care Team</td>
+<td align="center"><a href="slides/03-Eso_Care_Team.html">Slides</a></td>
+<td align="center"><a href="slides/03-Eso_Care_Team.pdf">Handout</a></td>
+<td align="center"><a href="https://www.youtube.com/watch?v=aDkgurq17wE">Video</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Treatment Options</td>
+<td align="center"><a href="slides/04-Eso_Rx_Options.html">Slides</a></td>
+<td align="center"><a href="slides/04-Eso_Rx_Options.pdf">Handout</a></td>
+<td align="center"><a href="https://www.youtube.com/watch?v=Tk8cp3uL-lU">Video</a></td>
+</tr>
+<tr class="even">
+<td align="left">Early Stage Disease</td>
+<td align="center"><a href="slides/06-Eso_Early.html">Slides</a></td>
+<td align="center"><a href="slides/06-Eso_Early.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left">Advanced Disease</td>
+<td align="center"><a href="slides/08-Eso_Advanced.html">Slides</a></td>
+<td align="center"><a href="slides/08-Eso_Advanced.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left">Locally-Advanced</td>
+<td align="center"><a href="slides/14-Eso_Locally_Advanced.html">Slides</a></td>
+<td align="center"><a href="slides/14-Eso_Locally_Advanced.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left">Surgery</td>
+<td align="center"><a href="slides/12-Eso_Surgery.html">Slides</a></td>
+<td align="center"><a href="slides/12-Eso_Surgery.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left">Your Surgery Team</td>
+<td align="center"><a href="slides/32-Surgeon.html">Slides</a></td>
+<td align="center"><a href="slides/32-Surgeon.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left">Nutrition</td>
+<td align="center"><a href="slides/22-Nutrition.html">Slides</a></td>
+<td align="center"><a href="slides/22-Nutrition.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left">Nutritional Support</td>
+<td align="center"><a href="slides/23-Feeding_Tubes.html">Slides</a></td>
+<td align="center"><a href="slides/23-Feeding_Tubes.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left">Gastrostomy</td>
+<td align="center"><a href="slides/24-Gastrostomy.html">Slides</a></td>
+<td align="center"><a href="slides/24-Gastrostomy.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left">Jejunostomy Feeding Tube</td>
+<td align="center"><a href="slides/26-Jejunostomy.html">Slides</a></td>
+<td align="center"><a href="slides/26-Jejunostomy.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left">Building Muscle</td>
+<td align="center"><a href="slides/34-Exercise.html">Slides</a></td>
+<td align="center"><a href="slides/34-Exercise.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left">Metastatic Disease</td>
+<td align="center"><a href="slides/16-Eso_Metastatic.html">Slides</a></td>
+<td align="center"><a href="slides/16-Eso_Metastatic.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left">Central Venous Port</td>
+<td align="center"><a href="slides/38-Port.html">Slides</a></td>
+<td align="center"><a href="slides/38-Port.pdf">Handout</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 

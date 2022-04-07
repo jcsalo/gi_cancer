@@ -15,17 +15,20 @@ Videos are available on YouTube: https://www.youtube.com/channel/UC5Deez8jUMnLhc
 
 ## Esophageal Cancer {.tabset}
 
-### Symptoms
-
-```{r}
-knitr::include_url("slides/015-Eso_Symptoms.html")
-```
 
 ### Diagnosis/Staging
 
 ```{r}
 knitr::include_url("slides/02-Eso_Dx_Staging.html")
 ```
+
+
+### Your Cancer Care Team
+
+```{r}
+knitr::include_url("slides/03-Eso_Care_Team.html")
+```
+
 
 ### Treatment Options
 
@@ -65,7 +68,7 @@ knitr::include_url("slides/16-Eso_Metastatic.html")
 knitr::include_url("slides/12-Eso_Surgery.html")
 ```
 
-### Choosing a Surgeon
+### Your Surgery Team
 ```{r}
 knitr::include_url("slides/32-Surgeon.html")
 ```
@@ -80,6 +83,15 @@ knitr::include_url("slides/32-Surgeon.html")
 knitr::include_url("slides/22-NutritionEsoCa.html")
 ```
 
+
+### Nutritional Support
+
+```{r}
+knitr::include_url("slides/23-Feeding_Tubes.html")
+```
+
+
+
 ### Gastrostomy
 
 ```{r}
@@ -90,18 +102,18 @@ knitr::include_url("slides/24-gastrostomy.html")
 ### Jejunostomy
 
 ```{r}
-knitr::include_url("slides/24-gastrostomy.html")
+knitr::include_url("slides/26-jejunostomy.html")
 ```
 
 
 ### Central Venous Port
 
 ```{r}
-knitr::include_url("slides/26-Port.html")
+knitr::include_url("slides/38-Port.html")
 ```
 
 
-### Exercise
+### Building Muscle
 
 ```{r}
 knitr::include_url("slides/34-Exercise.html")

@@ -6,6 +6,12 @@ institute: "1021 Morehead Medical Drive, Charlotte NC<br>(980) 442-6410"
 date: "<small>Click Right Arrow &#8594; to Begin</small>"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
   xaringan::moon_reader:
     css: ["default","default-fonts","hygge"]
     lib_dir: libs
@@ -14,12 +20,6 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-  pdf_document:
-    includes:
-      in_header: preamble.tex
-    #toc: yes
-    fig_caption: yes
-    df_print: kable
   html_document: default
 params: 
   pdf_param:TRUE
@@ -63,6 +63,7 @@ I’m Dr Jonathan Salo,  a GI Cancer Surgeon in Charlotte, North Carolina. If yo
 
 
 ---
+
 One of the challenges with communicating medical information by video is that not everyone' situation is the same. It goes without saying that the internet is no substitute for talking with your esophageal cancer care team.   If you haven't already, you may want to watch our video about your cancer care team.  I'll leave a link in the description below and the care above. [Your Esophageal Cancer Care Team](slides/03-Eso_Care_Team.html)
 
 ---

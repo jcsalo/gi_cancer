@@ -13,7 +13,7 @@
 
 <title>GI Canced Education Slides</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -232,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -276,14 +280,14 @@ $(document).ready(function () {
 <p><a href="slides/01-intro_LCI.html">Introduction to Levine Cancer Institute</a></p>
 <div id="esophageal-cancer" class="section level2 tabset">
 <h2 class="tabset">Esophageal Cancer</h2>
-<div id="symptoms" class="section level3">
-<h3>Symptoms</h3>
-<iframe src="slides/015-Eso_Symptoms.html" width="672" height="400px" data-external="1">
-</iframe>
-</div>
 <div id="diagnosisstaging" class="section level3">
 <h3>Diagnosis/Staging</h3>
 <iframe src="slides/02-Eso_Dx_Staging.html" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+<div id="your-cancer-care-team" class="section level3">
+<h3>Your Cancer Care Team</h3>
+<iframe src="slides/03-Eso_Care_Team.html" width="672" height="400px" data-external="1">
 </iframe>
 </div>
 <div id="treatment-options" class="section level3">
@@ -319,8 +323,8 @@ $(document).ready(function () {
 <iframe src="slides/12-Eso_Surgery.html" width="672" height="400px" data-external="1">
 </iframe>
 </div>
-<div id="choosing-a-surgeon" class="section level3">
-<h3>Choosing a Surgeon</h3>
+<div id="your-surgery-team" class="section level3">
+<h3>Your Surgery Team</h3>
 <iframe src="slides/32-Surgeon.html" width="672" height="400px" data-external="1">
 </iframe>
 </div>
@@ -332,6 +336,11 @@ $(document).ready(function () {
 <iframe src="slides/22-NutritionEsoCa.html" width="672" height="400px" data-external="1">
 </iframe>
 </div>
+<div id="nutritional-support" class="section level3">
+<h3>Nutritional Support</h3>
+<iframe src="slides/23-Feeding_Tubes.html" width="672" height="400px" data-external="1">
+</iframe>
+</div>
 <div id="gastrostomy" class="section level3">
 <h3>Gastrostomy</h3>
 <iframe src="slides/24-gastrostomy.html" width="672" height="400px" data-external="1">
@@ -339,16 +348,16 @@ $(document).ready(function () {
 </div>
 <div id="jejunostomy" class="section level3">
 <h3>Jejunostomy</h3>
-<iframe src="slides/24-gastrostomy.html" width="672" height="400px" data-external="1">
+<iframe src="slides/26-jejunostomy.html" width="672" height="400px" data-external="1">
 </iframe>
 </div>
 <div id="central-venous-port" class="section level3">
 <h3>Central Venous Port</h3>
-<iframe src="slides/26-Port.html" width="672" height="400px" data-external="1">
+<iframe src="slides/38-Port.html" width="672" height="400px" data-external="1">
 </iframe>
 </div>
-<div id="exercise" class="section level3">
-<h3>Exercise</h3>
+<div id="building-muscle" class="section level3">
+<h3>Building Muscle</h3>
 <iframe src="slides/34-Exercise.html" width="672" height="400px" data-external="1">
 </iframe>
 </div>
