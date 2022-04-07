@@ -4,9 +4,6 @@ author: "Jonathan Salo MD"
 institute: "Levine Cancer Institute"
 date: "<small>Click Right Arrow to Begin</small>"
 #date: "`r Sys.Date()`"
-params:
-  hide: FALSE
-  show: FALSE
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -14,25 +11,39 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-  html_document: default
+      ratio: "16:9"
   pdf_document:
     includes:
       in_header: preamble.tex
-  params: 
-    pdf_param:TRUE
-always_allow_html: yes     
+    #toc: yes
+    fig_caption: yes
+    df_print: kable
+  html_document: default
+params: 
+  pdf_param:TRUE
+always_allow_html: yes       
 ---
 <style type="text/css">
 .remark-slide-content {
-    font-size: 32px;
+    font-size: 40px;
     padding: 1em 4em 1em 4em;
-    line-height: 1.6;
 }
+
+.title-slide h1:nth-of-type(1) {
+}
+.title-slide h2:nth-of-type(1) {
+}
+.title-slide a:nth-of-type(1) {
+    color: #99ccff ;
+    text-decoration: underline;
+}
+
 </style>
 
 ```{r, setup, echo=F, warning=FALSE}
 #remotes::install_github("gadenbuie/xaringanExtra")
-xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons"))
+library(knitr)
+xaringanExtra::use_xaringan_extra(c("tile_view", "share_again", "animate_css", "tachyons","fit_screen","broadcast","scribble"))
 ```
 
 <!--- P10000266--->
@@ -111,19 +122,24 @@ family and friends. We have a lot of resources:
 - Counseling to help with stress reduction
 - Financial counselors and social workers to help
 with insurance and other financial issues
-- Supportive Oncology department to help with
-managing symptoms
+
 
 ---
 
 ## More Resources
 
-We have a full-time staff of **dietitians**
+- Supportive Oncology department to help with
+managing symptoms
 
-Our **Integrative Oncology** program which
+- We have a full-time staff of **dietitians**
+
+- Our **Integrative Oncology** program which
 and can assist you in choosing supplements and complementary therapies to help manage symptoms and promote wellness.
+---
 
-We have a **senior oncology clinic** which can help
+## For our seniors
+
+ - We have a **senior oncology clinic** which can help
 with the special needs of our patients over age
 75
 
@@ -155,8 +171,6 @@ To sign up, click New User. You will receive an activation text or email within 
 
 If you need help setting up your account, we have support staff available Monday through Friday 8am to 5 pm at
 
-• (704) 667-9145 or toll-free at
-
 • (855) 799-0044
 
 ---
@@ -180,4 +194,6 @@ If you have a new diagnosis of cancer, please check out one of the following vid
 Feel free to subscribe so you can be notified about new videos
 
 If there are video topics you would like us to cover, please leave a comment below.
+
+If you found this video helpful, please let us know in the comments section.
 
