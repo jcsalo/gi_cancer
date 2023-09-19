@@ -13,7 +13,7 @@
 
 <title>GI Canced Education Slides</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -141,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -276,8 +273,11 @@ $(document).ready(function () {
 </div>
 
 
-<p>Videos are available on YouTube: <a href="https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c" class="uri">https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c</a></p>
-<p><a href="slides/01-intro_LCI.pdf">Introduction to Levine Cancer Institute</a></p>
+<p>Videos are available on YouTube: <a
+href="https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c"
+class="uri">https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c</a></p>
+<p><a href="slides/01-intro_LCI.pdf">Introduction to Levine Cancer
+Institute</a></p>
 <div id="esophageal-cancer" class="section level2">
 <h2>Esophageal Cancer</h2>
 <p><a href="slides/02-Eso_Dx_Staging.pdf">Diagnosis/Staging</a></p>
@@ -285,23 +285,31 @@ $(document).ready(function () {
 <p><a href="slides/06-Eso_Early.pdf">Early Stage Disease</a></p>
 <p>Localized Disease</p>
 <ul>
-<li><a href="slides/12-Eso_Surgery.pdf">Surgery for Esophageal Cancer</a></li>
+<li><a href="slides/12-Eso_Surgery.pdf">Surgery for Esophageal
+Cancer</a></li>
 <li><a href="slides/32-Surgeon.pdf">Choosing a Surgeon</a></li>
 <li><a href="slides/34-Exercise.pdf">Exercise</a></li>
 </ul>
 <p><a href="slides/08-Eso_Advanced.pdf">Advanced Stage Disease</a></p>
 <ul>
-<li><p><a href="slides/14-Eso_Locally_Advanced.pdf">Locally Advanced</a></p></li>
+<li><p><a href="slides/14-Eso_Locally_Advanced.pdf">Locally
+Advanced</a></p></li>
 <li><p><a href="slides/26-Port.pdf">Central Venous Port</a></p></li>
-<li><p><a href="slides/12-Eso_Surgery.pdf">Surgery for Esophageal Cancer</a></p></li>
+<li><p><a href="slides/12-Eso_Surgery.pdf">Surgery for Esophageal
+Cancer</a></p></li>
 <li><p><a href="slides/32-Surgeon.pdf">Choosing a Surgeon</a></p></li>
 <li><p><a href="slides/34-Exercise.pdf">Exercise</a></p></li>
-<li><p><a href="slides/22-NutritionEsoCa.pdf">Nutrition for Esophageal Cancer Treatment</a></p></li>
-<li><p><a href="slides/24-Gastrostomy.pdf">Gastrostomy Tube for Nutritional Support</a></p></li>
-<li><p><a href="slides/16-Eso_Metastatic.pdf">Metastatic Esophageal Cancer</a></p></li>
+<li><p><a href="slides/22-NutritionEsoCa.pdf">Nutrition for Esophageal
+Cancer Treatment</a></p></li>
+<li><p><a href="slides/24-Gastrostomy.pdf">Gastrostomy Tube for
+Nutritional Support</a></p></li>
+<li><p><a href="slides/16-Eso_Metastatic.pdf">Metastatic Esophageal
+Cancer</a></p></li>
 <li><p><a href="slides/26-Port.pdf">Central Venous Port</a></p></li>
-<li><p><a href="slides/22-NutritionEsoCa.pdf">Nutrition for Esophageal Cancer Treatment</a></p></li>
-<li><p><a href="slides/24-Gastrostomy.pdf">Gastrostomy Tube for Nutritional Support</a></p></li>
+<li><p><a href="slides/22-NutritionEsoCa.pdf">Nutrition for Esophageal
+Cancer Treatment</a></p></li>
+<li><p><a href="slides/24-Gastrostomy.pdf">Gastrostomy Tube for
+Nutritional Support</a></p></li>
 </ul>
 </div>
 <div id="gastric-stomach-cancer" class="section level2">

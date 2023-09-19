@@ -64,6 +64,8 @@ We’re in Building 2 of Levine Cancer Institute. If you’re using GPS, the tra
 
 The entrance to the building is on East Morehead Street between South Kings and Kenilworth.
 
+You will have a choice between self-parking or using our free valet parking.
+
 ---
 
 ## Parking
@@ -73,19 +75,6 @@ A parking garage is right next door to the traffic circle.
 If you need help with directions, please call us at (980) 442-6410
 
 Our mailing address is 1021 Morehead Medical Drive, which is why you will find “1021” on the building.
-
----
-
-## Covid-19 Safety
-
-We recognize the value of having someone with you during the consultation.  However, in order to protect our patients and staff, we require that if you want to have a visitor accompany you, they be vaccinated against Covid-19
-
-
----
-
-## Hybrid Virtual Visits
-
-If you have a family member or friend that you would like to include in the conversation during consultation, we can arrange for a phone call over speakerphone during the consultation.
 
 ---
 
@@ -140,8 +129,19 @@ and can assist you in choosing supplements and complementary therapies to help m
 ## For our seniors
 
  - We have a **senior oncology clinic** which can help
-with the special needs of our patients over age
-75
+with the special needs of our patients over age 75
+
+---
+
+## Navigators
+
+ - We have a staff of **nurse navigators** who can help coordinate your care between your different cancer providers.
+
+---
+
+## For younger patients with colorectal cancer
+
+ - We have a **Empower program** for patients with colorectal cncer under age 55 which has a special team of navigators.
 
 ---
 
@@ -193,3 +193,6 @@ If you have a new diagnosis of cancer, please check out one of the following vid
 
 Feel free to subscribe so you can be notified about new videos. If you found this video helpful or if there are topics you would like us to cover, please let us know in the comments section.
 
+---
+
+## 

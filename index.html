@@ -13,7 +13,7 @@
 
 <title>GI Cancer Education</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -141,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -277,11 +274,18 @@ $(document).ready(function () {
 
 
 <p><br/></p>
-<div id="patient-education-resources-for-gi-cancer-patients" class="section level2">
+<div id="patient-education-resources-for-gi-cancer-patients"
+class="section level2">
 <h2>Patient education resources for GI cancer patients</h2>
 <div id="esophageal-cancer" class="section level3">
 <h3>Esophageal Cancer</h3>
 <table>
+<colgroup>
+<col width="31%" />
+<col width="26%" />
+<col width="21%" />
+<col width="21%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Topic</th>
@@ -293,21 +297,30 @@ $(document).ready(function () {
 <tbody>
 <tr class="odd">
 <td align="left">Diagnosis &amp; Staging</td>
-<td align="center"><a href="slides/02-Eso_Dx_Staging.html">Slides</a></td>
-<td align="center"><a href="slides/02-Eso_Dx_Staging.pdf">Handout</a></td>
-<td align="center"><a href="https://www.youtube.com/watch?v=aDkgurq17wE">Video</a></td>
+<td align="center"><a
+href="slides/02-Eso_Dx_Staging.html">Slides</a></td>
+<td align="center"><a
+href="slides/02-Eso_Dx_Staging.pdf">Handout</a></td>
+<td align="center"><a
+href="https://www.youtube.com/watch?v=aDkgurq17wE">Video</a></td>
 </tr>
 <tr class="even">
 <td align="left">Your Cancer Care Team</td>
-<td align="center"><a href="slides/03-Eso_Care_Team.html">Slides</a></td>
-<td align="center"><a href="slides/03-Eso_Care_Team.pdf">Handout</a></td>
-<td align="center"><a href="https://www.youtube.com/watch?v=aDkgurq17wE">Video</a></td>
+<td align="center"><a
+href="slides/03-Eso_Care_Team.html">Slides</a></td>
+<td align="center"><a
+href="slides/03-Eso_Care_Team.pdf">Handout</a></td>
+<td align="center"><a
+href="https://www.youtube.com/watch?v=aDkgurq17wE">Video</a></td>
 </tr>
 <tr class="odd">
 <td align="left">Treatment Options</td>
-<td align="center"><a href="slides/04-Eso_Rx_Options.html">Slides</a></td>
-<td align="center"><a href="slides/04-Eso_Rx_Options.pdf">Handout</a></td>
-<td align="center"><a href="https://www.youtube.com/watch?v=Tk8cp3uL-lU">Video</a></td>
+<td align="center"><a
+href="slides/04-Eso_Rx_Options.html">Slides</a></td>
+<td align="center"><a
+href="slides/04-Eso_Rx_Options.pdf">Handout</a></td>
+<td align="center"><a
+href="https://www.youtube.com/watch?v=Tk8cp3uL-lU">Video</a></td>
 </tr>
 <tr class="even">
 <td align="left">Early Stage Disease</td>
@@ -323,8 +336,10 @@ $(document).ready(function () {
 </tr>
 <tr class="even">
 <td align="left">Locally-Advanced</td>
-<td align="center"><a href="slides/14-Eso_Locally_Advanced.html">Slides</a></td>
-<td align="center"><a href="slides/14-Eso_Locally_Advanced.pdf">Handout</a></td>
+<td align="center"><a
+href="slides/14-Eso_Locally_Advanced.html">Slides</a></td>
+<td align="center"><a
+href="slides/14-Eso_Locally_Advanced.pdf">Handout</a></td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
@@ -347,8 +362,10 @@ $(document).ready(function () {
 </tr>
 <tr class="even">
 <td align="left">Nutritional Support</td>
-<td align="center"><a href="slides/23-Feeding_Tubes.html">Slides</a></td>
-<td align="center"><a href="slides/23-Feeding_Tubes.pdf">Handout</a></td>
+<td align="center"><a
+href="slides/23-Feeding_Tubes.html">Slides</a></td>
+<td align="center"><a
+href="slides/23-Feeding_Tubes.pdf">Handout</a></td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
@@ -371,8 +388,10 @@ $(document).ready(function () {
 </tr>
 <tr class="even">
 <td align="left">Metastatic Disease</td>
-<td align="center"><a href="slides/16-Eso_Metastatic.html">Slides</a></td>
-<td align="center"><a href="slides/16-Eso_Metastatic.pdf">Handout</a></td>
+<td align="center"><a
+href="slides/16-Eso_Metastatic.html">Slides</a></td>
+<td align="center"><a
+href="slides/16-Eso_Metastatic.pdf">Handout</a></td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
