@@ -12,7 +12,6 @@ Videos are available on YouTube: https://www.youtube.com/channel/UC5Deez8jUMnLhc
 [Introduction to Levine Cancer Institute](slides/01-intro_LCI.html)
 
 
-
 ## Esophageal Cancer {.tabset}
 
 
