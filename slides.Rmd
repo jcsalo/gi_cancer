@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
 ```
 
-Videos are available on YouTube from Jonathan Salo MD: https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c
+Videos are available on YouTube from Jonathan SaloMD: https://www.youtube.com/channel/UC5Deez8jUMnLhcf72-c
 
 [Introduction to Levine Cancer Institute](slides/01-intro_LCI.html)
 
